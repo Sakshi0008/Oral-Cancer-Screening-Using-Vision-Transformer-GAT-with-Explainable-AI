@@ -1,0 +1,751 @@
+group_id,duplicate_type,similarity_measure,group_size,image_path,filename,class,label,split,is_excluded,sha256,phash
+0,exact_sha256,SHA-256 match (Hamming dist 0),2,Oral Cancer/Oral Cancer Dataset/CANCER/001.jpeg,001.jpeg,CANCER,1,excluded,True,883ab5df80faba574796819595b995c1d848cd6c04f11cb48f0a3720bf256e36,80bb33b067494fd3
+0,exact_sha256,SHA-256 match (Hamming dist 0),2,Oral Cancer/Oral Cancer Dataset/NON CANCER/014.jpeg,014.jpeg,NON CANCER,0,excluded,True,883ab5df80faba574796819595b995c1d848cd6c04f11cb48f0a3720bf256e36,80bb33b067494fd3
+1,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/002.jpeg,002.jpeg,CANCER,1,train,False,0f3b9577a0169f35a1354c6e108c43590bbb631455baff353a8bea4be8aea281,d0e99a9a6861979e
+2,exact_sha256,SHA-256 match (Hamming dist 0),2,Oral Cancer/Oral Cancer Dataset/CANCER/003.jpeg,003.jpeg,CANCER,1,train,False,7e2649e95d87f62b5b772218385860fca1c5ebbba51c3f7083f838151ecc4750,872f95d09e6a0cb5
+2,exact_sha256,SHA-256 match (Hamming dist 0),2,Oral Cancer/Oral Cancer Dataset/CANCER/486.jpeg,486.jpeg,CANCER,1,train,False,7e2649e95d87f62b5b772218385860fca1c5ebbba51c3f7083f838151ecc4750,872f95d09e6a0cb5
+3,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/004.jpeg,004.jpeg,CANCER,1,train,False,5b3425d647ccaff70d07174a989cb4cdf7ea0d5ae66e21400c26da0ea8c18c9f,a17ac33d92adce60
+4,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/005.jpeg,005.jpeg,CANCER,1,val,False,03e04067183299ed601be773465934c54456e8a203b541f23991682a1c83ba18,d5d4f0c1d98dc44d
+5,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/006.jpeg,006.jpeg,CANCER,1,test,False,35f9fcf5eae35074fe2d01545927065c2d51dadee40318d73d031bcb9dec47da,c0dbc4d71b5e4466
+6,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/007.jpeg,007.jpeg,CANCER,1,train,False,42b598a9bc122d7d299aa905ee6ef4a0206aabe23585f70af726c8592e6d0838,bd8d73c58016c93e
+7,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/008.jpeg,008.jpeg,CANCER,1,train,False,b9b6d6c64ec639ad35ec2159d8f83302fa91fb61ec6e4005ed5a2049ec95646a,a981b74b8564d637
+8,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/009.jpeg,009.jpeg,CANCER,1,train,False,70838424a965472bbc3b7311b804a4d6dbfba6b17aaeaf9a7a1c0a5d35f7b627,ea7e217b252d162c
+9,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/010.jpeg,010.jpeg,CANCER,1,test,False,8b8f00cd35e0e7be1f01092add51a82e2c8877efddafd90c41b5f303d35501bd,8003bfa6c87b4eb5
+10,exact_sha256,SHA-256 match (Hamming dist 0),2,Oral Cancer/Oral Cancer Dataset/CANCER/011.jpeg,011.jpeg,CANCER,1,train,False,e45d87d6869c5e073c60274d95c8b0037dd7e952b20bb9205ade4f612b3710e1,bf54d087911e3a6a
+10,exact_sha256,SHA-256 match (Hamming dist 0),2,Oral Cancer/Oral Cancer Dataset/CANCER/432.jpeg,432.jpeg,CANCER,1,train,False,e45d87d6869c5e073c60274d95c8b0037dd7e952b20bb9205ade4f612b3710e1,bf54d087911e3a6a
+11,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/012.jpeg,012.jpeg,CANCER,1,train,False,3cff9fcd007c8fc983b82cbdb426d1aba1610ba3a74617d50f0c88291ac7df29,aa5435d0f51f9133
+12,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/013.jpeg,013.jpeg,CANCER,1,test,False,7250d18da6db394b46c6537b40389f6072475edd2edacebca9b309dbf9366ecd,c42fc386795905d7
+13,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/014.jpeg,014.jpeg,CANCER,1,val,False,1a42a244f74a94415e6356814ad989d2e433829eb56501ecc7d3f4244397457a,aca19a35d536d332
+14,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/015.jpeg,015.jpeg,CANCER,1,train,False,550b63ea12be6105638f238e26d5c6de8217666cd140f1c9b5ec5b06741efb0c,b9dcea0d8cc3e4c4
+15,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/016.jpeg,016.jpeg,CANCER,1,train,False,5e4cce066b197dc644c07eeb8ec92c8803687a96871acdcec6c04f2c6b032fe4,9181d4c733accda7
+16,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/017.jpeg,017.jpeg,CANCER,1,train,False,dafdec3641d4b76d95c5825fcdea73f3d056740620837eb486b47ffa569c9af1,e7e9972191439c47
+17,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/018.jpeg,018.jpeg,CANCER,1,train,False,cc6d6d632a8eb15e7d59afd518425a99d4038fcd2040b0a56d00ddaa997339e1,d7752d552856aa52
+18,exact_sha256,SHA-256 match (Hamming dist 0),2,Oral Cancer/Oral Cancer Dataset/CANCER/019.jpeg,019.jpeg,CANCER,1,train,False,292bcc48a1ef104d983463efc29b596c7a9d78e425497c7f401385c4275ce9b3,cacad6636ff2c081
+18,exact_sha256,SHA-256 match (Hamming dist 0),2,Oral Cancer/Oral Cancer Dataset/CANCER/449.jpeg,449.jpeg,CANCER,1,train,False,292bcc48a1ef104d983463efc29b596c7a9d78e425497c7f401385c4275ce9b3,cacad6636ff2c081
+19,exact_sha256,SHA-256 match (Hamming dist 0),2,Oral Cancer/Oral Cancer Dataset/CANCER/020.jpeg,020.jpeg,CANCER,1,train,False,6cd5417fa9db8820c944e64b56c847906881eda4e77a0e4d0c396cd74f63395f,aa68e5d3050f9eac
+19,exact_sha256,SHA-256 match (Hamming dist 0),2,Oral Cancer/Oral Cancer Dataset/CANCER/440.jpeg,440.jpeg,CANCER,1,train,False,6cd5417fa9db8820c944e64b56c847906881eda4e77a0e4d0c396cd74f63395f,aa68e5d3050f9eac
+20,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/021.jpeg,021.jpeg,CANCER,1,train,False,335e3ab9ca603841b54eccd972475dfce80cd10a8ee49c04a0c89c500446f09e,c00dd3f0cfc234cf
+21,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/022.jpeg,022.jpeg,CANCER,1,train,False,18447a30533d9def6d03ac356f551d4413eef793f5b2a5d49abd4b02b085b2de,a3adb05b6cb32495
+22,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/023.jpeg,023.jpeg,CANCER,1,train,False,23d68a1c85db7873ca05f8448672d09b029a26e03e704749e7ce33729df44f6b,e28882b5cd1b6e3d
+23,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/024.jpeg,024.jpeg,CANCER,1,val,False,c522bb2f022ea1b4f3d2d703f5ea71182b09066a29c8ee6736dde34e564bc296,bf1370a5c2c2d3c6
+24,exact_sha256,SHA-256 match (Hamming dist 0),2,Oral Cancer/Oral Cancer Dataset/CANCER/025.jpeg,025.jpeg,CANCER,1,val,False,55b39dc254cf4e16e746f7ca6500b72d36c2a37532c6fb24a912aa973f64acac,bf3fb4c49059c84c
+24,exact_sha256,SHA-256 match (Hamming dist 0),2,Oral Cancer/Oral Cancer Dataset/CANCER/054.jpeg,054.jpeg,CANCER,1,val,False,55b39dc254cf4e16e746f7ca6500b72d36c2a37532c6fb24a912aa973f64acac,bf3fb4c49059c84c
+25,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/026.jpeg,026.jpeg,CANCER,1,val,False,df46da1a0654cc923ada629ba0829dba69dd5982f33ee42cc4da6dd7cc97c6af,8526824e0c7f2f7b
+26,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/027.jpeg,027.jpeg,CANCER,1,train,False,4b302a5482606cd100debc07b6d5e443814e691c9b0b89d35db22897c10ebfaa,eabd11f83d7099c0
+27,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/028.jpeg,028.jpeg,CANCER,1,train,False,f30159794be37636829daea71893e8de4464537099c98f470efc603521ee5695,f82ee6f3c995048c
+28,exact_sha256,SHA-256 match (Hamming dist 0),2,Oral Cancer/Oral Cancer Dataset/CANCER/029.jpeg,029.jpeg,CANCER,1,train,False,f9d416e477b0a043ba024dfa8ecc57de6e9273d286c70ef75edee8b9cbb09809,8b1660ee679b1636
+28,exact_sha256,SHA-256 match (Hamming dist 0),2,Oral Cancer/Oral Cancer Dataset/CANCER/055.jpeg,055.jpeg,CANCER,1,train,False,f9d416e477b0a043ba024dfa8ecc57de6e9273d286c70ef75edee8b9cbb09809,8b1660ee679b1636
+29,exact_sha256,SHA-256 match (Hamming dist 0),2,Oral Cancer/Oral Cancer Dataset/CANCER/030.jpeg,030.jpeg,CANCER,1,train,False,579ac9bd4fa4e4c81731ad8109906f09455bc85434aafe4aff5b278a0fa40e64,f752c8e427b8181f
+29,exact_sha256,SHA-256 match (Hamming dist 0),2,Oral Cancer/Oral Cancer Dataset/CANCER/056.jpeg,056.jpeg,CANCER,1,train,False,579ac9bd4fa4e4c81731ad8109906f09455bc85434aafe4aff5b278a0fa40e64,f752c8e427b8181f
+30,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/031.jpeg,031.jpeg,CANCER,1,val,False,c1b8b386248ecc26f8951202adaf334fefef3864bff70e470b0b6d8e12e925ca,97607a7fd025c1b4
+31,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/032.jpeg,032.jpeg,CANCER,1,test,False,179b871d63be4ba256d76587e6d5ce903819901b976052f8c7e5b6b4435e4e5d,8f342997c53595c5
+32,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/033.jpeg,033.jpeg,CANCER,1,val,False,cf8e9f47a7850ba665d907ffe08e882df6a42f054f48148b40e48cb5434532e7,b22add13fb34c033
+33,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/034.jpeg,034.jpeg,CANCER,1,val,False,8ceccd6b4cac880c0ad3b5b28ccf7c8fc7a7eb2a6c2f7b3bfd3c9f456a3271bd,fd2ffd6991304013
+34,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/035.jpeg,035.jpeg,CANCER,1,val,False,06c2710ecdbf63897a920fc5553224aa1ff0720882a1f971e048081cb6b018bf,bfe6d5f4c1c0e180
+35,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/036.jpeg,036.jpeg,CANCER,1,test,False,33d39fab8084027ea2a67b97650c2c738d474fbd39d317dfb4d83806fbcb8af8,9fd1ef20a834da46
+36,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/037.jpeg,037.jpeg,CANCER,1,val,False,97de6bbe015e4f8a1c0d908953aad6bfdeef2737be50f399f9c35d1f3beffe52,f498e2d38c661c3e
+37,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/038.jpeg,038.jpeg,CANCER,1,test,False,0125d3515132465a3173560f7c8f90c475c6ac19ea053f2fb5d2ac59733871c9,996b45e40fc12e8f
+38,exact_sha256,SHA-256 match (Hamming dist 0),3,Oral Cancer/Oral Cancer Dataset/CANCER/039.jpeg,039.jpeg,CANCER,1,train,False,8a8d2de6c4548a37db0b7d018d26f2d09c56c38bcea80efd36a5e0ce0cd28fcc,bd34a66bd0745b30
+38,exact_sha256,SHA-256 match (Hamming dist 0),3,Oral Cancer/Oral Cancer Dataset/CANCER/057.jpeg,057.jpeg,CANCER,1,train,False,8a8d2de6c4548a37db0b7d018d26f2d09c56c38bcea80efd36a5e0ce0cd28fcc,bd34a66bd0745b30
+38,exact_sha256,SHA-256 match (Hamming dist 0),3,Oral Cancer/Oral Cancer Dataset/CANCER/099.jpeg,099.jpeg,CANCER,1,train,False,8a8d2de6c4548a37db0b7d018d26f2d09c56c38bcea80efd36a5e0ce0cd28fcc,bd34a66bd0745b30
+39,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/040.jpeg,040.jpeg,CANCER,1,train,False,9fe1549cfbf54cc1e2103e72a97f5288291ce5331ce0d77e3d07e0249f7622cc,f021c3032ffd2277
+40,near_phash,pHash Hamming dist <= 6,2,Oral Cancer/Oral Cancer Dataset/CANCER/041.jpeg,041.jpeg,CANCER,1,train,False,fe7b35493eefcc6262d5a4948da98a6e537b761d4849675cf5ba6f11917ecab8,dfaf2d1a27299830
+40,near_phash,pHash Hamming dist <= 6,2,Oral Cancer/Oral Cancer Dataset/CANCER/073.jpeg,073.jpeg,CANCER,1,train,False,b5e1971e9bf3efbd0f9644aa72a08b6b08d82816d7ec332236d3e07d9cd0712b,dfaf2d1a27299830
+41,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/042.jpeg,042.jpeg,CANCER,1,train,False,b6d2c7b69c39a2396da730f0b989b605f5177ae4d0e01554d6f34c9840d28922,fad185bb30638e94
+42,exact_sha256,SHA-256 match (Hamming dist 0),2,Oral Cancer/Oral Cancer Dataset/CANCER/043.jpeg,043.jpeg,CANCER,1,train,False,98787cb4d80abd66967bae95127dfa252f033c7b49ba069065d2829f53e351a3,9a56053bd6b591ac
+42,exact_sha256,SHA-256 match (Hamming dist 0),2,Oral Cancer/Oral Cancer Dataset/CANCER/058.jpeg,058.jpeg,CANCER,1,train,False,98787cb4d80abd66967bae95127dfa252f033c7b49ba069065d2829f53e351a3,9a56053bd6b591ac
+43,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/044.jpeg,044.jpeg,CANCER,1,train,False,b3ebb35fe28f3862a72c0a56a806f9e871cf74dc2e5005b7310288cfc6480ec1,9f1ea0a1c5753a93
+44,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/045.jpeg,045.jpeg,CANCER,1,val,False,c48db98855a7959f16eeb1d0c233c3513b2c7600c8a6f7c8419e76f6b406450d,daf48793980d6536
+45,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/046.jpeg,046.jpeg,CANCER,1,train,False,90ee78d84b408a937a1e053f9282821ee3d42356d13c575eb983a03562f626f3,be4ba995f0259478
+46,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/047.jpeg,047.jpeg,CANCER,1,train,False,cffd78606a37b306ca14c41486774a98f691fc8707f7c56b27254d6fba2c1641,aeee9202fcadad01
+47,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/048.jpeg,048.jpeg,CANCER,1,train,False,e06e02f7c9c3f3eb8012c06bcbd01cf08cd6464fcc026b307fe5edc81edfcb6d,bc27f169e0d223c5
+48,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/049.jpeg,049.jpeg,CANCER,1,train,False,894dac7abf686459bc0387661269598394e2e3ee225aba8ae67396c47044b7b1,c516f18b87cc0e6d
+49,exact_sha256,SHA-256 match (Hamming dist 0),3,Oral Cancer/Oral Cancer Dataset/CANCER/050.jpeg,050.jpeg,CANCER,1,train,False,d1b8171b7f8cd940c2b17df5c050cf9e557ee098a9baf6663a6fe16205e605c4,8a3d2d9f30dc32c6
+49,exact_sha256,SHA-256 match (Hamming dist 0),3,Oral Cancer/Oral Cancer Dataset/CANCER/060.jpeg,060.jpeg,CANCER,1,train,False,d1b8171b7f8cd940c2b17df5c050cf9e557ee098a9baf6663a6fe16205e605c4,8a3d2d9f30dc32c6
+49,exact_sha256,SHA-256 match (Hamming dist 0),3,Oral Cancer/Oral Cancer Dataset/CANCER/482.jpeg,482.jpeg,CANCER,1,train,False,d1b8171b7f8cd940c2b17df5c050cf9e557ee098a9baf6663a6fe16205e605c4,8a3d2d9f30dc32c6
+50,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/051.jpeg,051.jpeg,CANCER,1,train,False,517ea8a02c7576fb3bf61fa268b008cab3cd7c7c95d842651900cf2aa7fa4314,f5b6c218d8b90877
+51,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/052.jpeg,052.jpeg,CANCER,1,test,False,97ad818daae4f9508a35f47b98121dbf085c967118ac1824cfe6aef92a8cca92,cfd3346d32463946
+52,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/053.jpeg,053.jpeg,CANCER,1,train,False,0cf0fb3f3584384e30cd9ee01b1e5dd1d5a472cd16a809594e48baaa7138055d,806835afcd14b79b
+53,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/059.jpeg,059.jpeg,CANCER,1,train,False,dd3e284977bf6e5ccd06a032b55bd0839f48f03e00de5748a4f0267780ca1ef5,d4f40ec212dd6763
+54,exact_sha256,SHA-256 match (Hamming dist 0),2,Oral Cancer/Oral Cancer Dataset/CANCER/061.jpeg,061.jpeg,CANCER,1,train,False,89f4b707a284f3001c73f09b19b5664add9edf3156e7f32ad0626ef0d7c71f2e,a4e482f2cdd9d913
+54,exact_sha256,SHA-256 match (Hamming dist 0),2,Oral Cancer/Oral Cancer Dataset/CANCER/079.jpeg,079.jpeg,CANCER,1,train,False,89f4b707a284f3001c73f09b19b5664add9edf3156e7f32ad0626ef0d7c71f2e,a4e482f2cdd9d913
+55,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/062.jpeg,062.jpeg,CANCER,1,train,False,99fcded738f4c43b9c206ccff48e1da60e2205c4ff629f16a26c91b4d6f47226,8d34c0d54ad76772
+56,near_phash,pHash Hamming dist <= 6,2,Oral Cancer/Oral Cancer Dataset/CANCER/063.jpeg,063.jpeg,CANCER,1,val,False,d5c14aa6bfb6e74ec1a92e7c68189599f0d7a4162660963f2f27eea33fba548c,dc34b5189ed198da
+56,near_phash,pHash Hamming dist <= 6,2,Oral Cancer/Oral Cancer Dataset/CANCER/092.jpeg,092.jpeg,CANCER,1,val,False,351d4f8aa79e3d0040b6cb01af91c3a769911d92ed6e7793758b01d38195bf2e,dc35f51896d1d8c8
+57,exact_sha256,SHA-256 match (Hamming dist 0),2,Oral Cancer/Oral Cancer Dataset/CANCER/064.jpeg,064.jpeg,CANCER,1,train,False,a1dc8243775e8b9f388393c242139b009f848d8b23b63e363b7e039f38509119,f15dc3209c18d9db
+57,exact_sha256,SHA-256 match (Hamming dist 0),2,Oral Cancer/Oral Cancer Dataset/CANCER/094.jpeg,094.jpeg,CANCER,1,train,False,a1dc8243775e8b9f388393c242139b009f848d8b23b63e363b7e039f38509119,f15dc3209c18d9db
+58,exact_sha256,SHA-256 match (Hamming dist 0),2,Oral Cancer/Oral Cancer Dataset/CANCER/065.jpeg,065.jpeg,CANCER,1,train,False,2064700f676fc18880fca0cd1fe0fb5a00297fcbb88e126c68905e4b7a299d7d,eb4ab73ad02d40b5
+58,exact_sha256,SHA-256 match (Hamming dist 0),2,Oral Cancer/Oral Cancer Dataset/CANCER/095.jpeg,095.jpeg,CANCER,1,train,False,2064700f676fc18880fca0cd1fe0fb5a00297fcbb88e126c68905e4b7a299d7d,eb4ab73ad02d40b5
+59,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/066.jpeg,066.jpeg,CANCER,1,train,False,8cb0fa48ae309641d9c0ed6e216703d98b59fdafe08c91429aa719765a8bd906,ff3fc4748152910b
+60,near_phash,pHash Hamming dist <= 6,3,Oral Cancer/Oral Cancer Dataset/CANCER/067.jpeg,067.jpeg,CANCER,1,train,False,900e12a0021ad022f7e8d1a7e57e5182902df697fbd0844c333502ff519fa688,ab75e061ca1e8d9c
+60,near_phash,pHash Hamming dist <= 6,3,Oral Cancer/Oral Cancer Dataset/CANCER/097.jpeg,097.jpeg,CANCER,1,train,False,900e12a0021ad022f7e8d1a7e57e5182902df697fbd0844c333502ff519fa688,ab75e061ca1e8d9c
+60,near_phash,pHash Hamming dist <= 6,3,Oral Cancer/Oral Cancer Dataset/CANCER/434.jpeg,434.jpeg,CANCER,1,train,False,e576ccf185a3545585b9dff997666c072be4387faea4afe42709146b11148cb7,af75e021c216cf9c
+61,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/068.jpeg,068.jpeg,CANCER,1,train,False,4de7d59ab3a1587931e8aa96d6db02ebe25b86fb21a2bddccfdaad5773ea0957,9f686828a17da576
+62,exact_sha256,SHA-256 match (Hamming dist 0),2,Oral Cancer/Oral Cancer Dataset/CANCER/069.jpeg,069.jpeg,CANCER,1,train,False,70ecf89dc48e9c1f439d67b5d0703109d531147d5897e9d32a9039025d2c30b0,cadb24692f89ff00
+62,exact_sha256,SHA-256 match (Hamming dist 0),2,Oral Cancer/Oral Cancer Dataset/CANCER/101.jpeg,101.jpeg,CANCER,1,train,False,70ecf89dc48e9c1f439d67b5d0703109d531147d5897e9d32a9039025d2c30b0,cadb24692f89ff00
+63,exact_sha256,SHA-256 match (Hamming dist 0),3,Oral Cancer/Oral Cancer Dataset/CANCER/070.jpeg,070.jpeg,CANCER,1,train,False,17d5adf9d03de7d1f0e9d60dd3e02befcef5575da95a2050df9f8cef536c671d,80601dde9f829ecf
+63,exact_sha256,SHA-256 match (Hamming dist 0),3,Oral Cancer/Oral Cancer Dataset/CANCER/103.jpeg,103.jpeg,CANCER,1,train,False,17d5adf9d03de7d1f0e9d60dd3e02befcef5575da95a2050df9f8cef536c671d,80601dde9f829ecf
+63,exact_sha256,SHA-256 match (Hamming dist 0),3,Oral Cancer/Oral Cancer Dataset/CANCER/400.jpeg,400.jpeg,CANCER,1,train,False,17d5adf9d03de7d1f0e9d60dd3e02befcef5575da95a2050df9f8cef536c671d,80601dde9f829ecf
+64,exact_sha256,SHA-256 match (Hamming dist 0),2,Oral Cancer/Oral Cancer Dataset/CANCER/071.jpeg,071.jpeg,CANCER,1,train,False,6f8b925cb7c8f572b3d783a5da517629745153eaac00b1ee646fd2c56a6260d8,a001ff144d6db39e
+64,exact_sha256,SHA-256 match (Hamming dist 0),2,Oral Cancer/Oral Cancer Dataset/CANCER/107.jpeg,107.jpeg,CANCER,1,train,False,6f8b925cb7c8f572b3d783a5da517629745153eaac00b1ee646fd2c56a6260d8,a001ff144d6db39e
+65,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/072.jpeg,072.jpeg,CANCER,1,train,False,c0c2e12e068ba6094710ad509e25f4878c28d2c32aae357bb3ae95b7be4f7726,95a09ac7cb5c3173
+66,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/074.jpeg,074.jpeg,CANCER,1,test,False,e73e4103a606573e1860f614223c265aadbd9577718ce5812673bac0bd5e1877,e68eb94389334eb1
+67,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/075.jpeg,075.jpeg,CANCER,1,train,False,cee59bbb46d5d01d0edee8dbc3689de05a9cd005a90a26d4f691ff2b0fcd7b9f,edacc2eb89232c9c
+68,near_phash,pHash Hamming dist <= 6,2,Oral Cancer/Oral Cancer Dataset/CANCER/076.jpeg,076.jpeg,CANCER,1,train,False,de3c2bb911749ec458ffdb1b8be37774fdf64dae809ecad665ce44f63ee3032e,bce3c37e70389e40
+68,near_phash,pHash Hamming dist <= 6,2,Oral Cancer/Oral Cancer Dataset/CANCER/199.jpeg,199.jpeg,CANCER,1,train,False,15b53149493f30dd4728b0db093f8b96792ee4e8fbb28af9ba1289b58b7bdac8,bce3c27e70389e48
+69,near_phash,pHash Hamming dist <= 6,2,Oral Cancer/Oral Cancer Dataset/CANCER/077.jpeg,077.jpeg,CANCER,1,train,False,9a513549890e53e544c9a1f809eb7844ef4e07efd90986dc581de866c3f7e0ef,d0bc57c3b03cd236
+69,near_phash,pHash Hamming dist <= 6,2,Oral Cancer/Oral Cancer Dataset/CANCER/083.jpeg,083.jpeg,CANCER,1,train,False,2dfab1b9e3b7068e4add07abaa7714afde49a24300290592cbb59b09a769bf96,d0bc57c3b03cd236
+70,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/078.jpeg,078.jpeg,CANCER,1,train,False,1f89692001b09f2a8ff02e394bf446e4034d2519725307b4b0e70c9b737da837,fb072b504ade9562
+71,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/080.jpeg,080.jpeg,CANCER,1,train,False,9e29ea662c0ca063b7fee9e404cd97e4355dcff2cba40dd9f0501f35422b53e4,e3e56d62639d9062
+72,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/081.jpeg,081.jpeg,CANCER,1,train,False,f3a74a8622ea4b16df19228153a0f08a687873104d908dc2651d9b55780d5d25,95c15f8768775138
+73,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/082.jpeg,082.jpeg,CANCER,1,train,False,c0cfd2dcb0a33fdbdbd4100f92ca90915604877dcf94b1daca2e59096ea11296,93c0fc98e0c7c76a
+74,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/084.jpeg,084.jpeg,CANCER,1,train,False,163f26cface5ad3374406db861eccd112c1e177d29cee35286484fe1196388ea,81aded618d6c3e25
+75,near_phash,pHash Hamming dist <= 6,2,Oral Cancer/Oral Cancer Dataset/CANCER/085.jpeg,085.jpeg,CANCER,1,train,False,19dc0e19e8e585a74da528f5a208e9bf2123eb8ec3c6a52dbc233b5b77dd6cd0,f248c1a78fb898b9
+75,near_phash,pHash Hamming dist <= 6,2,Oral Cancer/Oral Cancer Dataset/CANCER/093.jpeg,093.jpeg,CANCER,1,train,False,4e85fda7ed93762397f7c368eae6ee198647b47e3e30a5b84ab9d28a83aee810,f248c1a78fb898b9
+76,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/086.jpeg,086.jpeg,CANCER,1,train,False,3804234530d5dd2b2b10425e5d71222c1cb199655dda30431025b9f9f2de47be,c1914ade357d6e41
+77,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/087.jpeg,087.jpeg,CANCER,1,train,False,4ec9beca382447f8a896fcec3d134d888ed0d24b83fe6bb96b2b173d8f88b9a0,d4f70d4c2c0b745d
+78,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/088.jpeg,088.jpeg,CANCER,1,test,False,12c5b575be4e68883c2141c9938c03c5e4ccb6e40321d02d7b3d177b185f57c0,f13bde3138e127c0
+79,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/089.jpeg,089.jpeg,CANCER,1,train,False,d6cd13b65eab0de8782a38c653d7818781ad28cab54e9908547dcd823503cd2f,bc9322b61f313347
+80,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/090.jpeg,090.jpeg,CANCER,1,train,False,ca3301d2883b703b7fb0c08ce6572d7895dff654bf1ac3a6898bcfacc96e5629,dca94a94ba9a297c
+81,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/091.jpeg,091.jpeg,CANCER,1,train,False,230a8b069f59e99d8115d67b4d88401b2e96b9c31132d40add39c2f5dc564712,a626d89919f9c1c7
+82,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/096.jpeg,096.jpeg,CANCER,1,train,False,11973af21136cb17af7b1909375ae8d5fb7bd05877315cb8a13db5bc0152fae8,bfabd4f500f03a90
+83,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/098.jpeg,098.jpeg,CANCER,1,test,False,1438f6ee0958f7602eb69b4b6773b07d4de1fd82d58173e329dc1bcc847dc904,c9ff80ea9f909624
+84,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/100.jpeg,100.jpeg,CANCER,1,train,False,59c2335055162ff5d0d7b8dbc931eb85ee2e7b4a46b52db422e376a885930e9d,b470030fdf183e6b
+85,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/102.jpeg,102.jpeg,CANCER,1,val,False,71f3d31edd7c354caf3de30bfdf8b6aadc4210427ace47cc9cf60736f630aea6,af78b468d649c2a5
+86,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/104.jpeg,104.jpeg,CANCER,1,test,False,e9ff5ef0dea502fe1b0a3135ec294f7e6286d4f07f6c6be3a0003939f6cd8f82,84ca17577cf2621b
+87,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/105.jpeg,105.jpeg,CANCER,1,train,False,d0132870d6b23ebe58d2432142112421790c4c8dca322a2dd429419dc4e08731,b42201f061efff07
+88,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/106.jpeg,106.jpeg,CANCER,1,train,False,1beb23595562128ff45e00ac228ef4c10267396fe360dac21cacf21992b6f337,9f67688c35d4949a
+89,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/108.jpeg,108.jpeg,CANCER,1,test,False,6a15d5fc844296d9c68af5e1e6629ed54f5e82254509ec04e6c4346836f2d7ca,cece712d063433e6
+90,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/109.jpeg,109.jpeg,CANCER,1,train,False,947a792d97e68e8e02be95094f87bd736a8c3cd3076995f2208e4a4d6104e96a,cf867266d5362668
+91,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/110.jpeg,110.jpeg,CANCER,1,train,False,9ff49a49e68ca6e616c4d4948f54f091eda89c5bc2a0bcaea02aa02dd36691d7,a561f488d298dbd9
+92,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/111.jpeg,111.jpeg,CANCER,1,train,False,1250ea679973bd6f31cb40f0dc44312e5ca4c9c7c4d671ee8fb9999f8a0fcdb8,b576cca29399416b
+93,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/112.jpeg,112.jpeg,CANCER,1,train,False,2c47824fbc1000d769fc25ebacd3511eef2c282ff2ea48a6f03c8839a9263e30,9761d26ae69a25a6
+94,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/113.jpeg,113.jpeg,CANCER,1,train,False,fe3335d6d8c7f4503df94c4b0351bc66e414f457c96a1d983b4f164ac63cc98b,d9133fde20d86163
+95,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/114.jpeg,114.jpeg,CANCER,1,train,False,b4595ea10b57330e8db7fa7195535d1e9ef4bf97eafe58591bf8116fb854a977,da1e8ea745b464e1
+96,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/115.jpeg,115.jpeg,CANCER,1,train,False,65feaef728fdbe315b5e6f0b346f3f87d0eec7616cffc21f82fe41b905c73c57,d06a9e07f8dfb005
+97,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/116.jpeg,116.jpeg,CANCER,1,test,False,38ebe8f0a7cb5494dc9378af8c9e0fcabd3d52304906f1429fb929c846aa234b,f09633238d1f3b31
+98,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/117.jpeg,117.jpeg,CANCER,1,val,False,202836e97e77cf571685256b622bfa03789309030a1bc3e5457567f35c4af538,962c7a423b0ed17d
+99,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/118.jpeg,118.jpeg,CANCER,1,train,False,5470c3d2865e5edd8f83f8d73ddc91d12b39c3f28e303df114eaac3640e28e96,ae8a1735352f3730
+100,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/119.jpeg,119.jpeg,CANCER,1,test,False,b9689286b232d9c2156c2037de464115fceda3374ac756c8aaf3a48b44b8b5de,91c43ccbe229cbc7
+101,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/120.jpeg,120.jpeg,CANCER,1,train,False,df25470f42666647c1037e2c1ffcffa5ffe34f2a5bbdb35961d3f6ecb7cd8d02,8b552473da343d3a
+102,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/121.jpeg,121.jpeg,CANCER,1,train,False,029424c3b80fef28c408efe9468adffdb196eb5e422b6a310adc60a89f309da0,fad5a21295339a27
+103,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/122.jpeg,122.jpeg,CANCER,1,train,False,4b97b955820c125fa8d44c78143081c58a9b9ecf4e9b159f1bea395f01859851,d700e8cf691e7698
+104,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/123.jpeg,123.jpeg,CANCER,1,val,False,6f42585c7e00971181732cb472ab5cc420b6909002964afe333ed640d83d29d7,aaf4c50d2a634f93
+105,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/124.jpeg,124.jpeg,CANCER,1,test,False,2eee0e7d6ef6b0d5fcae31c1be1d6621778c6061248c038e92240a014c59fdce,d5e12ac27ec03e87
+106,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/125.jpeg,125.jpeg,CANCER,1,train,False,cd63ce7049744996d2be4afd02094ec30f95ce02dcc02438474795d6391577f8,d0e19fb65cdb3044
+107,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/126.jpeg,126.jpeg,CANCER,1,train,False,e53af4582b2a9d2fa2d9e171ffa2a32367551259b9cf7e00c336849f409503cd,8a6a2fa634b77238
+108,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/127.jpeg,127.jpeg,CANCER,1,train,False,ea7d073a70eb216b4532480c5a9c8fe097f10892b95c635b6a7e476b66a98615,d74b1b8b9fc1888c
+109,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/128.jpeg,128.jpeg,CANCER,1,train,False,2cfc22935512a69e51bd0c4ab5f3664b13dd0762ee98e0e6ceeb5ef547830f26,807e4f443aec33d3
+110,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/129.jpeg,129.jpeg,CANCER,1,train,False,6cf80c68eeac94794ee90285fcb531e86f99df814f992277680525204890d09d,d5151e55e242753e
+111,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/130.jpeg,130.jpeg,CANCER,1,train,False,b94ad2a94b4792b9abddc8e8fa98003b0dd408c39580e3b7c4b0d70d4e3eac29,be43d436c69e5870
+112,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/131.jpeg,131.jpeg,CANCER,1,train,False,6bd904418e4a802a75d68acc5857618e891b15c974b25bdc3b678468f8424035,f8a1875b89293576
+113,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/132.jpeg,132.jpeg,CANCER,1,test,False,911a20066d39fa82898b052d627f89767961a02403ae9a285c74cd04e447622b,805b24e15f8b75ae
+114,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/133.jpeg,133.jpeg,CANCER,1,train,False,e4e6b32beecb506f6c2c096b078b6b022498d1ef1d9ee5b65d9407f9da020732,900f1f7f60f3206b
+115,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/134.jpeg,134.jpeg,CANCER,1,train,False,c5c2fdd612a7d96f7a7cd491e0bc628e34935b3f268382c7186016e8db89ba04,c1e062f17a10badf
+116,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/135.jpeg,135.jpeg,CANCER,1,train,False,d34a51afdf6a3c878b12a17b805ddcb1ebef3820fd75b13e65c1ae7ad8232f42,c07147c643e363f3
+117,exact_sha256,SHA-256 match (Hamming dist 0),2,Oral Cancer/Oral Cancer Dataset/CANCER/136.jpeg,136.jpeg,CANCER,1,train,False,ba62c84b99de44af01b0229df85a59de09097756e349aa63f81638c23d874938,8a85a51e938b9bbc
+117,exact_sha256,SHA-256 match (Hamming dist 0),2,Oral Cancer/Oral Cancer Dataset/CANCER/480.jpeg,480.jpeg,CANCER,1,train,False,ba62c84b99de44af01b0229df85a59de09097756e349aa63f81638c23d874938,8a85a51e938b9bbc
+118,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/137.jpeg,137.jpeg,CANCER,1,train,False,92409e40db7c8e5bd9c42560d622564cd162e661cb78b6a374f2c865056eb4cd,8d8a5f9d791821d9
+119,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/138.jpeg,138.jpeg,CANCER,1,train,False,2b7884212036e25ab7a42986cedd1544c0b99907429aa69accb58017d7ff81d0,85bb4df80fa41786
+120,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/139.jpeg,139.jpeg,CANCER,1,val,False,27a753c9c95a78b47560910ba72b3bea6d9221988cb13d192f45f9a905bfc6f6,930efc13d02f437c
+121,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/140.jpeg,140.jpeg,CANCER,1,train,False,fe8565cfa7f1b929450ece68480a71a037bf881bce4e284859b45068553f590d,ae7da92da5259524
+122,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/141.jpeg,141.jpeg,CANCER,1,train,False,cfc2e2f5593e997d6385d0f88bf3ba2c865d58df630fa550103a78fa1c30a315,ee2980a2b178eee5
+123,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/142.jpeg,142.jpeg,CANCER,1,train,False,837440224560e094625c014493cb62c5e450919ba146652127e0013a7942301e,ce6939d4754e5849
+124,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/143.jpeg,143.jpeg,CANCER,1,train,False,7909948b6576e1468506cab978833535aa0414313c065edf7ab522291d1b5ff3,d0a0c1e31f976cb3
+125,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/144.jpeg,144.jpeg,CANCER,1,train,False,0379dd45be2e7586549662b5b5f439e708e1ee3bf4287a1785a207fd8d028049,e8c5a1e0ec687fe0
+126,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/145.jpeg,145.jpeg,CANCER,1,test,False,59f12bff3225ea3349beb107ebfa72689562783fe5388ad8f15cc76ccc2a2402,e07140e161bb3dbd
+127,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/146.jpeg,146.jpeg,CANCER,1,test,False,57b6ee5513ddc9044e66f7e732b3c3b0af4fa4a755803b6907f6cf26a5e81a00,b1d3a5d09dc1ad98
+128,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/147.jpeg,147.jpeg,CANCER,1,test,False,36566df7e33b57bf2a4d4abbbc0f7661d03db212aafdaa4e1799a320350031b9,be0f4b3c8f388c61
+129,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/148.jpeg,148.jpeg,CANCER,1,test,False,7c06d52831e72eaa5a52887ab25473c90f0cd0ccc3c7082c8a61f7feb968e03d,92293a75ee2f290d
+130,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/149.jpeg,149.jpeg,CANCER,1,train,False,1d50db5c2eb213c5dcbd63106c3b60c9775ed9a42f4b01896858318c6f24a112,95c07a066b0f6a6f
+131,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/150.jpeg,150.jpeg,CANCER,1,train,False,4d7d037b2404c865a1e197f3b284f6edb6847f99d48fd1642e5d14a003b6be2a,c61ede4e6421b5d8
+132,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/151.jpeg,151.jpeg,CANCER,1,test,False,533bdd984de9ded9da7521df49ce4a73cedc1552148856262aacd84973992118,a0120fa70d995f3f
+133,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/152.jpeg,152.jpeg,CANCER,1,train,False,fa040a269af88d9ee4338168304a1e1a55f948a5054ce29ee27756814b43aeff,c0862a5b3b4bb72e
+134,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/153.jpeg,153.jpeg,CANCER,1,val,False,420ff8ba5b3c31dbb99c38a5aa0e358109e6aa315dfadf502827c964a6ddccf2,93d12f186e5b8969
+135,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/154.jpeg,154.jpeg,CANCER,1,val,False,9e63b182d2b38df04aecf18ff2e52c1dff80edf07986dc1e28861702becf2611,a107272da50dcdcf
+136,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/155.jpeg,155.jpeg,CANCER,1,train,False,97ac0686165996e5ea4bd3692530d6dc6839aba4b6228e7b5c5d0782c62901c1,a513e9abd2bcce80
+137,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/156.jpeg,156.jpeg,CANCER,1,test,False,9afee0ba05588110549698e5d151f34a27d35fae1097cad88bf6394621065d6d,dc1bfbc3d8889225
+138,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/157.jpeg,157.jpeg,CANCER,1,train,False,b105a9da2e5bacf13fb8832d10c4c59ed05c1f79646f57c8ec027c451a31a0a1,893891a59634def3
+139,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/158.jpeg,158.jpeg,CANCER,1,train,False,76ac16237e8e70c43c747af1db2469805e2d6b321f7f4035b01526f33e529dbc,c86ad28d300ff0f7
+140,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/159.jpeg,159.jpeg,CANCER,1,train,False,60c16939a661802e5c90ced74137e531741eeb813aee142b058f869072aed25b,b321b4d4c165de5c
+141,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/160.jpeg,160.jpeg,CANCER,1,test,False,9f79415d91eb7bfa61ad6a06dbac27efb72b2d63d57a7e041388a12110f10a0f,82d7acd23c793a61
+142,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/161.jpeg,161.jpeg,CANCER,1,train,False,aab32df299970d3bbecc09727e71fc655daa200dc1fb257607540cf2569a2159,b91f7b78c2c03147
+143,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/162.jpeg,162.jpeg,CANCER,1,train,False,b6046b387ad3f6f5e4e974c09af48104eb2508416d218160a5c60c1d14da451d,c05f05d8d665586f
+144,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/163.jpeg,163.jpeg,CANCER,1,train,False,1bfc4370625e2593761074227746940f42074d8366cd345dc12c306202f03b83,80a96f951dc366cd
+145,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/164.jpeg,164.jpeg,CANCER,1,train,False,cb2b6e417564d7d6f3ecd8ed6a98c0ea721b9124a873ac70740eb9c2167fea62,c82ded3584b1b13e
+146,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/165.jpeg,165.jpeg,CANCER,1,train,False,3fe216694445bebdb9b37ecaf6d41b2d85e844c275574e60c2c31ce050bd9424,fb60c7252e96349a
+147,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/166.jpeg,166.jpeg,CANCER,1,train,False,43037aa166a64233d9a599af4bb4bffab6279fc1462107657220c68e227618da,ff34a8568956aa58
+148,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/167.jpeg,167.jpeg,CANCER,1,val,False,1f74a4fb86bf8cedcc7b9e8d0b8a59fcdf410e66abc48a94859947d79a5f47f8,d43acc3754e2d9c8
+149,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/168.jpeg,168.jpeg,CANCER,1,train,False,6d5a3e8624823d87aee25f51affd1da0082f410214e29114aec4adbc518e3a5d,9f16b82a24cdc8db
+150,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/169.jpeg,169.jpeg,CANCER,1,train,False,e01f13a0ce6b394d911758ad1bf4763b0ced57b14f17187b445cb5a4634e7d8e,f449c996764a33c9
+151,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/170.jpeg,170.jpeg,CANCER,1,train,False,6f290ec4ab4b0f6132b56f43378d8f9ead67f6de63a605b7e7a7e897fa4564ce,c94423d662cea75b
+152,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/171.jpeg,171.jpeg,CANCER,1,train,False,5aaefd18a1979e10a6280c11b9ef14778de87b22f5895f54c1f1de5c1802ef4f,b97826a7d4d0c8e9
+153,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/172.jpeg,172.jpeg,CANCER,1,train,False,6ac85a1aeedd0e85cf301e776f16549c8a9c836c95e26e998a079f7f57db0afc,e8ff17a8d300e84d
+154,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/173.jpeg,173.jpeg,CANCER,1,train,False,fa6c7abe06459f81d58dbeb988f1435937b20cd8ae491c2381f1d68bef989dd9,da0b253c0f4b76d8
+155,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/174.jpeg,174.jpeg,CANCER,1,test,False,25a8ef0007c5390ba3ca5a483302aaa768e51d567c6c8507f577494bd0558d98,ddf8cacde4460534
+156,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/175.jpeg,175.jpeg,CANCER,1,train,False,1829c8bef620e1041de6d696d216f00de1da95ec41cd0d84fad86d3116bc75f4,8a2a9ea7b09cd5d4
+157,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/176.jpeg,176.jpeg,CANCER,1,train,False,27a0a485e31175d72d1a64cabd94550b7a24a41d6dfb8cee94dfd77874eb68a8,c79e3782b9a0accc
+158,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/177.jpeg,177.jpeg,CANCER,1,test,False,59ef5f29047d33a8844cf5ba072bca86acdb6d31d1ba7f999d23ce0554b2af95,f1636b0cc739dc05
+159,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/178.jpeg,178.jpeg,CANCER,1,test,False,b8bb4e7cbc4166a1dba8cbf2a4f6ab0140d02ace9023d9912ec2aca6271d006e,e5de3b0c80f0cd87
+160,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/179.jpeg,179.jpeg,CANCER,1,train,False,054da8505741fa687a7cca31fa3cea39ae4e0627117208d68a991309483cf659,d9b4f9c5602ee1c8
+161,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/180.jpeg,180.jpeg,CANCER,1,train,False,d0bfcdccb669b388c8e95d46556089fed5b410c4ca8e107fa0a969f88b7d754d,ce78a04ab3bec932
+162,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/181.jpeg,181.jpeg,CANCER,1,train,False,3e3544ec8526e4fe09fa8d8589b81d5c5f23355c003358e719fb7c78acfaa397,d4d51bc2a58039ef
+163,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/182.jpeg,182.jpeg,CANCER,1,train,False,2a07ff6021e513c1d0e1279588961f05abcda19d257251ed9aa012ac8fce6b2e,b39fe1219758899c
+164,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/183.jpeg,183.jpeg,CANCER,1,train,False,213bec71833173f25f3449ebc496dc1fa8206ae0a48e8d7d70d1addc8334774a,c25b3f915806e9e6
+165,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/184.jpeg,184.jpeg,CANCER,1,train,False,4c9adbdbac6f896a4f64f53bb34a3173c811edb4cc651cd8cbab549cf5c15f8d,c1f68b409eaf1e94
+166,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/185.jpeg,185.jpeg,CANCER,1,train,False,6045336580c86c29797560a7d3f2da2eac1f04cd48cf05c2d4a8f1bd15c79a35,d43a7d74f8b0a08d
+167,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/186.jpeg,186.jpeg,CANCER,1,train,False,0a9cb824d05a417b0fb41f2aa034c08219ce91855d8438cd1d34635fe94b89ea,c98daf8a69aa252d
+168,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/187.jpeg,187.jpeg,CANCER,1,train,False,3a49589c9887991f1bed3d3d0d2ec69f7a8796216e7b8d2704879cdaf2ec0410,c86aab2595376c36
+169,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/188.jpeg,188.jpeg,CANCER,1,val,False,48b066765cfe936b0ee6e914fc11ac5ba23d18083abd6cf9c6c37203bb11a7fc,915e396d46cd4ac6
+170,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/189.jpeg,189.jpeg,CANCER,1,test,False,9daaca94e6785d1992b81681bcb4eb8350f86a3148cf6ae7c0edfa055a0d62f7,a4374a99a76cb964
+171,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/190.jpeg,190.jpeg,CANCER,1,train,False,9c85db8f8fd2ec6448918d07aca69cef8d1536620fa405c13aa1f5e15fe0c9f9,d63949b55a8686ce
+172,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/191.jpeg,191.jpeg,CANCER,1,train,False,f24c20ab9825a1402c813e57a28a47ace68b7becaec46211ad9f8f4358ae85a2,9f78d087c243ae3c
+173,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/192.jpeg,192.jpeg,CANCER,1,test,False,6b525d98c6d076d38a2d61cc6d63595338abd4348b65741125a8e6045ea3bca8,8d8a6aad2cb63335
+174,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/193.jpeg,193.jpeg,CANCER,1,train,False,6980c8169b7c95e308a16c83c43456960ad830ac121f47a3677f38095ed8d01b,c24c272e13b35e9d
+175,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/194.jpeg,194.jpeg,CANCER,1,train,False,a7a83499f4775eb30b2162fbd0312471b42162a97152322e50b4636ab5dc4748,831b7e30e1c78f0e
+176,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/195.jpeg,195.jpeg,CANCER,1,train,False,369e0d3ad6630f23a8609b6a82b6de9e6f62e47a213bf8dc61b53a35178eecaa,c59b9a0d7d0a5e16
+177,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/196.jpeg,196.jpeg,CANCER,1,test,False,869f552ce195a8b322f0868ae7bf30ba8cc75f2b26ac5fc8cb1b68272165c85a,e2b38f4c845b9d61
+178,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/197.jpeg,197.jpeg,CANCER,1,val,False,046ad2bd8e73763689d94c4cae47ab3d71850822f3f6a068e4d59f18eaf9c608,df482d903aa13f1b
+179,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/198.jpeg,198.jpeg,CANCER,1,train,False,fc1cb164ebea45a3eee8b799ee8525c4163d88b9920ed491850b4dab0b68c433,c813475935ac2ee7
+180,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/200.jpeg,200.jpeg,CANCER,1,train,False,abcc267f54f95b21e7e839ae8e9b778aca1e127cc826570ba68f029975f1b6c0,d61fc1720367364e
+181,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/201.jpeg,201.jpeg,CANCER,1,train,False,74734fc77cf20f23e502c8045094d0688b485e0572183812b2d185e5cc52f375,d863641bcfc6838d
+182,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/202.jpeg,202.jpeg,CANCER,1,train,False,24038266327d6835e75531265326201dfc9eaf0c05b55caa9a8ec90cbd4ed639,dcf4c39c29c236c9
+183,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/203.jpeg,203.jpeg,CANCER,1,train,False,4853b600bf937ed40ed8291610b25c45841ee5c696a43c965b2590f619d0280d,ade79356cc981893
+184,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/204.jpeg,204.jpeg,CANCER,1,train,False,e6d8998dd0144b290a8564332ec446456d30231b10fd3a4af3a2bc9383f643c4,b9e6aa98965adc28
+185,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/205.jpeg,205.jpeg,CANCER,1,val,False,53cf7759679f37d71d0f75c09d05dee85ca79d9aaaa9c6613ae774d09fd03665,a9d23fa4486f628d
+186,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/206.jpeg,206.jpeg,CANCER,1,test,False,28e7b1b50f4362256e7227e682df0378d8acffb5f73a96e2cdfe85435418e206,ad522f2ab589d24d
+187,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/207.jpeg,207.jpeg,CANCER,1,val,False,edaedb0d0ea4537530c0818e2e0f8fbb2dc04d1eccb4cb364315ed4f6cd3a225,c343cc5c4f6d98b4
+188,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/208.jpeg,208.jpeg,CANCER,1,train,False,b3caae92dcde458ef2e21dd8ff63904d42aef77d228689352b089ea22873d296,b51a6b65e46cda90
+189,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/209.jpeg,209.jpeg,CANCER,1,train,False,ecb2d8600ada64134541fe690b7bfac3e41ec888eb31507d4a82c81ba2b54e27,9d0020e0fdb59d9f
+190,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/210.jpeg,210.jpeg,CANCER,1,train,False,2a8b524b94058ed9d50c0d05634eb33d8ec953ddcefd3e296c71ab76330fbe96,df6d24d833341563
+191,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/211.jpeg,211.jpeg,CANCER,1,train,False,44b00e1b53e4f1547c28a9bd5b22163a763f2d58bcb5dbc8c16a6d58cae567d7,9f401c50a54fcfd3
+192,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/212.jpeg,212.jpeg,CANCER,1,train,False,7b3514bcc2ae5b0adcb17a549f15dc2ca30a42bd9f9d06d0e16fd8fd8e5ee4b4,9f404bb18b6fb518
+193,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/213.jpeg,213.jpeg,CANCER,1,train,False,c0cce659c78818458fbd481ece7f1c40b8d170f93c484be8c89cc43800da3e68,852d4837b7e98a5a
+194,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/214.jpeg,214.jpeg,CANCER,1,train,False,ba465da739e533fa2815cebc73e9791e45ca8b799ba11d850f9bd4ceeccadf51,8eb574eec7450c8a
+195,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/215.jpeg,215.jpeg,CANCER,1,train,False,9adb46b2c72eac928d4de2a081159673fd4ab18711f7f455392323d5356d301a,b04547b92f456adc
+196,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/216.jpeg,216.jpeg,CANCER,1,test,False,1aba5f294d1c34fcb523ee9739c2bb3bb49f1f3dbbef0bb190d2092535c682d0,e61d3993263819f3
+197,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/217.jpeg,217.jpeg,CANCER,1,train,False,cd27581781fda54d28c1d4c7302983fca74f86d009819f0ae81fe810cdac5442,f5ab8bb0d416d24c
+198,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/218.jpeg,218.jpeg,CANCER,1,train,False,96c24d2b005f07bffdecdd96a8998c4cae5dc6e7cf7ce0c84dca1f0041ae84f2,de9569027c7968a5
+199,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/219.jpeg,219.jpeg,CANCER,1,test,False,ce75816651f42abaf2ccabb36b7582b059fbf182da7724933422b520a0499803,cb222dfd2595153c
+200,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/220.jpeg,220.jpeg,CANCER,1,test,False,8e7a222cfa62b9ae9249421d6973c01a6fc5c23c45244eadebd021994d87cf16,876a6c85163772e3
+201,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/221.jpeg,221.jpeg,CANCER,1,train,False,934aceac99cf86d16787cfa12697d4243a2cad9571de0f01d934add12d54f25a,d56a8f71e8855a34
+202,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/222.jpeg,222.jpeg,CANCER,1,train,False,a5a782c47320fb8e572108e87892cea5bf0dca6ea50a7c66faebfd970ea67feb,dc7e31f023596361
+203,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/223.jpeg,223.jpeg,CANCER,1,train,False,6e3d5c38b7cbca90f74ce91c86717639ab14c77a18d00823abd3efbdb20a2a26,9d40ee0d207e72b7
+204,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/224.jpeg,224.jpeg,CANCER,1,val,False,10180d8d8a91892b99e620712e29cde05f9b43b1f66df235e239241ff8999ee5,f6251d3ac1e71c38
+205,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/225.jpeg,225.jpeg,CANCER,1,test,False,3adfac29fab7bde6f0e57cb3c26bdb9a4c643a645a1a73e2b192e8cc6a5823b5,f639f0c121d28b37
+206,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/226.jpeg,226.jpeg,CANCER,1,val,False,85e82356c19883112936910dc414cbac9ba44093f49f2f5f812fcff3443f7f3c,ca17817a9768c63d
+207,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/227.jpeg,227.jpeg,CANCER,1,train,False,b09a005dfb5ff5a48e2e3eace7342c42b730938a4977cd1382cb07d08f053170,f33c4aeae9e4c411
+208,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/228.jpeg,228.jpeg,CANCER,1,train,False,395396793f63b8165d8afeefacbe0b06f2871ad1e4bab4a3b5fa11ae64a3edd0,b8adbd6dd1b46050
+209,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/229.jpeg,229.jpeg,CANCER,1,train,False,2ec569f9b3a038df2a1e3f0f0e6fea193e15e8c6821ae18a8afe9163e37f2b1c,e64448c333373737
+210,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/230.jpeg,230.jpeg,CANCER,1,train,False,7d45a520b991e817e6b8e7a610491ef278bb88592368931717b48629ff516c3a,dfc254a3c837a299
+211,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/231.jpeg,231.jpeg,CANCER,1,test,False,054a4c33a5000d42bffa90e2b204247c02f25cf4e46a5d3277dd87b42f0741d6,f0e09562977e1a74
+212,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/232.jpeg,232.jpeg,CANCER,1,val,False,390b5fb290eb82600789532c5b57bc8e3081ffccbe9f8cc166f12d15b11e0eee,946ac73b9c6dcb80
+213,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/233.jpeg,233.jpeg,CANCER,1,train,False,ff1f85b7ea16269ca7a3cbb9106f5a7df4e89b361b6be10da51cb3a675c65d82,b94c0de332a7a3a6
+214,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/234.jpeg,234.jpeg,CANCER,1,test,False,e5700c5589929d3cfa80caf5df7a29c2c996dc532035863a54e5a1ccf241fb0c,854f4f6d7a656054
+215,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/235.jpeg,235.jpeg,CANCER,1,val,False,beaa5a3e2e8ee6e9250cf47a4c20aabe3f50bd0fcba2f73cb133fb2d515d31df,9bb1dbc16d447c12
+216,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/236.jpeg,236.jpeg,CANCER,1,test,False,8792dcc30629019c1684fd27a526ad4a70250f145977ee0f89a26597f8fd2ed8,90a584de5e9acb8d
+217,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/237.jpeg,237.jpeg,CANCER,1,train,False,7ecab1e9c97a9665505d11cc19c45d3b5befca60854b2dbb7a14cc4e2dbe1e9c,abb0c2cb9d1d3c64
+218,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/238.jpeg,238.jpeg,CANCER,1,val,False,d04844d62cc8532f023a16be13ef78d225e1ca1e3c1b41fdb45f03976eddd583,ad5a29363e62274e
+219,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/239.jpeg,239.jpeg,CANCER,1,train,False,fb25c5b6ef84e151bec4e412178271057b82877b626dfcdb113e4d82678fb680,9f3ccac560c6cd98
+220,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/240.jpeg,240.jpeg,CANCER,1,test,False,554a561c1f3342e2ab977ba4399410fab838c98d545b35be659d62e90895937a,d59a5af86c04717c
+221,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/241.jpeg,241.jpeg,CANCER,1,train,False,358db375417b28c61c3978aae5995de2423d7035cd60a5926b24c35688b2fe69,8f405e377c7e92c0
+222,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/242.jpeg,242.jpeg,CANCER,1,test,False,23b830a59c5cbb81639852086cccb4e795547a436e5bf94867654c053cb4f8e6,d58f6a69a0b45353
+223,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/243.jpeg,243.jpeg,CANCER,1,test,False,d16d69bb0f2aca836b7baf363f27909b3a2b0b54fa5bcb84179d5c1aae345f4f,813f7bf02de0e3c0
+224,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/244.jpeg,244.jpeg,CANCER,1,train,False,c50edaec4ecdc39a090430d5e93abe0b95089a1baf42e472bac5ed4f55c0af28,d5f1cb1ae08d1366
+225,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/245.jpeg,245.jpeg,CANCER,1,test,False,b490096dc8c267c0475d7691222084b7f4252f9076f85fc1e34791a30a014df2,aeb795d24f4b0921
+226,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/246.jpeg,246.jpeg,CANCER,1,train,False,2a347368db8025bb7ba2031ed25d00a1e99653a1775f157da9372fdc8e4d2886,f578e0e0c18f8f8c
+227,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/247.jpeg,247.jpeg,CANCER,1,train,False,d474d0423c4873cf36e562c72afbc944e459b6ed4dc6433321f88b618c751dfa,85753b36b53232d2
+228,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/248.jpeg,248.jpeg,CANCER,1,train,False,cffb2313197bf7a6af11967e66c34ff846fc8dd105e1a652f3b5296516db9ed1,9a144b131b6d33eb
+229,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/249.jpeg,249.jpeg,CANCER,1,train,False,32f72d3343998cce23fe060c16ef0764429365f5f566764fffe1ec494f74957d,fc8057784a343e3b
+230,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/250.jpeg,250.jpeg,CANCER,1,train,False,90fd22e4097214b4ca1248e1498b450627cec17cf7b907fcb6d83bc3161c8319,c099457a7b0ee23d
+231,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/251.jpeg,251.jpeg,CANCER,1,val,False,9438aebb845ebca272e08aa6eddd3254bfcd92d51c885ae5549c985bf209ce01,d2d10b82ddd0fcb2
+232,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/252.jpeg,252.jpeg,CANCER,1,val,False,cdbb9f8be0454a8d328699a35f6cfeb4bc7a3da674946185d5ea68df1bb67f68,f540f03f836c672c
+233,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/253.jpeg,253.jpeg,CANCER,1,train,False,886101b059a73014fe27a718eccdccfaaaf8ba20fa76683f309cb6d1cc125dc8,bae3de83f05f4090
+234,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/254.jpeg,254.jpeg,CANCER,1,val,False,bc63337b23c154233360fa337d697784b4e4b8bb267278aa6d54eddd2248059b,b415abbdace0d8a2
+235,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/255.jpeg,255.jpeg,CANCER,1,train,False,5c0e06b97efd0407d8d7cc3991467669b7e7804b56a878a3eeb9e1aabe000b0d,d562eefdd250081d
+236,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/256.jpeg,256.jpeg,CANCER,1,train,False,2a6e447d7b19375e8b12e0f9039146a73edfdfb30b0c633f38a455189e792a8d,e7e7f805c0dccc81
+237,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/257.jpeg,257.jpeg,CANCER,1,train,False,5713ef6ef625b046f79ec1ce351a0e64442392f645ed8383502cc6988fc1a50b,828ed49e969a9e5a
+238,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/258.jpeg,258.jpeg,CANCER,1,train,False,6947fdc805839b9af38e4dfc3d15166d112e8a589fd80013be4610e5129d853c,95586fe0e4e123a7
+239,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/259.jpeg,259.jpeg,CANCER,1,test,False,250ecf9a594a889d8008d49ae56e5846da1b0d1d015fd96eaa043b3f24c34741,dddb8e123c8b608d
+240,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/260.jpeg,260.jpeg,CANCER,1,test,False,9f213babd918382ab32be0f58de840eeda115dfe2d1fd6caf202315a4baa3435,88a337b0c1892f7f
+241,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/261.jpeg,261.jpeg,CANCER,1,train,False,d60b74085711950c5aab01a928113e71054c0eee25f09afbdedd7ffbd31c1ec2,a5a585d5d4d0c6ea
+242,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/262.jpeg,262.jpeg,CANCER,1,val,False,96dbb173859e9fe97098343286b647fccaeb5955df215a9928fa5b7862ab556a,9fb9e336c98c08c6
+243,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/263.jpeg,263.jpeg,CANCER,1,train,False,59d6f7d8f8ca3f0756079a9a90e03b804402d39100a14c3905f0f81b327f1518,a09517e21ecf9a1d
+244,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/264.jpeg,264.jpeg,CANCER,1,train,False,c45d9541910f6d6d90ff170ac5b422ed3f167f50c0ee525edef5d890626422a5,820b5f3d3e78612d
+245,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/265.jpeg,265.jpeg,CANCER,1,train,False,73fce6f57b3b193384b9d1841b177445048ec8cebe46014a05f7f1bee15aa3e5,b8f492c3cd3c64e2
+246,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/266.jpeg,266.jpeg,CANCER,1,train,False,fa4c94e556195992ee409bf0e67c7b3144580f7735d9abbbc53aec037724e29c,ed6d93370a12a63c
+247,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/267.jpeg,267.jpeg,CANCER,1,train,False,d95fe823f9d78b246b31322233854d973941ebd821295c244fece5887ad43fff,90f16b352e952dc6
+248,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/268.jpeg,268.jpeg,CANCER,1,train,False,3b7be97288cf775093c6d3110ef45a21e011241b701913f404645ecc900721b1,b3037955a3aa4795
+249,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/269.jpeg,269.jpeg,CANCER,1,train,False,9b12eb3312e5ae94053b05df4bbcbacc0d0a61a586f7343d93024b3b7a43a81d,9e41155ba2b1f327
+250,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/270.jpeg,270.jpeg,CANCER,1,test,False,1cf6dd4e67af6910d2d8abbdca9330440bd13ebce20b33fdf90f248dcc188a52,83e0fcc1e167139b
+251,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/271.jpeg,271.jpeg,CANCER,1,test,False,37a1c03fd4e91e991a64f66f7ef46cd559b0e25f6bb7a74b17daa76306d8ed6b,f4532db57ab8940c
+252,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/272.jpeg,272.jpeg,CANCER,1,train,False,e9905d53f81d6883720a8cead7a3345ae948e2816b9bf2f231c4a6c8a9361eaf,a57b208c8e4ceb5b
+253,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/273.jpeg,273.jpeg,CANCER,1,val,False,748a2f1fd9e8883963014fb1f6e98c835ed6ab8214d034f2d129880df5c2b1b8,b99c5ce8d098cbb1
+254,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/274.jpeg,274.jpeg,CANCER,1,train,False,e9acd7417cc3ebb6c843780d2faed11cd0cd6a14765bda43ae997e871ffa493f,ea29a9051d8bf333
+255,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/275.jpeg,275.jpeg,CANCER,1,val,False,65cfd83f4e1030bd96a12b582c8af07f67f678bf5de547b74f5edefa38f45fa4,926a68baabcb9929
+256,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/276.jpeg,276.jpeg,CANCER,1,test,False,203fc8ad38477c7faf38ec1fe693d4eefef67524945a6afb9542bd025d861e95,bbcd663376407072
+257,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/277.jpeg,277.jpeg,CANCER,1,train,False,ca63a51067523a37b3b8e5f71f5d19847d7eaced96b350932907b48a3c96fcc5,cbd095052b1aeee9
+258,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/278.jpeg,278.jpeg,CANCER,1,test,False,df0291fbf1b96de9806df66549cd5b16433ed906342b17bb6695b5dc6635f85c,a6f6c446bf48d622
+259,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/279.jpeg,279.jpeg,CANCER,1,val,False,b83f51fca713294493f83a1503b163a080b389d58ede5e965e786fb4683b6555,ec87383338c704fe
+260,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/280.jpeg,280.jpeg,CANCER,1,train,False,e4737b63c762f2378b1000651f1bda9c1a40f92d21811a37d39df7d4fcf5c20d,c7792a6a23aea22b
+261,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/281.jpeg,281.jpeg,CANCER,1,train,False,2a12faeddea6a3321471ce5cbbc61ffd6deb48e30b30125f0353b5513f0cba26,e2a0ecf575774602
+262,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/282.jpeg,282.jpeg,CANCER,1,train,False,33635a7903bb6ea2f3f5a840adb6181eb6fd31fdf89048c86b601981225ac8a7,93d52798645bcd68
+263,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/283.jpeg,283.jpeg,CANCER,1,val,False,327c342a309bed2c1ea238bd774595a7e2eb9f02041e05b3695d729330c912f2,d54c2eb12176273e
+264,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/284.jpeg,284.jpeg,CANCER,1,test,False,8767ca9110879822ad6bfaaac3bef58ca3c20a1af8f26b137b0680a32907d26c,9b595079d878f868
+265,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/285.jpeg,285.jpeg,CANCER,1,train,False,6c03a8e8835b60736735b0b09b8441c42f6181bbea1fbd6181d84b844e21bea4,c1e14ff7c238d249
+266,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/286.jpeg,286.jpeg,CANCER,1,train,False,bccae02ef479683b82b1c3afc794b77639e0b59acb73519359f9a3e4208d37af,87a939977270d466
+267,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/287.jpeg,287.jpeg,CANCER,1,train,False,2f61c07f7017d7840dea6d91261fd61297d5b5d5cececa16a27414d8f5f1b65e,b726b65b61b24cb0
+268,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/288.jpeg,288.jpeg,CANCER,1,val,False,4d0ca4ab44ac6bce625f3d776dc45ca809654fdb8cbbc81d3a5c241130a9e2a2,ea3a4a6e71c232bc
+269,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/289.jpeg,289.jpeg,CANCER,1,test,False,90a36a4d6783382f93696f638d9debb69e4e163250bf2746961db795845bc070,da95c91bd749481d
+270,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/290.jpeg,290.jpeg,CANCER,1,train,False,9db7d060789e73bcc45d51ed28f929aa160d31bb34a7b7bbca668002a14e6295,ac2abab52a54cabc
+271,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/291.jpeg,291.jpeg,CANCER,1,val,False,e32fb2ec507d33e59778378ad0c1f5b85bdbd5b04848ac1a781332cfe52b6f03,dfb5f00de8792092
+272,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/292.jpeg,292.jpeg,CANCER,1,test,False,474c4830a11b67a67bb752cffe4d17d66f0c5214a7eab56ece9f3a01ec5e22fc,aa6c7a7c75b09407
+273,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/293.jpeg,293.jpeg,CANCER,1,train,False,38e2899cc2893ae2a6047e7146adc246e4aec218980c990c0c874f74c378a857,daa2911dc2cdc9cd
+274,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/294.jpeg,294.jpeg,CANCER,1,train,False,69932b87ebf90c7428d13dbec86676cd657eaa51f627b68bafb61c89c624a35a,8b7da5853646f2a4
+275,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/295.jpeg,295.jpeg,CANCER,1,val,False,f222acdcec003110058e92354a69b9e000db4ba54fd7c7e9b96f841266ced2bb,cfcbe0386d3934c4
+276,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/296.jpeg,296.jpeg,CANCER,1,train,False,5632987a8552051a570069e4cdac580372c5791d54e278466de588f5f4e80a86,cabb407f4c366847
+277,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/297.jpeg,297.jpeg,CANCER,1,train,False,4f90ce904f24acafec68745178f9f92d55e545d959e5984827e06ac63702eec2,ffccc0d84f313831
+278,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/298.jpeg,298.jpeg,CANCER,1,test,False,86332f7ff29f090ed3f006e6d3e2cf12e2e549c054bb2904a8056f6b6bff78d9,dfb7f0c8c284c698
+279,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/299.jpeg,299.jpeg,CANCER,1,train,False,7820095a70237adbb41bd9b1842d289d25e8cd67ef082722b66212a427f7e2e0,dd9ec0ccc7313433
+280,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/300.jpeg,300.jpeg,CANCER,1,train,False,6c9596efcf2a3953948c45062a6c7872cd02b19058f7365d4c6fa77a373f6d9d,8a6295cb9eb1929d
+281,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/301.jpeg,301.jpeg,CANCER,1,train,False,f97116a4bb6de75fe28af3e9dcd8ced0ae90c6fddc7793b916f863c852d79c92,ca5d235aa46b1637
+282,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/302.jpeg,302.jpeg,CANCER,1,val,False,74784074909fb2ddd2f2d0784d2a83ad00139746cc1df7f56ca72436681f3ab6,fe903a4ba86f8d21
+283,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/303.jpeg,303.jpeg,CANCER,1,train,False,6d22a867413ecd38a9ad0cf05872416739a84d1c4c1b784520ca7c37359e0355,af2425b2323af4d9
+284,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/304.jpeg,304.jpeg,CANCER,1,train,False,27de31c6b23dc91c580899eff86a748eca0e5e8b332ebb1512a9e38a40cd0dd7,ff05a1789761708e
+285,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/305.jpeg,305.jpeg,CANCER,1,train,False,f0b6b95ffabe50bb32f00acf62f8a64a949e1a2f43c2f8fe4eed5f0daae7c504,814baf69753538d2
+286,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/306.jpeg,306.jpeg,CANCER,1,train,False,f1ffcc83fdd30476f29d2dbc7fb4cecbdd5932fa94f37333d24c1c40c1c96514,df87f0ce4a3c6130
+287,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/307.jpeg,307.jpeg,CANCER,1,test,False,81770fd6b7c4ac70602a6fe070609fb6a9fd111d1343653e67587ce9c9a69bcd,ee15605e8f788c63
+288,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/308.jpeg,308.jpeg,CANCER,1,train,False,ffb21ab11d0cef152af1e68d13adec770808cb75458ad7c88573faa5aaffcac0,f597c78180d9d878
+289,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/309.jpeg,309.jpeg,CANCER,1,train,False,2dce11350691aa96b1cb5ee323c291494a5d912110f54c8d278df5429b2feeb8,986b2d9436663a6d
+290,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/310.jpeg,310.jpeg,CANCER,1,train,False,5ab11af6e8c1111e0a41099a5565639f7e6a157e86681aa21a1107849cf5fbca,8ad295697b753492
+291,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/311.jpeg,311.jpeg,CANCER,1,val,False,0594e3339ea7a30eee8fba4db2c2c2062c1af20382c3ae03e2a46cad6785a7a4,ca672d929d29b42d
+292,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/312.jpeg,312.jpeg,CANCER,1,test,False,13ad16823ae30046c1576d5c7f79315ba386694e3483b0b9b67aa41f58b763c8,8a69a59e17659734
+293,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/313.jpeg,313.jpeg,CANCER,1,train,False,25ee3706feae1be61a83087e62ab4c647931c84373b4cd4913ad2b40b9447ad1,ff0af692ec26c068
+294,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/314.jpeg,314.jpeg,CANCER,1,train,False,74e81b0f4f2868f62bede28008741ebaa1a363b0b5069fe5a28ad92d717fdebb,aa94a5d2b65b1e64
+295,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/315.jpeg,315.jpeg,CANCER,1,train,False,34d7fa961bbb68c1e7505bdd194672a70160f5d92b598dbf3bf57986295f8548,be91a474d552d869
+296,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/316.jpeg,316.jpeg,CANCER,1,train,False,2e11fd308f628144e458e555133e822bda05377555b1794db109f6f0a62583c2,d7daa821a48ea5d5
+297,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/317.jpeg,317.jpeg,CANCER,1,train,False,e9c4cb0cac26d78cd9b2a2531a4c75c67d96c19c177567180b14338a6de4bd36,d2a4e98bc23ecd38
+298,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/318.jpeg,318.jpeg,CANCER,1,train,False,1fc32b2444d4543bc1ede2dca89a2840ccac96881cc4522161ff5e06646e2d2c,9fc5d04aca8f8b2c
+299,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/319.jpeg,319.jpeg,CANCER,1,train,False,6fcdda41d0fd7718a3a7aad0933a4cf8ca4968ffcdc6da1d154204085a02c9bb,9972d41867c8d9cd
+300,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/320.jpeg,320.jpeg,CANCER,1,train,False,78471d271a9e96856154f86129b2f5241d302645a2faabe2cb14f2c4e873fcb6,f62dc2d28487a78b
+301,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/321.jpeg,321.jpeg,CANCER,1,train,False,fbf6c37e3d445ee55e21b09d4425fb639c62cafb2ac5d7ddee0fcb8f53e82bcf,d1e196dd58799514
+302,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/322.jpeg,322.jpeg,CANCER,1,test,False,59be231e57d3cd09d2a2fa5961f346e717967a16e5fadfe05e89e8cef7160c31,88207f216f758d76
+303,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/323.jpeg,323.jpeg,CANCER,1,train,False,c7779eea080bacfc9b017ca479326c08bffd4af132239bb91dad97876f7239c5,8a44955b5a796937
+304,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/324.jpeg,324.jpeg,CANCER,1,train,False,ce868240dd2c462690e0f5445d324a876911eed638a4bae25f1ef99007329876,8966379b92c99b26
+305,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/325.jpeg,325.jpeg,CANCER,1,val,False,7c88ef11a6706488f3dff235e72d7e7795275cae81fa18fc31b1e775ae0d4d15,c131d15ede2b8e91
+306,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/326.jpeg,326.jpeg,CANCER,1,train,False,fe1b2c6970590841352c6a11e8a000a1960eed47ac7f460097cb3cb1a88a4f63,d6d24b0f7c0a30cf
+307,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/327.jpeg,327.jpeg,CANCER,1,train,False,e6111b2e823f2bd0037ab490907085f0a89ba065f48e2da43f4f5803f1e4543d,8a44bf1db2d04bd3
+308,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/328.jpeg,328.jpeg,CANCER,1,val,False,f400845b61678ee98889e6d51ae7f877d3fe46612d22d0a45709be0d8f3f883c,8a6985965a938edb
+309,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/329.jpeg,329.jpeg,CANCER,1,val,False,6d435eac7ce7ac6d746bfbb5ad50d85db896543efe59989e95f28dc71c7359eb,8dfca0f80f7124cb
+310,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/330.jpeg,330.jpeg,CANCER,1,train,False,85af20eeb80743cd053b21517a676dc0d9ff7a5f3dedd47fae21e17508f0e1bc,8be5858432cec39f
+311,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/331.jpeg,331.jpeg,CANCER,1,train,False,93ebe3288dafc55c0b54ea4909e786d58a6c2cbca06f74270ff9a77b3ee23433,d3b4c8eb82e46565
+312,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/332.jpeg,332.jpeg,CANCER,1,val,False,94be81d8a42ba54cdb4b6be19db2cf7d20da74d2232e5d860902b39eea120af4,a0b4d5d29b798d38
+313,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/333.jpeg,333.jpeg,CANCER,1,train,False,e827aff77634ea03770dab165f99ceedd9c346e6685e2ca40c488e28355c6cea,cad52a2c8a9eb9b8
+314,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/334.jpeg,334.jpeg,CANCER,1,val,False,8dbd814d0390e5814ddb28660a32832ceb4723419dba55da239ea9b50fc76b30,a96b949596945e8b
+315,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/335.jpeg,335.jpeg,CANCER,1,train,False,d52536f8596683b2a7071523b1616ddeef5e77a8d5d3e88d693222503ad7fe69,d415d5d8d6e0dac4
+316,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/336.jpeg,336.jpeg,CANCER,1,val,False,4c69b7cfee1001b610fdce1340be314544ac7bf2f2f65803d72eb1d02204a346,b922ed2586b0b6b6
+317,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/337.jpeg,337.jpeg,CANCER,1,train,False,2e7d05af764eb89a273e39f4217fe32d274b0a28be9adf8173669f25baecf975,8acb8f25953d326c
+318,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/338.jpeg,338.jpeg,CANCER,1,train,False,e844f3b8157e71ad6581f2073404cf05f0e8ee404d593bf065d737df656d368f,9ea5619ec598c699
+319,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/339.jpeg,339.jpeg,CANCER,1,test,False,640bc1dc96ae4224f424e565e24adfc351661ee30a5270557dffabd92d12e5a6,8bab9e9718b591c4
+320,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/340.jpeg,340.jpeg,CANCER,1,train,False,f3075320cd252d8d31f995909e1704e7c8456b9dc3751360e17ad4442ff6deee,cd325da870cb3c36
+321,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/341.jpeg,341.jpeg,CANCER,1,val,False,87057062142b800268301955676853a68a5496b142e3b97fdb3e513088533866,c0aac7eb926d9686
+322,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/342.jpeg,342.jpeg,CANCER,1,train,False,dd280e12dbcf3bf070074e7762723bb95dc34823ce1b6b50273c2c87a4d68c0e,936ea8996474b2da
+323,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/343.jpeg,343.jpeg,CANCER,1,train,False,885916477f2eb4e74ea9121ccf29c9879d37e5a72db39cfeaa4dceeb2759f7bb,91bf28949195d5e6
+324,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/344.jpeg,344.jpeg,CANCER,1,train,False,1901d5e5a74feb0a44ae377a160d6c87b5f7c63261ca47e8a424ee720e27c0f3,8a06fa77c9544f64
+325,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/345.jpeg,345.jpeg,CANCER,1,test,False,361f882dd0f56111758e4b1d7c0df33eccf1b287422cce6e9e4b5a83decca59a,a3df073c6fe8c0c0
+326,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/346.jpeg,346.jpeg,CANCER,1,val,False,2b9ff6b68aed0ae5fdf290c76f8ee749dabd9ccaac39278242c66d3707e690fc,d00387cf971f1e38
+327,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/347.jpeg,347.jpeg,CANCER,1,val,False,235306c57ede0007b4fe769136cff07b5f75d4301844c670013898099c361079,d23d4fd24222c9dd
+328,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/348.jpeg,348.jpeg,CANCER,1,train,False,35cc02a8209cafa170995f01e4118a4af8ac2d3d3e61848061211003a13c6da3,92561336d7799961
+329,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/349.jpeg,349.jpeg,CANCER,1,test,False,b0a3f9f7a5fd3437617946302dea3f5dc8531038ceaf5854ba6ec6897da332d5,d5aa5beb08711ac5
+330,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/350.jpeg,350.jpeg,CANCER,1,train,False,fd3cd5c63b0995ff3c3fdc661d7a7dfb938afcdf327cbcf6934201a785894dd0,96cda01e85b19e5b
+331,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/351.jpeg,351.jpeg,CANCER,1,train,False,c92b14364c6e685129d0dba4622e8e310b33a7317e68ee355f2f8fb55600c9b6,82cbcb05cf25cc37
+332,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/352.jpeg,352.jpeg,CANCER,1,train,False,58087605809ddb0b00fb69cb964d2149517eb7a0ac0357141283c23e3c31d9fa,f8bd6091954b1be4
+333,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/353.jpeg,353.jpeg,CANCER,1,test,False,adb1c99d7b70b410402c0bbc5f4a4fdfee7037e7ed88916a6270f527df8fae09,93757a83d53f6030
+334,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/354.jpeg,354.jpeg,CANCER,1,train,False,0c882c82522cae76f63c7533b9cb9843c214d707ef15a59a63d0d90150288fb1,d9282657e91d3876
+335,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/355.jpeg,355.jpeg,CANCER,1,train,False,df6074a4b5ddae85bce74f41f46c10d6530246ed57487da5c8052cc837f7d274,afbcf580d1948ccc
+336,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/356.jpeg,356.jpeg,CANCER,1,test,False,deac6ed7285fac02ebdca202413d033026893b6ff7e66e54a94db8b8e8147bac,84e207094fab3f67
+337,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/357.jpeg,357.jpeg,CANCER,1,train,False,d7737cb82cddc3283ccca4c47de90693a9220247c2d2351fd6f8cf2efb0269c7,cf357adad0d0e0c2
+338,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/358.jpeg,358.jpeg,CANCER,1,train,False,ba9f319e3ba1e30119fb61c061d528cb11802df615dc8e58664f6b748dbc801d,961f4b8f7a48e096
+339,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/359.jpeg,359.jpeg,CANCER,1,test,False,94cc6d98a8932a7ec926a43544dc7919aef1177a500d864da65519ec96a1c4d8,bdbd5800d94093ef
+340,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/360.jpeg,360.jpeg,CANCER,1,train,False,c0ef1f91802a2004cd8c63f3e55454a72ac27672480a30a974a99b3b4099c4fe,ea35c1f081969797
+341,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/361.jpeg,361.jpeg,CANCER,1,train,False,00316ed452638a9bb8336adc896e05d24aa4397485e3e24ad0350a3b9fb3f7a7,d54a3f28b4c2b44f
+342,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/362.jpeg,362.jpeg,CANCER,1,val,False,b6c4c115b0a099c55cd6bf52f14991a0ad5206704c56d52d16400a98dcf79d75,86633aca3da9e638
+343,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/363.jpeg,363.jpeg,CANCER,1,train,False,2a8795dda3337acafe290ce6cb870440167b378f2f7f1ebd1eb160a0a22f708d,d508571ddd1eca0d
+344,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/364.jpeg,364.jpeg,CANCER,1,train,False,e4dd2391127ae07bc342321ef42fe7a623b3de8927aa4cbb00a2ab863b5b488c,a56a9aa5e5d05e85
+345,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/365.jpeg,365.jpeg,CANCER,1,train,False,7a08259d0573c7d9f8d23ef6da5d124caa68802bc0f59dbca06a1af36abf2cfa,94b87ba169979ac4
+346,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/366.jpeg,366.jpeg,CANCER,1,train,False,faef65f3f7fd9fd97a77d137ad4cd458887a93c2b19009c81591616d84a05cef,de28c30f09f07aad
+347,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/367.jpeg,367.jpeg,CANCER,1,train,False,17fba00d9e64179bee562b147bca7dff86ebfe0495bc156a4d39988fda36724e,cd94ae62f03793c2
+348,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/368.jpeg,368.jpeg,CANCER,1,train,False,e31787aac52ea8aea24e8af4029f73d3dd42121ed24f2763ea01a8c4ef113296,ea4aa96dd5eb8034
+349,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/369.jpeg,369.jpeg,CANCER,1,train,False,d5e1f86c3965d4f64397edcbbec96d0fe8019650e49afdd29bc23d8bb199a70b,c972ce66b988ae62
+350,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/370.jpeg,370.jpeg,CANCER,1,train,False,2e30a8039780bcfdc8702431f08056d54c4b6b20daea4e278f357a87a25f2801,8286841f8f3c5ed7
+351,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/371.jpeg,371.jpeg,CANCER,1,train,False,2643cec009912f89cbf2202964a51f606d6ebddb8b53a84b646745b8c701074e,a781d25cd90cadf2
+352,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/372.jpeg,372.jpeg,CANCER,1,test,False,890302de328b56d9da5cf9e76ac04f4d6ce3755c07f205e4487f25d26c3c9c2f,814337f1b1849f3e
+353,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/373.jpeg,373.jpeg,CANCER,1,train,False,7e852b1a4c67aa14fe7ab53c63cab6887a1b85d9be0b02d2155649b633643106,d16852b32ea5b999
+354,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/374.jpeg,374.jpeg,CANCER,1,train,False,d4e3db3cc7007c0326e028b41ff159224326bcc705d58b5decde0e1102220a3c,b9a9a64e4c64b19b
+355,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/375.jpeg,375.jpeg,CANCER,1,train,False,94617f1255f49fe97877257fc1d013c14b07ccd1f2282ab560c1bb6c368eb2eb,cb3fb0eb343ea060
+356,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/376.jpeg,376.jpeg,CANCER,1,val,False,be75d5174535bf42c196f0e41bd4bd576b0180b4c0f386538e700fb52bafdd23,94e87a216bb32967
+357,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/377.jpeg,377.jpeg,CANCER,1,train,False,549e95a02c9fb02c3c232f7a002f3aafc2e9a8a56dae39b7eb4f816fcfe813a5,d13b7a7e2d9064c8
+358,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/378.jpeg,378.jpeg,CANCER,1,val,False,8ea353d19d4444caeed222acefbae83c0ec5a6931c7d73d8f5b79a9d12aa9ba6,8f57de2cc9c48683
+359,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/379.jpeg,379.jpeg,CANCER,1,train,False,bf9c2069f5a2ca6733297e2463609c4bb4b3fbf9dd80a68e965b23d82ce87293,ad686c0f90d9923f
+360,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/380.jpeg,380.jpeg,CANCER,1,train,False,afd891c4c2fe917c5bce00bd595d3310abcf2b96bc4b30547ec88949784d0ddb,879d4ac3f353b070
+361,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/381.jpeg,381.jpeg,CANCER,1,train,False,514879e02dcf636cae5037fb999fef404833cfb3bd586f31afdea25b418a7cb2,923bd9ccedc46c06
+362,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/382.jpeg,382.jpeg,CANCER,1,train,False,4fcfdfa025ef3c20b68a849f9f1d07ddb2ec79e4c08858f899823af0941a8437,d2ad84c1693e6b72
+363,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/383.jpeg,383.jpeg,CANCER,1,train,False,6e0c5aa469d519b3d0919d2cf8453979b0b3a609d8f6048f1282b5e6b7059eed,da90f06365a7b781
+364,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/384.jpeg,384.jpeg,CANCER,1,val,False,10c39b282218339c4bca082478f74814cff900bea42aad50f1341e22e5d59726,c0c497c31f3fca0e
+365,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/385.jpeg,385.jpeg,CANCER,1,val,False,8f11e59e33244e564661adcf232d5e467123315e4bbcf5869c151873a69e385b,95297a9495d2c3cb
+366,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/386.jpeg,386.jpeg,CANCER,1,train,False,3d19c138066b7d97c486872d007a18b0e9108982843643a9d9544ed25c8841c0,fe8a8235d0f2cab1
+367,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/387.jpeg,387.jpeg,CANCER,1,test,False,18c993d36ccd884bb755affb58a5109d14f8fe023be4fe7deb1dd493e1bb4d9f,b8a579d4860fb58a
+368,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/388.jpeg,388.jpeg,CANCER,1,train,False,4625b6737486909b968ebb2cd219a15d30aadde59f9b6bf5ac57cf4572178d78,ba84a75139fa941b
+369,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/389.jpeg,389.jpeg,CANCER,1,train,False,2689f5bed80c2d989bf711931d07f91fbfedc8fc8a23ed62a79c33d45afd3a01,d0d0a37f85629c6b
+370,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/390.jpeg,390.jpeg,CANCER,1,train,False,5a04e56828f204313e81cc898ce7398c3007175e8445f8251bd69bf1176b1092,9db288fce643f00b
+371,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/391.jpeg,391.jpeg,CANCER,1,train,False,0668458a1a99844c7dc40671ad96d0575ee74d7f5bf5b53466c193e4bc9f21e5,d5f06af32151b45a
+372,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/392.jpeg,392.jpeg,CANCER,1,val,False,4111f178d95a18ad3f581da857bf34406e7e3ae743df2a6894c26edc2d3a7cdd,9529c8b501776bea
+373,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/393.jpeg,393.jpeg,CANCER,1,val,False,16170c81613220ac75f9b8ebfcc848532b29a3fd3f2ec3f8353db44ae937f764,d76d50520acf0f1e
+374,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/394.jpeg,394.jpeg,CANCER,1,train,False,2bf6e129ec42c762f421b7b729405ec61f78991a13a4f33dcd06155cb2e01f59,c0432f6a2de52ee6
+375,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/395.jpeg,395.jpeg,CANCER,1,train,False,edb4d933c43d4a98ac0d85f942bf2ec1c3800d93a5d0806fe604f99ac6d5b717,c43a3a9599cc9acd
+376,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/396.jpeg,396.jpeg,CANCER,1,train,False,02225cd2fe26a91e6524e25f76ddcb6436ff76388529e1d1bdefeb61921ddf2f,806fcba595b5047e
+377,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/397.jpeg,397.jpeg,CANCER,1,train,False,29a859ed5ecf2a405de6df5b7064011278afa14c6cea03ae0224d8f9c48bde44,82ff81bc55d492ca
+378,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/398.jpeg,398.jpeg,CANCER,1,train,False,ba8da6fdd82802a596ca72bcf12a50cb50e533954c17866534354e627da8858b,d6d84dc4708fd04f
+379,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/399.jpeg,399.jpeg,CANCER,1,train,False,33485b4d82b448d9f6ae9b8d803863236d616808541688c4f26a8c6560b54ac6,df8794da91340d4b
+380,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/401.jpeg,401.jpeg,CANCER,1,train,False,e50385c1dd2d6bc819f51bc4657d144ea329ca5b4d1811d4fa5bb7652400a96b,c02f91852b8f3d9b
+381,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/402.jpeg,402.jpeg,CANCER,1,train,False,6194137b5b302437a6cdbe9a3304e3e2df036f99af1ca3ee479781f646816852,cd2c12a4cfd2ce96
+382,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/403.jpeg,403.jpeg,CANCER,1,val,False,634260b3a8523df4ecf49286c92535c91625205f4ff217c8758ede34ab7a8c7a,82f0ad8ad7358ad3
+383,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/404.jpeg,404.jpeg,CANCER,1,train,False,f89bc46f4efe5eaa0622dca7d09b17fd847c136f28c5883cdf5ac2818a4f5737,91bfc0dc9131da36
+384,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/405.jpeg,405.jpeg,CANCER,1,val,False,4090bac7798be8a732a10fc74f22558b6d0f9b8b3c7ac17a372a4f51327445c9,d5919dd730cd9468
+385,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/406.jpeg,406.jpeg,CANCER,1,train,False,4081a39709bb9141ec79ae8ce9548c12d7ef8ec82b43f692ead3fd3b79091a1e,90ff209cd788cae9
+386,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/407.jpeg,407.jpeg,CANCER,1,val,False,0972fee0ceef8d100b69a5401f2a1bcf7312c6bb24244ee492e387782e66c660,af04f09b03798fe1
+387,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/408.jpeg,408.jpeg,CANCER,1,train,False,8a960375b74217ac116ac47185a9d0d82d50c692e1aaee6413f273cc4d9b1c40,80c1efcd916fd831
+388,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/409.jpeg,409.jpeg,CANCER,1,test,False,0d073cceb1343cba05e4ccf5d955e97b0da7105346f19642577e24bd3d8c709d,caa08097bf38cb37
+389,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/410.jpeg,410.jpeg,CANCER,1,test,False,2a601de9a9168b2ce4ef760df64f4f9ac08e60be03774db385a965993c770282,eac9e95a8935858e
+390,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/411.jpeg,411.jpeg,CANCER,1,train,False,2cf25f0f8c2fec32686a8924f2b2d091a102bb13e1e02642358354d3e2b6aea5,e9b6c23d8dc16916
+391,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/412.jpeg,412.jpeg,CANCER,1,test,False,e13531d008452ff321ae45b1d99ed61bf50ea042d59b8a36ecd19aaa95d7ba62,f13958b40b9e2b3a
+392,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/413.jpeg,413.jpeg,CANCER,1,train,False,08e66598b5ba00677e293c4149626ebd2dffad1252b5605e8a6086a66f4ec30b,def7f4ca2030a839
+393,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/414.jpeg,414.jpeg,CANCER,1,train,False,2d973c97f4425a35c823d247ad92b638c38bbf05c73300fd1d1ec6d082000fc2,d5f29cc4bb65c822
+394,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/415.jpeg,415.jpeg,CANCER,1,train,False,073ef183ce8d169fe12f9bf4c6639b7c6b3d98fcea09b2de1a4e19f577941891,80ed8776724b398d
+395,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/416.jpeg,416.jpeg,CANCER,1,val,False,9439e8bddbcc60935ca2ed08a50e2afa67012c69bd6b2f4a53cd6dcc0692d472,daea81a19fa59c34
+396,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/417.jpeg,417.jpeg,CANCER,1,train,False,a0e782e0660a0b6386580f1f4686603bd654ec6daea278e77c454fc44094c68d,8e6d859554d292db
+397,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/418.jpeg,418.jpeg,CANCER,1,train,False,0e35c0296647fb03b555e737b7ba06c52a69de83df724efe824cf3fb5887f6a1,fd3ad2f289648349
+398,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/419.jpeg,419.jpeg,CANCER,1,train,False,250e00e01c94e0a75704588dc5aa063c3bf10f4752c2bf188b323244be2ff6ad,d56182c70f6bdc94
+399,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/420.jpeg,420.jpeg,CANCER,1,train,False,6c543a7ceebd2bb52fc8c975fd4574b679954640adbe0e6872ab56a7bf8f3cfe,c23d593c13243c7f
+400,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/421.jpeg,421.jpeg,CANCER,1,val,False,58685ed8fe6164c81254e8efbd2e1f24997e60ae3d30463d2418e66268e579fd,9fecf740c6cac288
+401,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/422.jpeg,422.jpeg,CANCER,1,train,False,ffa2cc49f09e29306bc8049d02319426c8aeeb6417b463817b708ed49efa7a6a,b519aa8a59f243ba
+402,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/423.jpeg,423.jpeg,CANCER,1,train,False,b96c3c43a6925d41d830c32ab9ca8f83cde2cfe167a235f642532df77b05dd87,a5536c4e429b1bb9
+403,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/424.jpeg,424.jpeg,CANCER,1,train,False,78173b79e3e4fbabcbd8d1d473286094e0d3c5e9ddc0559ea573fa8501037824,daebaae808a761cc
+404,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/425.jpeg,425.jpeg,CANCER,1,val,False,e72814dd8e6dbb7b09a539a24acf37546c05263d2273613ed18831a008b19594,9bd439d6544a564b
+405,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/426.jpeg,426.jpeg,CANCER,1,train,False,f453e4b16bf40f040bc04fdcd5ecc3809e54d609d7876b8e65819ca4d1425c58,a7495a362c89bba6
+406,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/427.jpeg,427.jpeg,CANCER,1,train,False,cc41d2f9f589bf63bc1bd5d39f4e9194d897af2148ffddd30e6904b12f8f8af1,d5958b72591268f6
+407,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/428.jpeg,428.jpeg,CANCER,1,train,False,e1dc61c3681828394d19dacc1b9fbf84459a1545a345f57490aab072095348f2,9f0fc0c7c3f40d70
+408,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/429.jpeg,429.jpeg,CANCER,1,train,False,9e9335878ab5c984c5732326f288ae7e025bea795a4f5619c90883e90b77bf32,aab572198d728e63
+409,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/430.jpeg,430.jpeg,CANCER,1,val,False,e6572d5daff89ffa23ff9c43efee84cb76206ba429376881b3027f33c4875aef,bc1cc49b9323cec5
+410,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/431.jpeg,431.jpeg,CANCER,1,train,False,f1e3c91e994ce99ad433a998d9be59d361d7102aad20b9e2df174c236925c3a3,858519ff5692d82d
+411,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/433.jpeg,433.jpeg,CANCER,1,train,False,62629cb5988b29c52e0d6988601f23a7adb3f4e445ba05f53723bca5f1881ef2,986b8635f156d29a
+412,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/435.jpeg,435.jpeg,CANCER,1,train,False,4249f081abb6d54430839351eeee7df9e0f698e5f28b58a64410d4b25abd3659,cb503f0ab46ada69
+413,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/436.jpeg,436.jpeg,CANCER,1,train,False,5b281550d94c7a7ca5acbbaf8144c95470c03eed09357cc7e43372bba398ee7f,c0dbb48cdbc42d72
+414,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/437.jpeg,437.jpeg,CANCER,1,train,False,67a9466cbe1e1a5d917fb62a0259b5f4e4774d5e8ce0d8f53ed5f3c4e11a0625,ca542bd627ca69c5
+415,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/438.jpeg,438.jpeg,CANCER,1,val,False,e17bd49ff9e264ee25d36dca36908efd453fa249034c83d922f87170daa9e337,e7e83093ae589e32
+416,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/439.jpeg,439.jpeg,CANCER,1,train,False,5c8e349461be3d95ba8626855816e99d7e54130b5ed7e876f6d232f75b3a568e,ea31cecc9696a439
+417,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/441.jpeg,441.jpeg,CANCER,1,train,False,25c380fd4447472fa501fca8241bd3b0039343a8ef67acd95f0c48e97e7b4d40,c843ecf8d1113f2e
+418,near_phash,pHash Hamming dist <= 6,2,Oral Cancer/Oral Cancer Dataset/CANCER/442.jpeg,442.jpeg,CANCER,1,train,False,8335e7c15212a0da14a6fbde9f9bd4068b52c3e25a7f0895dd1f05cdd6d0bcb4,d385d07a4e64983f
+418,near_phash,pHash Hamming dist <= 6,2,Oral Cancer/Oral Cancer Dataset/CANCER/478.jpeg,478.jpeg,CANCER,1,train,False,88c5aa1da59cf28e8390b1685e216ed2b60eb70e4802ca453e55c881b1d298eb,d385d07a4e64983f
+419,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/443.jpeg,443.jpeg,CANCER,1,val,False,bdc9ffa7d85155a5eeeae926bb6590abdbf37dc084e82b8f29a2c9ba0822e400,d80b9bdac4c61b39
+420,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/444.jpeg,444.jpeg,CANCER,1,train,False,e312228cd8a3c4cca7cdb1291c828a5df6bdaf9472e178695e98d6fe39f7da12,ba5dd0698c2336d6
+421,near_phash,pHash Hamming dist <= 6,2,Oral Cancer/Oral Cancer Dataset/CANCER/445.jpeg,445.jpeg,CANCER,1,train,False,8cd43a3aacb1ba9064e7a237bd30fcf6cd51fb6a1a3ffa2abfbbb428d068b727,e794b80381bfdc68
+421,near_phash,pHash Hamming dist <= 6,2,Oral Cancer/Oral Cancer Dataset/CANCER/494.jpeg,494.jpeg,CANCER,1,train,False,b85be556aaa8ceddf1ae35f8bbe7809715c6bf87e532f1579f81a6cfa71d7446,e794b80381bfdc68
+422,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/446.jpeg,446.jpeg,CANCER,1,train,False,cdecd8cc0002d903f3d46eb0783da7c19457d5d0bf87210fae6a48f7bf299394,d2e41a9de5310d3e
+423,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/447.jpeg,447.jpeg,CANCER,1,val,False,4330f197792efb018dd3e24c4ce69903bb3c42dc920bab5594ea72c70fb53b27,c814a9f59d6698ce
+424,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/448.jpeg,448.jpeg,CANCER,1,test,False,00ad137486f62462961ff646122e36e84fbd2c072fcbf1225a903355cecb3981,974a9981cf3e2d32
+425,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/450.jpeg,450.jpeg,CANCER,1,train,False,14156e6b0d98883879702a1ef601d6f8bae186ac5a6f83407460f944c4e8bdd0,bb3f808864b59c3b
+426,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/451.jpeg,451.jpeg,CANCER,1,train,False,52264f9f951bc8f2b7bab64c16ca6f03fda0e5268f83c48fe2cd9d5f173e5582,d4aec3f09495526b
+427,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/452.jpeg,452.jpeg,CANCER,1,train,False,11543354d185b8da5f5681d0118344eb7963fa9f2b155a3dafa154c33167f5f4,d6d4c0e34f4b341e
+428,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/453.jpeg,453.jpeg,CANCER,1,train,False,e08ec3e10d6c64d0b2b195f3980c59e73fdce36bbe11a528b3dea842ac200c87,d1037e07e09ec7f0
+429,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/454.jpeg,454.jpeg,CANCER,1,train,False,0305eb80cb1391bb2aea5374eb39b56598d5d41e03421b594a66335d7dcc34db,9aeee8d1a423165e
+430,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/455.jpeg,455.jpeg,CANCER,1,train,False,3770e97fc39d3daee25e63a5f285505a2e7ef8d9c7e4b600ecf35cbbf70f115d,80cb6a8fc03dc377
+431,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/456.jpeg,456.jpeg,CANCER,1,val,False,9b072d37cad6894ad85f6553cc9052ac5d532968483004ff5196da3f852830bf,cbae2e35acb43432
+432,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/457.jpeg,457.jpeg,CANCER,1,val,False,98c7e9054b24b0f697f914831689c1af0ac51ebaf0f53a114f331135fd4173b0,f3e2c44f09dc5b48
+433,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/458.jpeg,458.jpeg,CANCER,1,test,False,bcd62a774cb7f0c51fe2e137f3ff40e208ae4a1d6401a45f9069ce0df4a087ff,eac7959e681824e7
+434,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/459.jpeg,459.jpeg,CANCER,1,test,False,1f4b20e47855a6ce33f9e0212c028b8e1ef5894a6f462d3a9df5482687e82e24,c3e0ff9c8e856072
+435,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/460.jpeg,460.jpeg,CANCER,1,train,False,ae756770cfb3c8acf6cba4a2cf2e81d7f45393493cefdef2aa8f3c681200fc80,beedc4178e7c9802
+436,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/461.jpeg,461.jpeg,CANCER,1,val,False,4bd4f040a273d70f3bc1fc39a57b4dea63ad6a4f310acdea0201f0c53e1d57a9,d570da6b27893436
+437,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/462.jpeg,462.jpeg,CANCER,1,train,False,2795f59048926b72bd6f2d9860d302580acb856a47d33610f0df5a8c608e6515,bf2fd072a5e11ac0
+438,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/463.jpeg,463.jpeg,CANCER,1,train,False,dcf5dc0f73ba368e0a23c297908ae2186db8ceef554aa65422ff18db5ace5168,8a746a43e5cacd9c
+439,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/464.jpeg,464.jpeg,CANCER,1,train,False,91394589059ad458594220c0be5ff6a60403374cd78b89290facbb14075a8f17,c0fd93c46dd23592
+440,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/465.jpeg,465.jpeg,CANCER,1,train,False,1385dfc5d8dd551b84dc473ea4f5f30e0b98874b4b030296f043ea7ab9a7ce0f,db3b7c40b730b132
+441,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/466.jpeg,466.jpeg,CANCER,1,train,False,d6fa2ed4ea9d69651d1b077ec332e8d0def16aebc904c4a6defd6455712e6b76,c62f91b5c6c4d0d3
+442,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/467.jpeg,467.jpeg,CANCER,1,train,False,2341a8eefc5fa07275e01465c28690c64d579b44477148657fb8bf3527c625fe,8e0ce1cfc8e0cfe1
+443,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/468.jpeg,468.jpeg,CANCER,1,train,False,00d017765f86470054869d3ece02f08170bfc00f9310c5aaafd31ee0236a4a1b,a29b23cd952c7d61
+444,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/469.jpeg,469.jpeg,CANCER,1,test,False,d100d4d10b6eb22becadf13d6c131be81b9befdcbb433983c5792c7ada15c3cb,8e78007f7160c79f
+445,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/470.jpeg,470.jpeg,CANCER,1,train,False,ec184781db4daf1c8907042a0c28e1a74b5952169c1acd9303735ba504954337,ca42bda58293bc97
+446,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/471.jpeg,471.jpeg,CANCER,1,val,False,5785634bd197a3d434d08c7e5c84152ad92b97c704d6ecc6d0dea689d6f58396,d66038e187cecccb
+447,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/472.jpeg,472.jpeg,CANCER,1,train,False,eb7956a8ddfe86f21d85ebd02b0c4d96e73ce1c1b44b33b852dcab93754ba453,b83d5363616947e2
+448,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/473.jpeg,473.jpeg,CANCER,1,train,False,ba46e2ea45850bc908674c114150f5a2d292ac5fcb4f2c55aed9d683789f4e6d,d2d5292a1b3d1a3d
+449,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/474.jpeg,474.jpeg,CANCER,1,train,False,d1cffb31514fca639527f879bd4ef3491708cc56beea7f2e726b24acd63efcc6,e74bd5ba0588547a
+450,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/475.jpeg,475.jpeg,CANCER,1,train,False,7f869d21be8b759967479ba7e42d26c6ed3bea8e0d7e4d45db3f0aadc296cef1,af61fc9ea4a69098
+451,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/476.jpeg,476.jpeg,CANCER,1,train,False,4feb10a865f273823a8ed9a1df466549634597fed2318f00c29917df7f4d03c1,c5501f7dfd5160c2
+452,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/477.jpeg,477.jpeg,CANCER,1,train,False,87b753d6bec00e3449c3e636f8236446afb57b4bddfd6a2747ea42eadda8d0e2,f84bc62c89b18abb
+453,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/479.jpeg,479.jpeg,CANCER,1,test,False,34c858f1d908facc61ebd511f3d0b42d1c1b47ecab723d55223ea9863327f323,d04a5f3b7a68e02e
+454,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/481.jpeg,481.jpeg,CANCER,1,test,False,ea4bbd323b8baa4736d17da4263b084e78db5647612970e2c9905474e0769f76,8f60a2bd2930ed79
+455,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/483.jpeg,483.jpeg,CANCER,1,test,False,58b89ccfeb148cd1645228ba36dc5c0f71c47871ca38a48fc1cb4d290ef05604,bdf5e42293ca2495
+456,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/484.jpeg,484.jpeg,CANCER,1,train,False,bf9240baf5d6735381a4ea66e91f66910d635818cf3d09f7bc28622d767acc99,faa94fc58ac58d42
+457,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/485.jpeg,485.jpeg,CANCER,1,val,False,77bbf47491444e67809754f6eef128edc6f615e3557ffac98b9a936226801a9b,b6fb2950e20ac72b
+458,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/487.jpeg,487.jpeg,CANCER,1,train,False,b7d30f6c78b573727166f3abfac51f19708f61d1dcc37c836e451f1edc2f546a,f2d0a56a832dca67
+459,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/488.jpeg,488.jpeg,CANCER,1,test,False,d3516871a8678802e8cf3344f73f837bb7512d1df3ecc6467c4e12052cd32062,bf08e46ee66c4c29
+460,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/489.jpeg,489.jpeg,CANCER,1,train,False,0e2169fae4111d9009028e334b094d506a9ae19b0eb5d268282a0ea08920bcd3,b0508de37e3333c6
+461,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/490.jpeg,490.jpeg,CANCER,1,train,False,3b6f1873e088cb0ab4fc9aac6fd0df02295b2b2abe8d58a4e565cee3f1e0a576,b796a08590e9b5f2
+462,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/491.jpeg,491.jpeg,CANCER,1,train,False,a08f851902bd40348fbe414ff709feba24f01c082a8cc766fe43482246f17b62,df8dfa1ae132a160
+463,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/492.jpeg,492.jpeg,CANCER,1,test,False,25e21c77bb3716055323ac766407d00a48d65008038687d0e94d696e3cc21cbc,af0be8f6d090d4c3
+464,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/493.jpeg,493.jpeg,CANCER,1,train,False,27c22a8464d05f28e88496f33d356f08a80b908493677ffa298c456d9354d859,9f6f06f5c8c0e710
+465,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/495.jpeg,495.jpeg,CANCER,1,train,False,5215596ed11acfc6be468fdca8a0c1e68a6a6b6b676d02be8ff5dacb11565368,9bc468dde5f82431
+466,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/496.jpeg,496.jpeg,CANCER,1,train,False,de62ce3cd524f8892989c5c6d01145f3407ef57a2fd2b4ee27406496d602ad73,b57d7e7060e182d1
+467,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/497.jpeg,497.jpeg,CANCER,1,val,False,5ee8e5d20212877f85a36fe9fba1b45370cd78fff884854dbc2cbeb1d54aeb7d,80318d771774d36d
+468,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/498.jpeg,498.jpeg,CANCER,1,train,False,b0ed9969d296d76dbe2990e5fc4956f5c66b05367a5b294acb78f06bfbd1b933,85b02eab4fca3c9a
+469,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/499.jpeg,499.jpeg,CANCER,1,train,False,b588c43c6a4c6818f1fd0b57c66b796491b0aeb1b050b1b7ad2f0b936682d5f6,95d5326b52dc9266
+470,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/CANCER/500.jpeg,500.jpeg,CANCER,1,test,False,66a30bb7cbacfd8580e0127e8f5cd1792dced8ba8e8ae0b6384b900dc51ea3c3,b47e767ad4d29480
+471,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/001.jpeg,001.jpeg,NON CANCER,0,train,False,6020f0eb416d331e317537c16a7fa049009aed08bfa0686837b2b8d49b0970a5,ee56e5e886819c0f
+472,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/002.jpeg,002.jpeg,NON CANCER,0,train,False,fd511a674d670b4dc3a570682cffe53d4450cb5c1202065f1649b4f19c2586dc,c35628f0b52b2f2d
+473,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/003.jpeg,003.jpeg,NON CANCER,0,train,False,eccbb6a67914f66b6a24ebcd802ded8a7310aa68d1812f05afab70283095a32e,ef3f85d0c8c59096
+474,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/004.jpeg,004.jpeg,NON CANCER,0,train,False,41fc5e6e327258879724d34b27737af38577bdb1f836f498972dba007852f952,d12d6bf2c1c0c597
+475,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/005.jpeg,005.jpeg,NON CANCER,0,train,False,c6d1c364bd38ec27672c43d18b391c31be5caf99a4a59654f62f92439f768d1c,8a49a594963f68ee
+476,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/006.jpeg,006.jpeg,NON CANCER,0,train,False,050a7b2eb82d64c8d09f29b80fc23c31d8413ba70a7064ea3a4bd26a03d461e2,80713f12bd9f94c9
+477,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/007.jpeg,007.jpeg,NON CANCER,0,val,False,c586d69bedce42de7175cf19dbc8fa28e604118f887a7ce6a725339a70dd6741,95691e217af5e087
+478,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/008.jpeg,008.jpeg,NON CANCER,0,train,False,a8ec346d713b9e778cc5f0836e7fcffe1733a83e714aff1b8c00d02bd8dc7c02,ffe8a09f93243892
+479,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/009.jpeg,009.jpeg,NON CANCER,0,val,False,0af99f34466dc82979c8e4300fd2add369fd2ec60a48f0c6771eb890432b4494,87ab5c8d89c791c6
+480,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/010.jpeg,010.jpeg,NON CANCER,0,train,False,93458de99d810903c85a7f72ae22e10a56ae57f1ecc99f8ea42391ce970646c4,abe0689fc09ab768
+481,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/011.jpeg,011.jpeg,NON CANCER,0,train,False,934c421ada1fd94a7fb006bd816a83e2ceacbf0eb6ae0e6f4711dffeb54917a9,bb3aa5e4ccc68598
+482,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/012.jpeg,012.jpeg,NON CANCER,0,train,False,ec13f7461395cc34674ef16d074224c3937f419eeeb23bee3925302bafb37829,87550f4a565555b5
+483,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/013.jpeg,013.jpeg,NON CANCER,0,test,False,3d93dd278cabc164f0a7a4390858611fc3489723f8f2af15768404198677d950,ab94608fd6569a69
+484,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/015.jpeg,015.jpeg,NON CANCER,0,val,False,090b5638235102cb644af58ec86537a774fe041358bb961db4508a91a437cb5c,fa7a658dc481826f
+485,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/016.jpeg,016.jpeg,NON CANCER,0,train,False,290087fe2519729177f38b640a95df6328984685e56c4e5b247f5558288ffa82,86393c8690cbdb6b
+486,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/017.jpeg,017.jpeg,NON CANCER,0,train,False,33eb772fe3cebf541f61a14be3285cc01b24e99118f63dd4778c3555935d582a,d73e6de8f5809085
+487,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/018.jpeg,018.jpeg,NON CANCER,0,train,False,f67f6e4ab31938dc67cc9103396a25390a48b4fda1bac274e076d2dfffb6bfb0,9e7e3d819580d762
+488,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/019.jpeg,019.jpeg,NON CANCER,0,train,False,985b39d33da1295b2035dbf003da02a9dc82fa1d737d946db2487ec9f5bc8514,ef6af0c542942d93
+489,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/020.jpeg,020.jpeg,NON CANCER,0,train,False,f30fa85e9f1ccc5238d0072336247177f20b964f3de82f9bc14984823f833867,fe5e3fe880e0c1a1
+490,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/021.jpeg,021.jpeg,NON CANCER,0,test,False,73ef0adbcb07a91168469593e6c713c1d21fa80c64a58ed5d9b29a2e21964baa,a5e2352dc2b4cf92
+491,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/022.jpeg,022.jpeg,NON CANCER,0,train,False,d9998125505b8488dd3621a52380ecb14d31210bfff2632f5efad603894ee1ff,e352d7e1aca8c8c6
+492,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/023.jpeg,023.jpeg,NON CANCER,0,train,False,308dc9390dc32c342071d8bc8f3301d898962eb86b23ef3600cf382d4b1d6df4,bf35c0d88dc264cd
+493,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/024.jpeg,024.jpeg,NON CANCER,0,test,False,e9105cd7537c08a875017aad65104920e056e9ecd69d79dbf95dc7c0ab887fe9,f8cec39d83334c46
+494,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/025.jpeg,025.jpeg,NON CANCER,0,val,False,ae275f3c7f45af5b72989e1e16c5246dcecd52b5ff835434474eef19625fab3a,83793cd794c2c2cb
+495,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/026.jpeg,026.jpeg,NON CANCER,0,val,False,e57f2a448fe2a489a9ac8019aa13045f0707ca0f87d041db4a8adb62a46fadc9,fbbb74acc480c2c3
+496,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/027.jpeg,027.jpeg,NON CANCER,0,test,False,69b47b6344d38d8cbab17f1489af0e19e776dbacc5885cf787c27146c7379b09,ab95742b21759d91
+497,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/028.jpeg,028.jpeg,NON CANCER,0,train,False,4b6c43a4a854bbe902a9d1eb3f2897264a9a6ab0c5ccc806d3e754bb37cabda9,b52d62b1989e8f29
+498,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/029.jpeg,029.jpeg,NON CANCER,0,train,False,0c058ab7ae0ce7ee5720944822d537d06ae6281caf411cda5332ca8b9b722939,89a73b90e0d8cb1f
+499,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/030.jpeg,030.jpeg,NON CANCER,0,val,False,fdb8cbd69c93cf6336d223735caf8429f7e8f43d3392d8a90b4c414fee170003,af7f3e8c8294c330
+500,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/031.jpeg,031.jpeg,NON CANCER,0,train,False,d169bea26176bec027139972f1390af30cc838b14dde672c7dd43820be64a42e,feaa61a0859f9e18
+501,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/032.jpeg,032.jpeg,NON CANCER,0,train,False,19b8db321bf8c324c108066ca3f29ab0fa3ee1056aa8f0927b9a739c6014a720,bd2bb0c8c29b0f39
+502,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/033.jpeg,033.jpeg,NON CANCER,0,train,False,acfaa5eb06a923f1547f7d032890d70ef1dde9eb6d2003561fe4253dcb5c28b3,ff29d097c086259b
+503,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/034.jpeg,034.jpeg,NON CANCER,0,train,False,8f3face8dae88c7bb70f45726a7685ac2567bd0ccd9081b7a989b99bec858e4c,c73568dae0cb858d
+504,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/035.jpeg,035.jpeg,NON CANCER,0,test,False,bdc074424ee7fba07ab72fcaf5dbaec1acbf1a87ef90646b82adc1c3e03e5ff5,b4bdc0cdca313978
+505,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/036.jpeg,036.jpeg,NON CANCER,0,train,False,7dfa57ded89e0873092387eadee0e6249256d8c6df0ff22bdb06059010f6a50f,fa6a69c1c185879e
+506,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/037.jpeg,037.jpeg,NON CANCER,0,train,False,754b11b1f996984d8c7440199788be8ec00a4f857fe4cfff2fe76e8713932db2,debe10b583e0eb60
+507,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/038.jpeg,038.jpeg,NON CANCER,0,test,False,ac4351c816cf5b02da3046535be2493e67aa18f6d92a0d8bb81f20883a7c5151,c2bf9090eaec85da
+508,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/039.jpeg,039.jpeg,NON CANCER,0,train,False,f43771ac019627381129478e3d596252dbe24ff77a373e8430613106de05fcce,bf0bd484e3616c3c
+509,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/040.jpeg,040.jpeg,NON CANCER,0,train,False,0bf1f428f33d7ab53280064abe37f27f4b14ec7793439d212c61c8181bbe418a,ea92d0993f8de470
+510,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/041.jpeg,041.jpeg,NON CANCER,0,train,False,0a518d1e5074ba773b6b97f7177c23c06360d845676a1b835c2807ec3d2f2813,8dbf34d0c2cd0b2d
+511,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/042.jpeg,042.jpeg,NON CANCER,0,train,False,c40d200d0368642e2a98c7189ee2338dd1bd51483747b3e5878908a16c6f01ce,8f7a68948595d39a
+512,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/043.jpeg,043.jpeg,NON CANCER,0,train,False,21521ed4f30aa6ca2482a2e39d64e5e5f4f1e729f8f92d8893ee8139a7568ee5,abfab02dc1d096c3
+513,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/044.jpeg,044.jpeg,NON CANCER,0,train,False,de27dadb4e36f1361c338be9fa723361641dacff02d927f077807a2155cf09b1,fcb8308bc2cf6334
+514,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/045.jpeg,045.jpeg,NON CANCER,0,train,False,31a3590ca62c40d2d696620a67eccecba8a0af8d1c0097a184a7056362224afa,87523cafa89f8196
+515,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/046.jpeg,046.jpeg,NON CANCER,0,train,False,02a2212dd9c1958c53a28fecddfa273d163c864b5d4cb9eb01d6a6ae67ec1d8b,cf8328f0f0d49787
+516,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/047.jpeg,047.jpeg,NON CANCER,0,train,False,025ff6598934c555141003c893697beb36717f89502b72ca5d20fa124efed62b,af6f809f9038c3c9
+517,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/048.jpeg,048.jpeg,NON CANCER,0,train,False,3a6d8493156fdc5cd55f11afdc6d4ae74b84a8e1bd8738cf19a3ad1795bf8e24,bfaad4c4e12c6692
+518,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/049.jpeg,049.jpeg,NON CANCER,0,val,False,eb9c0abd3b2ea0c87f8bba1337f69ecc36c29885618cfe60f3d3b9df92daeafd,b434c3c3c63c8dcb
+519,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/050.jpeg,050.jpeg,NON CANCER,0,train,False,7e1170d9651890e470188beddd3f8493b7da97d1562c4042964aa2fbe68a6bbb,db0a349dd193323e
+520,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/051.jpeg,051.jpeg,NON CANCER,0,train,False,7dee795fe0bf5fa3ddc2ca689b43a2ed4436e2f4f577cabdba6f69ec621f9c47,fe2d69c0c3926a69
+521,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/052.jpeg,052.jpeg,NON CANCER,0,train,False,014f901cd80b215ea75b96cb62535f656e6f7d8a977b41bed287883f3eab39f9,87346adaf8912d66
+522,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/053.jpeg,053.jpeg,NON CANCER,0,test,False,53b8a3e39dc9c0199749d6e1fa0c4cd92e347225e941006d02dc06697f20ac10,fb6a379491d2c360
+523,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/054.jpeg,054.jpeg,NON CANCER,0,train,False,ba5db5b886575ea101b593e1e3962a63310057294263cf489bbefcb985838af0,af2edcd1f40230cb
+524,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/055.jpeg,055.jpeg,NON CANCER,0,train,False,937596b4cebd9b8d2d2f1b396a65d22f198fbd3a26fbf840e3bd43b72ca633a0,a77aca80b5953437
+525,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/056.jpeg,056.jpeg,NON CANCER,0,val,False,ced3745ffc61e2f32105b7ff89354dda045ab015cb724b9207adf98103680a78,fb0ff4d0d0e5e060
+526,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/057.jpeg,057.jpeg,NON CANCER,0,train,False,a6c644ecd81ef2ff9025c1992bad06747f885c1538f309948d09d1df96fafaed,cb0e25f0f4d5d4c1
+527,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/058.jpeg,058.jpeg,NON CANCER,0,test,False,ebd251126e5657e30e983c23fca4c68c325dc7aa107f45dbf5e1ed8f262f350e,f8f1c30ee59c0eb0
+528,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/059.jpeg,059.jpeg,NON CANCER,0,train,False,ecb5a6d44d70487dd5cbc9f62eb2c9148cf1a447a89c9b681587882a965cd898,ebb07c1b949b94c4
+529,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/060.jpeg,060.jpeg,NON CANCER,0,train,False,a7c1308d7b7acb1925108bb0ff5ea86b120737d38bc278cf3aefa18848558e44,cf2a60cbc3c99669
+530,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/061.jpeg,061.jpeg,NON CANCER,0,train,False,37997f5c031516258e03f9af95b2e31e67ab0bf734f1a0bf89f1d6d9f4a3b773,aa789587ca2e6578
+531,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/062.jpeg,062.jpeg,NON CANCER,0,train,False,2b3d59aa938199a9a1a4f4e5a83ab6f590da43f73dddd3b2d5bd6a8940d57789,f43f36ccc0992935
+532,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/063.jpeg,063.jpeg,NON CANCER,0,train,False,efdbb5f343dccbfa222ca2999be5c174052b9d4abd482de2df79c60cbca6be81,965228eb693b2bcc
+533,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/064.jpeg,064.jpeg,NON CANCER,0,train,False,2148dfbb3a0bbe54bec6cc642cdaaadc134be26fff91932e77980495f5e8a142,994125fe862399dd
+534,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/065.jpeg,065.jpeg,NON CANCER,0,val,False,c9b2c4a052c1d8ddde8fd6c0ccdf7a1397e8029b987ba493c143fe32f8648c75,802a3f297f2d2b35
+535,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/066.jpeg,066.jpeg,NON CANCER,0,test,False,b224d7a413ca5b8dcebcccc625a0d3aecc590337d1ce45b4bbf68c5c8488ec17,a07035653d4f595d
+536,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/067.jpeg,067.jpeg,NON CANCER,0,val,False,16fa993d53a0951790415e3be82aa405af19f7395c50fc26c2734ff3dce7c77c,877e7e7272a28283
+537,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/068.jpeg,068.jpeg,NON CANCER,0,train,False,c68d361883aeaa3a6b5e279a8ae4f5bb8d65a591c5d17426f157f2ced9d30a89,84397fc2b88f258d
+538,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/069.jpeg,069.jpeg,NON CANCER,0,train,False,4d2cc1f488ffcf3cb4ac8d8c741e1d8b2962d765df761be3d52d5333391689dc,bf439d8c626a6d90
+539,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/070.jpeg,070.jpeg,NON CANCER,0,train,False,b7558f578ce15c40f6259cbeb0ff58c253e25ea8aed6d73eadcd1e7fdd4b14c8,8a0e3dc19197b67a
+540,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/071.jpeg,071.jpeg,NON CANCER,0,train,False,13acf81e1bdd337485b9552e6d714598e7bc4dc6a69da9f218400c0d1f9666c9,aa4ab5a1b70b1e4d
+541,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/072.jpeg,072.jpeg,NON CANCER,0,test,False,c7a7a87a59eef0cde44f2035a85b8452d3cfaf011d2b433582672e064844f6f6,fa31a596da9a2d30
+542,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/073.jpeg,073.jpeg,NON CANCER,0,train,False,5ca5482f5a8f37b9c863e1c9df7aad20672a7c257b0d1ed40fe3a65ef3c46611,b5aa95d22abdd848
+543,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/074.jpeg,074.jpeg,NON CANCER,0,train,False,32e408bc75de60854fe0c0ff2c53b4d50d650a0648cabfbff0e1aa81b27994dd,cf7478d2c19a8758
+544,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/075.jpeg,075.jpeg,NON CANCER,0,test,False,6efd2e937e675f42dd8e94d8fd52a0c31c60b413ed592ec9bd72624dfc9ab6b3,ea3ec590c5926f38
+545,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/076.jpeg,076.jpeg,NON CANCER,0,test,False,c730aba8e1f484dcff45673a8b8afe034c0f37be92594e127c830d4e647f2d89,bd80979278cf858d
+546,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/077.jpeg,077.jpeg,NON CANCER,0,test,False,350a89a2707dee74573f950a1a972e14594a490f99b555e9a4853480ca10e8c5,aa6bb5955b1e84d0
+547,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/078.jpeg,078.jpeg,NON CANCER,0,train,False,22d39a392914ad075bd1b832aab1f4a3fd571fc93ede3e3465ba0e3926de3e02,ed3ec0c0932f3f30
+548,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/079.jpeg,079.jpeg,NON CANCER,0,train,False,67fb851f984bd42df8094bc9b904740b6c584defea3b6794f1f98897e61c97f5,fff0e020c03783cf
+549,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/080.jpeg,080.jpeg,NON CANCER,0,train,False,673fcdb143ced775a1768e2211689f3cb9022e7ba0aa12416b5d4edeb0537074,f10f2efea4f881c0
+550,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/081.jpeg,081.jpeg,NON CANCER,0,val,False,5cce0d0fb7257135044533357a3242d689942312f64ee0225ca07e0795f23325,ff32c0cc8323646f
+551,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/082.jpeg,082.jpeg,NON CANCER,0,train,False,38564a2fd2b006e87256fdb7c97fce56fa37afc2630f3607131b1bb3da8c157e,971760a8e0fc6579
+552,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/083.jpeg,083.jpeg,NON CANCER,0,train,False,bba14156946cce2f23887285c1da800a6abcea92028aa6bb875a1c7ebc1e9c6d,aa6ab59dd3032339
+553,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/084.jpeg,084.jpeg,NON CANCER,0,test,False,95d7fd06f02c5ca395f2ebfc89a62e7b7c6aab76c65e5cfb3a762777620e6afc,af78b4d1d26d3460
+554,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/085.jpeg,085.jpeg,NON CANCER,0,val,False,6d6aafbd17159bd88bf326c0f3c2e78405abbe652aa00e796712a3efb2ca16a6,af6b3ec58194b330
+555,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/086.jpeg,086.jpeg,NON CANCER,0,val,False,b2e6d013bb665958284ebc597e8413d5dc2a9fcee137c0cb09c78967263ad2ea,84392fc2f89bb18d
+556,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/087.jpeg,087.jpeg,NON CANCER,0,test,False,96d62fb693b2f337e2813e884f42e3744a4d214ec676eac9440c3b462c84a879,efcbd4b4038b1a98
+557,near_phash,pHash Hamming dist <= 6,2,Oral Cancer/Oral Cancer Dataset/NON CANCER/088.jpeg,088.jpeg,NON CANCER,0,train,False,9fd864ba7ba113ff339e395866507eddb1d75155386dd373e3b1dc245a4a8aff,c4afd6852a7389ca
+557,near_phash,pHash Hamming dist <= 6,2,Oral Cancer/Oral Cancer Dataset/NON CANCER/165.jpeg,165.jpeg,NON CANCER,0,train,False,ce77d1ff1121bd9a24d3bcee0f61ee2fb1705f0789a02acb29506e6acaa2dcc2,c4afd6852a7389ca
+558,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/089.jpeg,089.jpeg,NON CANCER,0,train,False,80b83f2505ef7939ac667217a86fe569595b676530a9823a59d410f9ecf2377f,e32995c0c24b9f8f
+559,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/090.jpeg,090.jpeg,NON CANCER,0,train,False,3fe4f9f70497eb3fd77cb036c06e9a7d1c6aa16930f8c42c67cbe3f7c970fc30,a3a64f4c2ac5ad53
+560,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/091.jpeg,091.jpeg,NON CANCER,0,train,False,ab643210e411671baaa47662514d0141b7f7cb12746da6e4b3424ded3f901a85,dbe7198f65186684
+561,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/092.jpeg,092.jpeg,NON CANCER,0,train,False,7c9b0b28c9eb548a2430262b32ab6a7508d0b37177ac19dd0b8e6aaa663a300f,dac1d4959e16741e
+562,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/093.jpeg,093.jpeg,NON CANCER,0,train,False,5bd1e27c75388d7b5d61482eeec18af124a307e12dd55e504e31d368703f7cb3,ea77259a31c912ec
+563,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/094.jpeg,094.jpeg,NON CANCER,0,train,False,3597a5522ab35cbf80165ff7c12bc4d23ac0e22dabecb1d565c3b72064a1035b,8ad295859a9e3e39
+564,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/095.jpeg,095.jpeg,NON CANCER,0,train,False,ef862829c0c5602defd73127b791ee2d9c74bce5ff9788fc19610d42f369f7fa,896da515966b96e4
+565,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/096.jpeg,096.jpeg,NON CANCER,0,train,False,96e90dca58ae23b90d4a3d3808f6746da52897f0e7dd674630b34392f35b0c92,f04f373ccaf62098
+566,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/097.jpeg,097.jpeg,NON CANCER,0,train,False,fed87db66cc2cc086f2732b1151b0a399406157eed2e1029320286934838855d,90326fe754ca6e61
+567,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/098.jpeg,098.jpeg,NON CANCER,0,train,False,41812f58ce1c726554ac79d44232d10dbb6149a23d07a85ff19d233ffbfab4d1,856a13bc2ff90d31
+568,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/099.jpeg,099.jpeg,NON CANCER,0,train,False,38f574115873c7132faf1760142e45365d49633d777c63bd96e86916ae5d5a73,a2bf81da0dce34d2
+569,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/100.jpeg,100.jpeg,NON CANCER,0,train,False,aeb1d11d6434684fec54493a81d4b33fddddf82bc613b0679e46bd96ba149701,f5aad0958a7435f0
+570,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/101.jpeg,101.jpeg,NON CANCER,0,train,False,2a0422819dd6fecffed61a158a1636a91e150f558230c4381af6355129022cf6,9f1f2a2a94ed14c3
+571,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/102.jpeg,102.jpeg,NON CANCER,0,train,False,152761cb3353f2e606d4288973b8c7b70bb54606d278b8208af36d7ff642038d,c3b4a2c2cf2b788b
+572,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/103.jpeg,103.jpeg,NON CANCER,0,train,False,344509c1ab367ad1df442fda1b30f8e9313a6b8479d2ae573e21b549fe4be107,cb8ac0d93f78d4c1
+573,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/104.jpeg,104.jpeg,NON CANCER,0,train,False,510fe50e8e6c01ad65dc743f38b07efbff408170bad9ba921d1335851ed7dfad,fbb0f0cd0b60c9a3
+574,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/105.jpeg,105.jpeg,NON CANCER,0,val,False,ac2637f0565b8dcf9180e8dce215cec6a324157433053fd160511b83ddbc65fe,8ae08f973e136999
+575,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/106.jpeg,106.jpeg,NON CANCER,0,train,False,5862b38f5023c7d6cffecb539056bba08534c6f7b1ecb2583f0a40cdd41ede47,cae88f96386d259c
+576,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/107.jpeg,107.jpeg,NON CANCER,0,val,False,300c6339ee1eae79728fcddc13965f6b68fe6b51f5cffb954743ffe7fee5ba3c,89a296fb29cd263a
+577,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/108.jpeg,108.jpeg,NON CANCER,0,train,False,8585545965e8cd3bbc1630877ba5e3df9cc5941d26f1cd4d57c348fc90ec3f79,d5c09a26706b674f
+578,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/109.jpeg,109.jpeg,NON CANCER,0,train,False,71d762f894d250ed7721e8b4289615200ef952b6bcae8d82e5f8ff37726f006b,f572d3c89660914f
+579,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/110.jpeg,110.jpeg,NON CANCER,0,train,False,0a2371fdea0e04522e6d76a79e3b17d5d45b705c47ee80ba1a83db0fc3ba47d7,81e48c9f0f4e707b
+580,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/111.jpeg,111.jpeg,NON CANCER,0,train,False,472bbaf13324a7d05ba59ee81958cbc768cd87a3ed5dbe63d790adba79f0022d,b4cb0bfc213147d5
+581,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/112.jpeg,112.jpeg,NON CANCER,0,val,False,bbb3379296021e3e6d1b6baf8220c695aa00cbc804bd517721353dc677a39fcc,fd2c5096833acfd0
+582,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/113.jpeg,113.jpeg,NON CANCER,0,train,False,a1a9dcde583e431f268b7c37af068da474dcb1b207e893052857aa72bf3c6deb,fc3e70f4809a8bd2
+583,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/114.jpeg,114.jpeg,NON CANCER,0,train,False,8407407b2ef2d334068fd614b7e61b009287cc905e231653525d2bd0866bc6a1,bdaed2106d23649b
+584,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/115.jpeg,115.jpeg,NON CANCER,0,train,False,62f5799b4dd864326c2b0f508f7d6a71fae2aaea94f728cb702475e7527d67f7,d13a4a7d29f0e5e0
+585,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/116.jpeg,116.jpeg,NON CANCER,0,train,False,680c10f96e493acdaf6143574c842cb7af551592422344f20a30ab533ffe3393,9e4f21e5b184935e
+586,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/117.jpeg,117.jpeg,NON CANCER,0,train,False,954ef54b7281de13262c0ccc717c0338b3de7d78a69be6f89e4ec8b5f2b6dbad,d54a4ad5ded48a46
+587,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/118.jpeg,118.jpeg,NON CANCER,0,train,False,c75ebef741ece443b94994920b3b96368e9325b3bcf9cc8d26880b61e190255f,969a61a19ede3a68
+588,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/119.jpeg,119.jpeg,NON CANCER,0,train,False,0f8c86646547c638011948aff63c5c8e7a34827b80172002db0943118908d701,c5b482c59dda9b92
+589,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/120.jpeg,120.jpeg,NON CANCER,0,val,False,495e3b77d6017c3cca6973ff7e4e7729c7d98beebbd352e0f29d7a2b868229fa,846989a575b4f2d3
+590,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/121.jpeg,121.jpeg,NON CANCER,0,train,False,04ed6d72c09f74291d0f1120d7244b66977b0ad654a098228653a2200d5c2f4b,c5e88cb5b5367432
+591,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/122.jpeg,122.jpeg,NON CANCER,0,test,False,c1ca3d052a5d9689887268e6754f935627750de4eaa12361f916fc1c733db901,81019ea8fe7c7a72
+592,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/123.jpeg,123.jpeg,NON CANCER,0,train,False,f79e841f55cf8583540963c34b996d46fcc0c0feb050bf17e3e6b8a39edb139c,fd9dd2c8d03a260e
+593,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/124.jpeg,124.jpeg,NON CANCER,0,train,False,50af3488b195d75cc9236690c5974023bd34800dcbf4079bdc4c40ddecc7148e,b73f68e0859e9cc0
+594,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/125.jpeg,125.jpeg,NON CANCER,0,train,False,a33f2a88c56a4ff3ba60c7419ec77997e8fa388f29eab9563d46d756b217d072,c4d515ff4e12da09
+595,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/126.jpeg,126.jpeg,NON CANCER,0,train,False,4f8409c0235c4a3d3087783a7970d696ef079cb7d8a97f08c02827f3efcbe16e,81707a3f6f302573
+596,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/127.jpeg,127.jpeg,NON CANCER,0,test,False,7adb9a0eea112f61e0fb42b64913a9489910e134940df24a0b42be103d2194fc,8b49b5c5f092326f
+597,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/128.jpeg,128.jpeg,NON CANCER,0,train,False,5ed52a1253921bd28dd4882c1edcf22999fe2c242df0926aeecf743674bb4af7,9cb04b1f696b6529
+598,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/129.jpeg,129.jpeg,NON CANCER,0,train,False,8d415ebebef252d52650a48b72f703346b2f1dd3f34a70393d9bb663d1670dea,97307e476a7f2068
+599,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/130.jpeg,130.jpeg,NON CANCER,0,val,False,d8924bb0cafa0a7d23b4563e67008bc422e4a13a351aa8110773a0e6b5517a56,ec815b9d1e35231b
+600,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/131.jpeg,131.jpeg,NON CANCER,0,train,False,e82e297dfe31c250ae12d1b989adb36c1c159c71d690338c03426df417cfa796,bba6349cf598c6c0
+601,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/132.jpeg,132.jpeg,NON CANCER,0,train,False,6c5d8db1c3a9505d7f737cfe0afefb344d9216ed3f5cadb3daa947960f89e6a4,cb1e4494e5b92739
+602,near_phash,pHash Hamming dist <= 6,2,Oral Cancer/Oral Cancer Dataset/NON CANCER/133.jpeg,133.jpeg,NON CANCER,0,train,False,f9579bf5a1425d8c63e0a828481ac374666166e57bb4b1bc73d84ca84e561b93,917a0fa19692da9b
+602,near_phash,pHash Hamming dist <= 6,2,Oral Cancer/Oral Cancer Dataset/NON CANCER/243.jpeg,243.jpeg,NON CANCER,0,train,False,2735d8a8b3792a3334c9fecf34ae385ab729884a4bcec000dfffcee3bede9148,917a0fa19692da9b
+603,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/134.jpeg,134.jpeg,NON CANCER,0,train,False,76daf095e91da588d6b741d8f7993eca56434a26e336adb30fdb3437587d1543,86623f89d1c6723e
+604,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/135.jpeg,135.jpeg,NON CANCER,0,train,False,054f483e5ae3df85b60373633e6cd2377a87d5de0de800992c0103d878b43926,ffaa548d908dc26c
+605,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/136.jpeg,136.jpeg,NON CANCER,0,train,False,6dea13e34676fa0fd0a108a2e6a5f1ad08a0af68f33e41a64ea43b8670660899,d16b74c5c31b2b2c
+606,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/137.jpeg,137.jpeg,NON CANCER,0,train,False,60347274ac5db13cbb4ec20988dd345ca2999c9764f45345ecd516d6b7cc45ec,fab0cde634339988
+607,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/138.jpeg,138.jpeg,NON CANCER,0,train,False,154eb3ec08ef6d9fbda6eac56f85613571a74bb76d3d21d06969b41edf1a7123,bfb4f0c20a6ce583
+608,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/139.jpeg,139.jpeg,NON CANCER,0,train,False,e1d99096fed02548a624042a774b72401a697adba1f5e2944dd96648ea6e6899,af2bc0c0da1b3b2d
+609,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/140.jpeg,140.jpeg,NON CANCER,0,test,False,a9a17480e2c524b325235722a68b4aa2f05bb687c28512e314f5af422d8362fc,fe0fb5e15a382914
+610,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/141.jpeg,141.jpeg,NON CANCER,0,train,False,769f21b458e2f6076850f97f96f0970dd95675408900e84532473aa8469488bb,ab429d85f16a659c
+611,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/142.jpeg,142.jpeg,NON CANCER,0,train,False,8d24b7a7659b75bb1fb698a8e2adc2ca49cd1d8c18b80b0b4a14ca6e91cf8821,da7b2da194d2c28b
+612,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/143.jpeg,143.jpeg,NON CANCER,0,train,False,4ba1676041d0687cd609829db493856d4b1a543244f3c7587bc1a64e4fe93fa3,d3aec0d3a33d3a88
+613,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/144.jpeg,144.jpeg,NON CANCER,0,val,False,5c63f1401f1c30059f01b9e2588056946c20212c5c1878527c828149d7ef05d4,cf2fd2d4701a348d
+614,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/145.jpeg,145.jpeg,NON CANCER,0,val,False,7bdf351eec861154d6df215eb2a169bc4f8f51303197791719eea2d85d324720,8587d2e09d713676
+615,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/146.jpeg,146.jpeg,NON CANCER,0,train,False,dc65ada4adfd45b50ad9f5074f7084e5743834c206799e9a6cdfaa876d990f2a,80d7f58b5775288c
+616,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/147.jpeg,147.jpeg,NON CANCER,0,val,False,b10ae96cc32ee0642168ca869be1b2005e93d9b2dab5632f4fee267ee7d50206,af7938859186b636
+617,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/148.jpeg,148.jpeg,NON CANCER,0,train,False,5d84bc7ead99fa86d43d01a0b91e8a732e3e212498cf48796ab99ffe50371585,ccdc30c6d50ccfc9
+618,near_phash,pHash Hamming dist <= 6,3,Oral Cancer/Oral Cancer Dataset/NON CANCER/149.jpeg,149.jpeg,NON CANCER,0,train,False,30ea4744a694f708a73944264e4f633f3feea2228723e694eeb3094c2bca81e9,b539f0cbc4cce0e2
+618,near_phash,pHash Hamming dist <= 6,3,Oral Cancer/Oral Cancer Dataset/NON CANCER/199.jpeg,199.jpeg,NON CANCER,0,train,False,30ea4744a694f708a73944264e4f633f3feea2228723e694eeb3094c2bca81e9,b539f0cbc4cce0e2
+618,near_phash,pHash Hamming dist <= 6,3,Oral Cancer/Oral Cancer Dataset/NON CANCER/211.jpeg,211.jpeg,NON CANCER,0,train,False,4c9c50d348c0666242903381fa232d9fb70392acbc9f30b11a0f4c198289bba1,b539f0cbcccce0e0
+619,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/150.jpeg,150.jpeg,NON CANCER,0,train,False,07f279245607305174405b51397b3cc09ae02b89d4832fc26dfdc6252636289f,f0afc0dd202371cf
+620,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/151.jpeg,151.jpeg,NON CANCER,0,train,False,0114bdff0f519c32812d31ddace965563b8c1be7474763c69b0c389e2d91e8fe,eee5248a1564cdce
+621,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/152.jpeg,152.jpeg,NON CANCER,0,train,False,95ea93e101ee38d41176db091444e82bc4df2871b164dd0346cf2dbe897739c0,e5a1d686cc652976
+622,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/153.jpeg,153.jpeg,NON CANCER,0,train,False,6ffc9ab051f2769c6ef5ac7a47ce3abc7a4bb35ac817315a84041ec6dc2f1dd4,bcec77c0cbc2829a
+623,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/154.jpeg,154.jpeg,NON CANCER,0,train,False,e46251160288d29f797694b7eb3b4b09b58c9e38047df4f20978677cf289b052,d5b52478376c3964
+624,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/155.jpeg,155.jpeg,NON CANCER,0,val,False,ea0bf9bd76b628a29bd9f7cddb6f795a51b2755332cb8ea7f0f14cff21dfcc27,af2ad0cd0f8fc42c
+625,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/156.jpeg,156.jpeg,NON CANCER,0,test,False,de3aaf498be038a8b04cea811ed854975f293631effc9fc8e5a1fa2ecec77909,8f4075fadccb9882
+626,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/157.jpeg,157.jpeg,NON CANCER,0,val,False,adb0cef1c27be4d61ce726edebecb51349299e657f583eee64313b4950390232,d5a56a362316671e
+627,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/158.jpeg,158.jpeg,NON CANCER,0,train,False,774884eb9c8d46b8d435a8d223097c6ed4269d4ec9d26f3cd1ca34d163cf480a,eec690c1987c3f2a
+628,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/159.jpeg,159.jpeg,NON CANCER,0,train,False,5a1b584618d994cff748f5826894c2f48635feea42d7452334e17a7e3ce3714d,eb12b485e2c3751d
+629,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/160.jpeg,160.jpeg,NON CANCER,0,train,False,245e79fcdf6ba34abb471e9860b85e08a36102b1c94f624e0028983b043608e0,86ebeb91696268cc
+630,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/161.jpeg,161.jpeg,NON CANCER,0,train,False,14a81bff6140b4a5655b71e9e01dfbcc5be47a8af45d022601594c52bc066f49,c4f09e6eb1702fc4
+631,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/162.jpeg,162.jpeg,NON CANCER,0,test,False,53333f0fbfcb4838640c10c7fccf60ef8ddf25966459e7d33cda265bb1f79739,c3d28c8b7274cc8f
+632,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/163.jpeg,163.jpeg,NON CANCER,0,train,False,f37bdddad171cbdb1b3ff581d8c11ae96ea706db01b0ce8441f59ffb591dd6f7,82959a6a65b592cf
+633,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/164.jpeg,164.jpeg,NON CANCER,0,train,False,8c51ba286aca02f54d9a4ae7b38a55ca05680bfe49c7a03f4425d28030e7b611,f1edcbc86d233620
+634,near_phash,pHash Hamming dist <= 6,2,Oral Cancer/Oral Cancer Dataset/NON CANCER/166.jpeg,166.jpeg,NON CANCER,0,train,False,404e7d93e8e636ecaffffb7871ecfdfc35dd22a1578d249b129b6044bd52586b,91a1ba9a6761ec99
+634,near_phash,pHash Hamming dist <= 6,2,Oral Cancer/Oral Cancer Dataset/NON CANCER/196.jpeg,196.jpeg,NON CANCER,0,train,False,b117643c84360f3732bda1aa38f0b97aea207e12762ba7cb98a0ee0b2045f259,91a19a9a6761ecd9
+635,near_phash,pHash Hamming dist <= 6,4,Oral Cancer/Oral Cancer Dataset/NON CANCER/167.jpeg,167.jpeg,NON CANCER,0,train,False,f67ef3856c898e025e2523548e0dce12a1593d2bc3bd360e5371fd1843c77d83,eff0c08e2433b6d8
+635,near_phash,pHash Hamming dist <= 6,4,Oral Cancer/Oral Cancer Dataset/NON CANCER/175.jpeg,175.jpeg,NON CANCER,0,train,False,8ab606fe68288f557f60476d56a4b12d42398342cc4c289e27a149faccf2d65c,eff0c08e2433b6d8
+635,near_phash,pHash Hamming dist <= 6,4,Oral Cancer/Oral Cancer Dataset/NON CANCER/187.jpeg,187.jpeg,NON CANCER,0,train,False,898ecd24fe0f9a679094ebebcf0807726775efd3dafda6aecb83ec3778e05faf,eff0c08e2433b6d8
+635,near_phash,pHash Hamming dist <= 6,4,Oral Cancer/Oral Cancer Dataset/NON CANCER/208.jpeg,208.jpeg,NON CANCER,0,train,False,d76357b7b43d4f2335278f4e98fccf9af69b20febfffb5912836bcd20c9a0f04,eff0c08e2433b6d8
+636,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/168.jpeg,168.jpeg,NON CANCER,0,test,False,fcebe45371001028b3bfef5a9f7f3409c56c685a7b531fc805077f798d54d81c,93a4e19ada9ee125
+637,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/169.jpeg,169.jpeg,NON CANCER,0,train,False,a43d300a59195d86d615b0254d55a4be151534f7701896e8d270cf914fdfaf0b,ed9872ced8cccc30
+638,near_phash,pHash Hamming dist <= 6,4,Oral Cancer/Oral Cancer Dataset/NON CANCER/170.jpeg,170.jpeg,NON CANCER,0,test,False,abe5ccc9becacfeeadd1b577baaa1b8aaad54b4382e7962e808ae558352e7cd9,bf1d8de63630c0cc
+638,near_phash,pHash Hamming dist <= 6,4,Oral Cancer/Oral Cancer Dataset/NON CANCER/179.jpeg,179.jpeg,NON CANCER,0,test,False,df74056f01c5eb748728154a1e938b01b77373f1c7b105a58be402f8f67d2d0d,bf1d8de63630c0cc
+638,near_phash,pHash Hamming dist <= 6,4,Oral Cancer/Oral Cancer Dataset/NON CANCER/195.jpeg,195.jpeg,NON CANCER,0,test,False,115df5b1142138fadc3494a9762ace5b6f3887ae8b5c817de305bca945eb25ee,bf1d8de63630c0cc
+638,near_phash,pHash Hamming dist <= 6,4,Oral Cancer/Oral Cancer Dataset/NON CANCER/207.jpeg,207.jpeg,NON CANCER,0,test,False,6bf49524d03082d8c20c9e09df4b3a46cce2bf9d99b54de21ff9fc509783fd20,bf1d8de63630c0cc
+639,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/171.jpeg,171.jpeg,NON CANCER,0,test,False,84b297c3ae5f1d67c454ae75d4d4faf8afbeab9f258a8a9d9a8bc013a88b976d,f8ad538ad5782554
+640,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/172.jpeg,172.jpeg,NON CANCER,0,train,False,bef69fe519316b0878323685cf3550e41d7af7e1403eddcd3ce6e67e0042f3a3,80d43f03750f6f1d
+641,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/173.jpeg,173.jpeg,NON CANCER,0,train,False,aa075ea38cff8d1a508242cd836e7cce66306ca7dd80e5a40f926db00b82f15b,9ee3c024c733fc1c
+642,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/174.jpeg,174.jpeg,NON CANCER,0,train,False,a95dfa651719b0a636fd224291ccf95408c9e4de2799674a1bc79e23ad88e179,9da87f87809ad998
+643,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/176.jpeg,176.jpeg,NON CANCER,0,train,False,f2dbfe27d70bf4d2fe9614ee24d4919c035aaa06c1e9400bb83c653237533aa9,ff49c79028729ccc
+644,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/177.jpeg,177.jpeg,NON CANCER,0,test,False,d039fc460bf5efdae5ebb78894ffa83b1eb889c1d0bb2967be3296cffd7a170c,e761929a982f709b
+645,exact_sha256,SHA-256 match (Hamming dist 0),3,Oral Cancer/Oral Cancer Dataset/NON CANCER/178.jpeg,178.jpeg,NON CANCER,0,val,False,dfc93e2238b1cff102e6bc157c3af14313cf34e7db4322da4cc65b30186bbf0b,bea1955a61363665
+645,exact_sha256,SHA-256 match (Hamming dist 0),3,Oral Cancer/Oral Cancer Dataset/NON CANCER/197.jpeg,197.jpeg,NON CANCER,0,val,False,dfc93e2238b1cff102e6bc157c3af14313cf34e7db4322da4cc65b30186bbf0b,bea1955a61363665
+645,exact_sha256,SHA-256 match (Hamming dist 0),3,Oral Cancer/Oral Cancer Dataset/NON CANCER/231.jpeg,231.jpeg,NON CANCER,0,val,False,dfc93e2238b1cff102e6bc157c3af14313cf34e7db4322da4cc65b30186bbf0b,bea1955a61363665
+646,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/180.jpeg,180.jpeg,NON CANCER,0,train,False,2d41ffd5ec649fd0479dd09c42a54f13ac6e7ae3d3e860c4de71253096d48449,a664568fddc89931
+647,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/181.jpeg,181.jpeg,NON CANCER,0,test,False,101523f67a5a5cb92d243824c6a5f5cb5d169d5113c67146d76625d6a08acc83,e4969f4b98251e66
+648,near_phash,pHash Hamming dist <= 6,2,Oral Cancer/Oral Cancer Dataset/NON CANCER/182.jpeg,182.jpeg,NON CANCER,0,train,False,8d28004b2ea62001d6611231e1669ad615c3816fa547308092c07d23187fdeb4,ca55ab9a3cc29b49
+648,near_phash,pHash Hamming dist <= 6,2,Oral Cancer/Oral Cancer Dataset/NON CANCER/206.jpeg,206.jpeg,NON CANCER,0,train,False,9ca9d22b4780d0e5f33f36960b493c9e397b085d0c2167e4db5a3247aba78089,ca55ab9a3cc29b49
+649,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/183.jpeg,183.jpeg,NON CANCER,0,train,False,c1bb013907b9cc6470ba316bef5fc770a4753889a826c8a09450866247a71380,db21d0c5e99ac578
+650,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/184.jpeg,184.jpeg,NON CANCER,0,train,False,51ae02457931fffc6832551e352dc87cfb734aae5293c0b15c15b88b8a0b1738,d4ea4a2e2f6830cf
+651,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/185.jpeg,185.jpeg,NON CANCER,0,test,False,fdaf3a76f065a09c0e0d7f8e42d2cd03ce297305442f1b59e38e12fd1887f5b7,f4a4cad52f30cdc2
+652,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/186.jpeg,186.jpeg,NON CANCER,0,val,False,7ddd94080cbfd0d90fcd2c755f0e80d581b7856fbce96de53bb4a5efcdc842ca,cc2f4f6b10bc3664
+653,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/188.jpeg,188.jpeg,NON CANCER,0,val,False,7030cbb7b47bf272d89d81f8ba7c656456ed6be2be2c7ea90a15133a185921d3,dcae49cbc496942e
+654,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/189.jpeg,189.jpeg,NON CANCER,0,val,False,ebb141f710b0454b111c300bf4b53191f45f6d51ccff178f8ff7a3020b5b6b55,da0fccf0f4ce208b
+655,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/190.jpeg,190.jpeg,NON CANCER,0,train,False,458ca1370ec0241a76c9050e1f6dfe45d8da62710d5285088c97de01d99d1c3c,b0dd8f398c679309
+656,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/191.jpeg,191.jpeg,NON CANCER,0,train,False,a4f6bf3462f6c0ef8a811c7b96b2c3f1ed54d3167cfe70094adfcd772145727d,e1f897817e826669
+657,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/192.jpeg,192.jpeg,NON CANCER,0,train,False,9832606c1949f25dca64b228b39992707985e0bd1f7e9828311f9e02308ec1eb,f815c2e6258a8ecf
+658,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/193.jpeg,193.jpeg,NON CANCER,0,train,False,fdae35f9f47a3fa3aee9ee00ddc4c498ed23d66e895a6ba5ee8d834270621c6b,fe21d68e09de8970
+659,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/194.jpeg,194.jpeg,NON CANCER,0,train,False,0ff1b8242ded3adf55a8105f2dd1ad243dcec52ce8e73f305ed7bf98ae28432a,e2f25ccb34638ccc
+660,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/198.jpeg,198.jpeg,NON CANCER,0,train,False,3562a06efdd8461d299125ea2988b80be7714ed188bf42f0fbaafe86b80ac4b6,e0d3813f03dc4f78
+661,near_phash,pHash Hamming dist <= 6,2,Oral Cancer/Oral Cancer Dataset/NON CANCER/200.jpeg,200.jpeg,NON CANCER,0,train,False,d5153c9de93c6435d8290da2605d0772d5d6e720dbb34178ae8e5e6e4c3243e2,bb72d098192b31e7
+661,near_phash,pHash Hamming dist <= 6,2,Oral Cancer/Oral Cancer Dataset/NON CANCER/217.jpeg,217.jpeg,NON CANCER,0,train,False,fa8cbd2eb0abf448b220801abf66ca1fc52a7a9130ab3ab30e9ddadb5173b5d8,bb72d098192b31e7
+662,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/201.jpeg,201.jpeg,NON CANCER,0,train,False,e8f34ba6961ab5be31686e072a68cdf34a09a3f06b3727aeedfc1c8bba60ee10,f17cc4c70b5a1d2a
+663,near_phash,pHash Hamming dist <= 6,2,Oral Cancer/Oral Cancer Dataset/NON CANCER/202.jpeg,202.jpeg,NON CANCER,0,val,False,877b49f33a0e876491b95682c1d5bb777cf3b2f3f188c04f53384e5d05ab7b22,e87782de6133362c
+663,near_phash,pHash Hamming dist <= 6,2,Oral Cancer/Oral Cancer Dataset/NON CANCER/219.jpeg,219.jpeg,NON CANCER,0,val,False,b9389887b11327903d0a2b78d8f43f0c98a8dc193f361ea27cc7ce348a2c3334,e87782de6133362c
+664,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/203.jpeg,203.jpeg,NON CANCER,0,val,False,5b6164e298b30d89c9b18fa4373dc25723c26988a403c8e584fb0157c488fecf,fe21c19ed8946387
+665,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/204.jpeg,204.jpeg,NON CANCER,0,train,False,c5b8d5172abd4535058fc3d98236fd7623fd3d2ccb440bc55edc9ef675f01f6d,82f0fd8b912372ad
+666,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/205.jpeg,205.jpeg,NON CANCER,0,train,False,9d60800f2809499db1d33dd3a6b2b7747e97dd76f90486192e04c35b958ba7ec,d5cf8fad24200577
+667,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/209.jpeg,209.jpeg,NON CANCER,0,test,False,809b1d34cd9183fa38b4c5a0595852e58ee35e45e2aa62a7210eec92bad5ebc9,82ab2b82c4c7f96d
+668,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/210.jpeg,210.jpeg,NON CANCER,0,train,False,c82c2ffcde3f13b8341a6d82a9da85012d9c467aa8bc148757d6abc1fd805569,bc0d9a1e97a1d1c9
+669,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/212.jpeg,212.jpeg,NON CANCER,0,train,False,6485662f9586c46f95a689235cea6aad4435939a7181243c2c1c96bd75ab4898,81aa3ac94d16dee9
+670,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/213.jpeg,213.jpeg,NON CANCER,0,train,False,98c9288b0c028ac741409b7aa257fb5030c8f613cffb64d6c3a40f75f8e3dc83,a039d74697961ed4
+671,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/214.jpeg,214.jpeg,NON CANCER,0,train,False,c5b6bc991e241ec606aef304b35ca885f63b588ab1d3f641c1851b7b694c8b83,8ff030fd8b3a4d88
+672,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/215.jpeg,215.jpeg,NON CANCER,0,train,False,e18ec079415ed02c6e417d277124c718f8341a871edfb2cbd9e1c86ecb8cee03,bda9d197223a6343
+673,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/216.jpeg,216.jpeg,NON CANCER,0,train,False,52b03e4e150c265748626dee6603fd8bde520a6055aa4a3ec4844e63e3736b64,94ad9b9e7060e58e
+674,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/218.jpeg,218.jpeg,NON CANCER,0,val,False,54aa3eb6cfdd18c535d029462438df0fc22b57a025e79d252596590e911ae10b,c9ba4ad0f58234cf
+675,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/220.jpeg,220.jpeg,NON CANCER,0,train,False,a8f0f4c7ba1269f9cfb194c1da947ad26642897ad36342e1e79aa5613cf59e84,9225bdd4b06e686d
+676,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/221.jpeg,221.jpeg,NON CANCER,0,test,False,f81d9432ffd8dda77161fdc97b6c649068f15e08d0f78c577aa63b9bc6949489,b8fcb6dc2a52854c
+677,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/222.jpeg,222.jpeg,NON CANCER,0,test,False,66f09fb45a318353eb3a51e5028098a811ae798d5b26e812e9673b2bd9f4da96,ba20b3d5392bc38d
+678,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/223.jpeg,223.jpeg,NON CANCER,0,train,False,4d2a6e1dde53ba19065758036011f11a227880da96e3aad28d3383a3cb48940a,bfe8bc91887d20c5
+679,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/224.jpeg,224.jpeg,NON CANCER,0,train,False,bddb059e26133ef0017b2d66a473a3bd362dbb948f337609cff7f86b44abf721,aabaef909c98da60
+680,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/225.jpeg,225.jpeg,NON CANCER,0,train,False,d5199024dad7c89b5cca8ccbce5880c23270b3c8c40e38cc8d950c07f4476fc3,9aabbf842d30e293
+681,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/226.jpeg,226.jpeg,NON CANCER,0,train,False,d9453dc6d53d994678a7b9b16bc0744c2d18956d96d2f279893435e9480c633c,ab75a5c2650ab2cb
+682,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/227.jpeg,227.jpeg,NON CANCER,0,train,False,d5401aa8423b8a1ed80d558a8f7b96d1cfca0f97407d357e7cc601037966bc0c,ba68b5d2a87761a2
+683,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/228.jpeg,228.jpeg,NON CANCER,0,test,False,21ded1fdac5a1ab0d06bd88dd975e8c832b3b542c5648a1e69bdb70ca8083464,e02ad1fa2d37b183
+684,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/229.jpeg,229.jpeg,NON CANCER,0,val,False,28e87fa4df261854e9b1a464d2b3c1457ab03566c92a90ef2f9147d9c18684d9,e73f85e86a3830c3
+685,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/230.jpeg,230.jpeg,NON CANCER,0,test,False,b742e245aa72806ac6d49afb97045c2626fa9dc1e411753a91a55fabc9af7367,dc7e43303f286726
+686,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/232.jpeg,232.jpeg,NON CANCER,0,test,False,179427cfd734799ff9a6d29966357818520c908f274bf9789cf5b3742bde5f94,800f5ff45c514977
+687,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/233.jpeg,233.jpeg,NON CANCER,0,train,False,692029687721723e1385437732a997a466c5570df2f7f25b3ec5d6ee1c8e1f52,ea3fc285685d6629
+688,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/234.jpeg,234.jpeg,NON CANCER,0,test,False,808b45f9430d08dd2bdb4eb194a3a37e70ba96e4c0d874f30c9e2841bd29c3f7,fabfc194286570aa
+689,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/235.jpeg,235.jpeg,NON CANCER,0,train,False,90571ab44fb6b0b6505eee50c818e1763601c57966db3ffb5fbcc9a83ec670b8,c03e95fd293f70c0
+690,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/236.jpeg,236.jpeg,NON CANCER,0,val,False,e2e8f4e2d8ea56091d8b4668c9fda24d036aacc1c8e31d6ca75ce21ec338fe99,801f5f346ad970da
+691,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/237.jpeg,237.jpeg,NON CANCER,0,val,False,325dcdcb927ce3854e6cb2970e2e72bbc5537ab2a3e63363dba0796a1af6d333,913c7a3168236fc7
+692,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/238.jpeg,238.jpeg,NON CANCER,0,train,False,30f2d54b15c97255111f680a429e940e40bd6a78bbdeefbf485fb0f00f44e9dd,91176ed86a636167
+693,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/239.jpeg,239.jpeg,NON CANCER,0,val,False,2264c3684cba70fe52258510f9392bd1841bbf4732505451f416d6fe28b47bab,c9fc7c46301b28db
+694,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/240.jpeg,240.jpeg,NON CANCER,0,train,False,d47a98318164de1c08e3404378f59b87588d54b6b287796ace4ae5c6f3b4256d,df6f0b34372033d0
+695,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/241.jpeg,241.jpeg,NON CANCER,0,train,False,813daffd353f3eea373f823175e3e68936114ee95799bf6ef05df2d63a8d320c,cd6f5734323492e4
+696,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/242.jpeg,242.jpeg,NON CANCER,0,train,False,c67ce74efdd833867ff2c84fbaa0f1817f170e7353639da329a1dea99acb6998,d4fdcf807ca83238
+697,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/244.jpeg,244.jpeg,NON CANCER,0,train,False,84e405609180746f5e530a1e627fed1d6343f9df905ca6b0fe7f7c647a433758,ef4a20c7d29e9714
+698,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/245.jpeg,245.jpeg,NON CANCER,0,train,False,12e7bb00cdaf560953ed54d36c73c661576afe974e7996cc860b23a06918a12e,cb1625f9f0f892e0
+699,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/246.jpeg,246.jpeg,NON CANCER,0,train,False,5ca0cdc4d9b292f87efc8983bef04240a55afe018b6bbdaba960ad2cbf19e3ad,80fe87e07e2c61a7
+700,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/247.jpeg,247.jpeg,NON CANCER,0,train,False,53dcfd0f51926b7b7446fd0106788779b3c40c9ab66d6b18ecadd4d941f61f6b,86e87e8786c7586a
+701,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/248.jpeg,248.jpeg,NON CANCER,0,val,False,4d8eb847e92ec9d8ee1bb8e169e18c6f5b9ccdeae6bfd1231488bfc963e31044,e9856895cb358b96
+702,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/249.jpeg,249.jpeg,NON CANCER,0,train,False,f4968fc987a2858603ac11593d4db92e70bf2fee853864f799a6da3d62e86c82,8f4b91ac4d8d96d4
+703,singleton,N/A,1,Oral Cancer/Oral Cancer Dataset/NON CANCER/250.jpeg,250.jpeg,NON CANCER,0,test,False,602c2a8faa40f38b3763e8936f5817d3b0dc8185424c6b2086e088172549ad9f,d2bec1d3a6383a98

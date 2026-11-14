@@ -1,0 +1,8 @@
+model_architecture,graph_strategy,gnn_type,best_epoch,best_val_loss,accuracy,sensitivity,specificity,precision_cancer,f1_cancer,macro_f1,weighted_f1,roc_auc,pr_auc,confusion_matrix
+ViT-Only (Scratch Baseline),N/A,N/A,34,0.48804,0.75229,0.76,0.73529,0.86364,0.80851,0.72893,0.75886,0.81412,0.89571,"TN=25, FP=9, FN=18, TP=57"
+GAT (Spatial),spatial,gat,8,0.46857,0.73394,0.76,0.67647,0.83824,0.7972,0.70527,0.73985,0.82235,0.90877,"TN=23, FP=11, FN=18, TP=57"
+GAT (Similarity),similarity,gat,8,0.51129,0.75229,0.76,0.73529,0.86364,0.80851,0.72893,0.75886,0.80784,0.89361,"TN=25, FP=9, FN=18, TP=57"
+GAT (Hybrid),hybrid,gat,26,0.45566,0.7156,0.76,0.61765,0.81429,0.78621,0.68077,0.72043,0.81451,0.90468,"TN=21, FP=13, FN=18, TP=57"
+GATV2 (Spatial),spatial,gatv2,12,0.47948,0.74312,0.77333,0.67647,0.84058,0.80556,0.71359,0.74818,0.84196,0.92134,"TN=23, FP=11, FN=17, TP=58"
+GATV2 (Similarity),similarity,gatv2,17,0.50492,0.74312,0.77333,0.67647,0.84058,0.80556,0.71359,0.74818,0.81725,0.90899,"TN=23, FP=11, FN=17, TP=58"
+GATV2 (Hybrid),hybrid,gatv2,21,0.45756,0.77064,0.81333,0.67647,0.84722,0.82993,0.73891,0.77315,0.8298,0.91513,"TN=23, FP=11, FN=14, TP=61"

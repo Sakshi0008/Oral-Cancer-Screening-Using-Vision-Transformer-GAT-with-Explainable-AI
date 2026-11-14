@@ -1,0 +1,751 @@
+{
+  "project": "Oral Cancer Screening Using Vision Transformer and Graph Attention Network with Explainable AI",
+  "phases": "Phase 5 (ViT-GAT Hybrid Fusion) and Phase 6 (Handcrafted Feature Engineering & Ablations)",
+  "timestamp": "2026-11-13 22:29:05",
+  "seed": 42,
+  "device": "cuda",
+  "dataset_split_counts": {
+    "train": 486,
+    "val": 108,
+    "test": 109,
+    "total": 703
+  },
+  "experiments_count": 18,
+  "results_summary": [
+    {
+      "experiment_id": "01_vit_scratch_only",
+      "model_category": "Deep Learning Baseline",
+      "description": "Scratch ViT (Epoch 34) CLS representation only",
+      "parameters": 1965890,
+      "best_epoch": 34,
+      "val_loss": 0.488,
+      "val_acc": 0.8055555555555556,
+      "val_sens": 0.8356164383561644,
+      "val_spec": 0.7428571428571429,
+      "val_f1": 0.8531468531468531,
+      "test_acc": 0.7522935779816514,
+      "test_sens": 0.76,
+      "test_sens_ci": [
+        0.6522123375924644,
+        0.842451263936251
+      ],
+      "test_spec": 0.7352941176470589,
+      "test_spec_ci": [
+        0.5688285857931482,
+        0.8539880939281604
+      ],
+      "test_prec": 0.8636363636363636,
+      "test_f1": 0.8085106382978723,
+      "test_macro_f1": 0.7289306438242609,
+      "test_weighted_f1": 0.7588644032134174,
+      "test_roc_auc": 0.8141176470588236,
+      "test_roc_auc_ci": [
+        0.7193809523809523,
+        0.8984321283122654
+      ],
+      "test_pr_auc": 0.8957126024217258,
+      "confusion_matrix": {
+        "tn": 25,
+        "fp": 9,
+        "fn": 18,
+        "tp": 57
+      },
+      "training_strategy": "Pre-trained scratch ViT (frozen)"
+    },
+    {
+      "experiment_id": "02_selected_gatv2_hybrid_only",
+      "model_category": "Graph Baseline",
+      "description": "Selected Hybrid GATv2 (Epoch 21) pooled graph representation only",
+      "parameters": 222722,
+      "best_epoch": 21,
+      "val_loss": 0.4576,
+      "val_acc": 0.8240740740740741,
+      "val_sens": 0.8767123287671232,
+      "val_spec": 0.7142857142857143,
+      "val_f1": 0.8707482993197279,
+      "test_acc": 0.7706422018348624,
+      "test_sens": 0.8133333333333334,
+      "test_sens_ci": [
+        0.710714153871482,
+        0.8854189043810725
+      ],
+      "test_spec": 0.6764705882352942,
+      "test_spec_ci": [
+        0.5084289446060362,
+        0.8086835651849453
+      ],
+      "test_prec": 0.8472222222222222,
+      "test_f1": 0.8299319727891157,
+      "test_macro_f1": 0.7389096483663888,
+      "test_weighted_f1": 0.7731474034244787,
+      "test_roc_auc": 0.8298039215686275,
+      "test_roc_auc_ci": [
+        0.7428112158739094,
+        0.9095891696491012
+      ],
+      "test_pr_auc": 0.9151294682787628,
+      "confusion_matrix": {
+        "tn": 23,
+        "fp": 11,
+        "fn": 14,
+        "tp": 61
+      },
+      "training_strategy": "Pre-trained scratch GATv2 (frozen)"
+    },
+    {
+      "experiment_id": "03_comparative_gat_hybrid_only",
+      "model_category": "Graph Baseline",
+      "description": "Comparative Hybrid GAT (Epoch 26) pooled graph representation only",
+      "parameters": 75650,
+      "best_epoch": 26,
+      "val_loss": 0.4557,
+      "val_acc": 0.8055555555555556,
+      "val_sens": 0.8767123287671232,
+      "val_spec": 0.6571428571428571,
+      "val_f1": 0.8590604026845637,
+      "test_acc": 0.7155963302752294,
+      "test_sens": 0.76,
+      "test_sens_ci": [
+        0.6522123375924644,
+        0.842451263936251
+      ],
+      "test_spec": 0.6176470588235294,
+      "test_spec_ci": [
+        0.4504101721679257,
+        0.7609981676927285
+      ],
+      "test_prec": 0.8142857142857143,
+      "test_f1": 0.7862068965517242,
+      "test_macro_f1": 0.6807746811525743,
+      "test_weighted_f1": 0.7204326704311537,
+      "test_roc_auc": 0.8145098039215686,
+      "test_roc_auc_ci": [
+        0.7275747198178584,
+        0.8958708630079597
+      ],
+      "test_pr_auc": 0.9046781150237205,
+      "confusion_matrix": {
+        "tn": 21,
+        "fp": 13,
+        "fn": 18,
+        "tp": 57
+      },
+      "training_strategy": "Pre-trained scratch GAT (frozen)"
+    },
+    {
+      "experiment_id": "04_hybrid_vit_gat_concat",
+      "model_category": "Hybrid Fusion",
+      "description": "ViT CLS (192) + GATv2 Graph (192) Concatenation Fusion [B, 384]",
+      "parameters": 49794,
+      "best_epoch": 4,
+      "val_loss": 0.5312773364561575,
+      "val_acc": 0.8148148148148148,
+      "val_sens": 0.8356164383561644,
+      "val_spec": 0.7714285714285715,
+      "val_f1": 0.8591549295774648,
+      "test_acc": 0.7431192660550459,
+      "test_sens": 0.7333333333333333,
+      "test_sens_ci": [
+        0.6236920089048877,
+        0.820236864261908
+      ],
+      "test_spec": 0.7647058823529411,
+      "test_spec_ci": [
+        0.6000386193800363,
+        0.8756301453064358
+      ],
+      "test_prec": 0.873015873015873,
+      "test_f1": 0.7971014492753623,
+      "test_macro_f1": 0.7235507246376811,
+      "test_weighted_f1": 0.7512165935380934,
+      "test_roc_auc": 0.8203921568627451,
+      "test_roc_auc_ci": [
+        0.7263296134467013,
+        0.9041695767894895
+      ],
+      "test_pr_auc": 0.90574713891334,
+      "confusion_matrix": {
+        "tn": 26,
+        "fp": 8,
+        "fn": 20,
+        "tp": 55
+      },
+      "training_strategy": "Frozen feature extractors + scratch fusion head",
+      "training_time_sec": 7.17
+    },
+    {
+      "experiment_id": "05_hybrid_vit_gat_gated",
+      "model_category": "Hybrid Fusion",
+      "description": "ViT CLS (192) + GATv2 Graph (192) Gated Fusion [B, 192]",
+      "parameters": 86530,
+      "best_epoch": 4,
+      "val_loss": 0.5498996376991272,
+      "val_acc": 0.7962962962962963,
+      "val_sens": 0.8356164383561644,
+      "val_spec": 0.7142857142857143,
+      "val_f1": 0.8472222222222222,
+      "test_acc": 0.7614678899082569,
+      "test_sens": 0.7733333333333333,
+      "test_sens_ci": [
+        0.6666446443625779,
+        0.8533863213470972
+      ],
+      "test_spec": 0.7352941176470589,
+      "test_spec_ci": [
+        0.5688285857931482,
+        0.8539880939281604
+      ],
+      "test_prec": 0.8656716417910447,
+      "test_f1": 0.8169014084507042,
+      "test_macro_f1": 0.7373980726464048,
+      "test_weighted_f1": 0.7673029971232515,
+      "test_roc_auc": 0.8062745098039216,
+      "test_roc_auc_ci": [
+        0.7006416876296394,
+        0.8963931292878662
+      ],
+      "test_pr_auc": 0.8866103019791164,
+      "confusion_matrix": {
+        "tn": 25,
+        "fp": 9,
+        "fn": 17,
+        "tp": 58
+      },
+      "training_strategy": "Frozen feature extractors + scratch fusion head",
+      "training_time_sec": 8.07
+    },
+    {
+      "experiment_id": "06_hybrid_vit_gat_residual",
+      "model_category": "Hybrid Fusion",
+      "description": "ViT CLS (192) + GATv2 Graph (192) Residual Fusion [B, 192]",
+      "parameters": 87490,
+      "best_epoch": 3,
+      "val_loss": 0.47826874256134033,
+      "val_acc": 0.8055555555555556,
+      "val_sens": 0.863013698630137,
+      "val_spec": 0.6857142857142857,
+      "val_f1": 0.8571428571428572,
+      "test_acc": 0.7614678899082569,
+      "test_sens": 0.8,
+      "test_sens_ci": [
+        0.6958871707434741,
+        0.8748785233281208
+      ],
+      "test_spec": 0.6764705882352942,
+      "test_spec_ci": [
+        0.5084289446060362,
+        0.8086835651849453
+      ],
+      "test_prec": 0.8450704225352113,
+      "test_f1": 0.821917808219178,
+      "test_macro_f1": 0.7304033485540334,
+      "test_weighted_f1": 0.7648262187033079,
+      "test_roc_auc": 0.8094117647058823,
+      "test_roc_auc_ci": [
+        0.7169869869869869,
+        0.90078861003861
+      ],
+      "test_pr_auc": 0.900244648768305,
+      "confusion_matrix": {
+        "tn": 23,
+        "fp": 11,
+        "fn": 15,
+        "tp": 60
+      },
+      "training_strategy": "Frozen feature extractors + scratch fusion head",
+      "training_time_sec": 9.52
+    },
+    {
+      "experiment_id": "07_handcrafted_all_143",
+      "model_category": "Handcrafted Baseline",
+      "description": "All Handcrafted Features Only (LBP 59 + GLCM 24 + Color 46 + Edge 14 = 143 dims)",
+      "parameters": 11554,
+      "best_epoch": 8,
+      "val_loss": 0.445672869682312,
+      "val_acc": 0.7870370370370371,
+      "val_sens": 0.7945205479452054,
+      "val_spec": 0.7714285714285715,
+      "val_f1": 0.8345323741007193,
+      "test_acc": 0.8715596330275229,
+      "test_sens": 0.8666666666666667,
+      "test_sens_ci": [
+        0.7716683616751213,
+        0.9259341533012722
+      ],
+      "test_spec": 0.8823529411764706,
+      "test_spec_ci": [
+        0.7337915708710346,
+        0.9532855336760917
+      ],
+      "test_prec": 0.9420289855072463,
+      "test_f1": 0.9027777777777778,
+      "test_macro_f1": 0.8567942942942943,
+      "test_weighted_f1": 0.8740908339532192,
+      "test_roc_auc": 0.932156862745098,
+      "test_roc_auc_ci": [
+        0.8732004926008923,
+        0.9756771103763014
+      ],
+      "test_pr_auc": 0.9654332166239753,
+      "confusion_matrix": {
+        "tn": 30,
+        "fp": 4,
+        "fn": 10,
+        "tp": 65
+      },
+      "training_strategy": "Frozen feature extractors + scratch fusion head",
+      "training_time_sec": 10.43
+    },
+    {
+      "experiment_id": "07a_handcrafted_lbp_only",
+      "model_category": "Handcrafted Sub-family",
+      "description": "LBP Texture Only (59 dims)",
+      "parameters": 6178,
+      "best_epoch": 19,
+      "val_loss": 0.4895930886268616,
+      "val_acc": 0.7314814814814815,
+      "val_sens": 0.7397260273972602,
+      "val_spec": 0.7142857142857143,
+      "val_f1": 0.7883211678832116,
+      "test_acc": 0.8348623853211009,
+      "test_sens": 0.8133333333333334,
+      "test_sens_ci": [
+        0.710714153871482,
+        0.8854189043810725
+      ],
+      "test_spec": 0.8823529411764706,
+      "test_spec_ci": [
+        0.7337915708710346,
+        0.9532855336760917
+      ],
+      "test_prec": 0.9384615384615385,
+      "test_f1": 0.8714285714285714,
+      "test_macro_f1": 0.8203296703296703,
+      "test_weighted_f1": 0.8395503578989818,
+      "test_roc_auc": 0.9160784313725491,
+      "test_roc_auc_ci": [
+        0.8564641357206012,
+        0.9623566176470588
+      ],
+      "test_pr_auc": 0.9607549732122648,
+      "confusion_matrix": {
+        "tn": 30,
+        "fp": 4,
+        "fn": 14,
+        "tp": 61
+      },
+      "training_strategy": "Frozen feature extractors + scratch fusion head",
+      "training_time_sec": 16.11
+    },
+    {
+      "experiment_id": "07b_handcrafted_glcm_only",
+      "model_category": "Handcrafted Sub-family",
+      "description": "GLCM Texture Only (24 dims)",
+      "parameters": 3938,
+      "best_epoch": 27,
+      "val_loss": 0.6301802032523685,
+      "val_acc": 0.6296296296296297,
+      "val_sens": 0.6164383561643836,
+      "val_spec": 0.6571428571428571,
+      "val_f1": 0.6923076923076923,
+      "test_acc": 0.7155963302752294,
+      "test_sens": 0.68,
+      "test_sens_ci": [
+        0.5678893661412978,
+        0.774570050301659
+      ],
+      "test_spec": 0.7941176470588235,
+      "test_spec_ci": [
+        0.6320161180801516,
+        0.896504731571484
+      ],
+      "test_prec": 0.8793103448275862,
+      "test_f1": 0.7669172932330827,
+      "test_macro_f1": 0.7011057054400707,
+      "test_weighted_f1": 0.7258605228667999,
+      "test_roc_auc": 0.8105882352941177,
+      "test_roc_auc_ci": [
+        0.7164673046251994,
+        0.8881327205555626
+      ],
+      "test_pr_auc": 0.9038045391794202,
+      "confusion_matrix": {
+        "tn": 27,
+        "fp": 7,
+        "fn": 24,
+        "tp": 51
+      },
+      "training_strategy": "Frozen feature extractors + scratch fusion head",
+      "training_time_sec": 19.56
+    },
+    {
+      "experiment_id": "07c_handcrafted_color_only",
+      "model_category": "Handcrafted Sub-family",
+      "description": "Color Moments & Histograms Only (46 dims)",
+      "parameters": 5346,
+      "best_epoch": 8,
+      "val_loss": 0.4826695002891399,
+      "val_acc": 0.7777777777777778,
+      "val_sens": 0.7808219178082192,
+      "val_spec": 0.7714285714285715,
+      "val_f1": 0.8260869565217391,
+      "test_acc": 0.7614678899082569,
+      "test_sens": 0.76,
+      "test_sens_ci": [
+        0.6522123375924644,
+        0.842451263936251
+      ],
+      "test_spec": 0.7647058823529411,
+      "test_spec_ci": [
+        0.6000386193800363,
+        0.8756301453064358
+      ],
+      "test_prec": 0.8769230769230769,
+      "test_f1": 0.8142857142857143,
+      "test_macro_f1": 0.7404761904761905,
+      "test_weighted_f1": 0.7682394058540848,
+      "test_roc_auc": 0.867843137254902,
+      "test_roc_auc_ci": [
+        0.7854718472317157,
+        0.9366691376328143
+      ],
+      "test_pr_auc": 0.9296420879189592,
+      "confusion_matrix": {
+        "tn": 26,
+        "fp": 8,
+        "fn": 18,
+        "tp": 57
+      },
+      "training_strategy": "Frozen feature extractors + scratch fusion head",
+      "training_time_sec": 10.78
+    },
+    {
+      "experiment_id": "07d_handcrafted_edge_only",
+      "model_category": "Handcrafted Sub-family",
+      "description": "Edge & Gradient Statistics Only (14 dims)",
+      "parameters": 3298,
+      "best_epoch": 20,
+      "val_loss": 0.5952620296566574,
+      "val_acc": 0.7037037037037037,
+      "val_sens": 0.7534246575342466,
+      "val_spec": 0.6,
+      "val_f1": 0.7746478873239437,
+      "test_acc": 0.7155963302752294,
+      "test_sens": 0.7333333333333333,
+      "test_sens_ci": [
+        0.6236920089048877,
+        0.820236864261908
+      ],
+      "test_spec": 0.6764705882352942,
+      "test_spec_ci": [
+        0.5084289446060362,
+        0.8086835651849453
+      ],
+      "test_prec": 0.8333333333333334,
+      "test_f1": 0.7801418439716312,
+      "test_macro_f1": 0.6887722206871143,
+      "test_weighted_f1": 0.7231406110968867,
+      "test_roc_auc": 0.7886274509803921,
+      "test_roc_auc_ci": [
+        0.6857046332046332,
+        0.8793212570929725
+      ],
+      "test_pr_auc": 0.8748703560008108,
+      "confusion_matrix": {
+        "tn": 23,
+        "fp": 11,
+        "fn": 20,
+        "tp": 55
+      },
+      "training_strategy": "Frozen feature extractors + scratch fusion head",
+      "training_time_sec": 16.39
+    },
+    {
+      "experiment_id": "08_vit_plus_handcrafted",
+      "model_category": "Bi-Modal Fusion",
+      "description": "ViT CLS (192) + Handcrafted Projection (64) [B, 256]",
+      "parameters": 30338,
+      "best_epoch": 4,
+      "val_loss": 0.5000006446131954,
+      "val_acc": 0.8333333333333334,
+      "val_sens": 0.863013698630137,
+      "val_spec": 0.7714285714285715,
+      "val_f1": 0.875,
+      "test_acc": 0.8073394495412844,
+      "test_sens": 0.8,
+      "test_sens_ci": [
+        0.6958871707434741,
+        0.8748785233281208
+      ],
+      "test_spec": 0.8235294117647058,
+      "test_spec_ci": [
+        0.66486262458356,
+        0.9165103100332394
+      ],
+      "test_prec": 0.9090909090909091,
+      "test_f1": 0.851063829787234,
+      "test_macro_f1": 0.7891682785299807,
+      "test_weighted_f1": 0.8124500913882136,
+      "test_roc_auc": 0.8760784313725489,
+      "test_roc_auc_ci": [
+        0.8034055308726361,
+        0.9388585332026111
+      ],
+      "test_pr_auc": 0.939853885007342,
+      "confusion_matrix": {
+        "tn": 28,
+        "fp": 6,
+        "fn": 15,
+        "tp": 60
+      },
+      "training_strategy": "Frozen feature extractors + scratch fusion head",
+      "training_time_sec": 10.3
+    },
+    {
+      "experiment_id": "09_gat_plus_handcrafted",
+      "model_category": "Bi-Modal Fusion",
+      "description": "GATv2 Graph (192) + Handcrafted Projection (64) [B, 256]",
+      "parameters": 30338,
+      "best_epoch": 4,
+      "val_loss": 0.43985822796821594,
+      "val_acc": 0.8333333333333334,
+      "val_sens": 0.8767123287671232,
+      "val_spec": 0.7428571428571429,
+      "val_f1": 0.8767123287671232,
+      "test_acc": 0.8073394495412844,
+      "test_sens": 0.8,
+      "test_sens_ci": [
+        0.6958871707434741,
+        0.8748785233281208
+      ],
+      "test_spec": 0.8235294117647058,
+      "test_spec_ci": [
+        0.66486262458356,
+        0.9165103100332394
+      ],
+      "test_prec": 0.9090909090909091,
+      "test_f1": 0.851063829787234,
+      "test_macro_f1": 0.7891682785299807,
+      "test_weighted_f1": 0.8124500913882136,
+      "test_roc_auc": 0.8690196078431373,
+      "test_roc_auc_ci": [
+        0.7838663823738451,
+        0.944058388938231
+      ],
+      "test_pr_auc": 0.9213371681927957,
+      "confusion_matrix": {
+        "tn": 28,
+        "fp": 6,
+        "fn": 15,
+        "tp": 60
+      },
+      "training_strategy": "Frozen feature extractors + scratch fusion head",
+      "training_time_sec": 9.84
+    },
+    {
+      "experiment_id": "10_trimodal_vit_gat_hc_concat",
+      "model_category": "Tri-Modal Fusion",
+      "description": "ViT CLS (192) + GATv2 Graph (192) + Handcrafted (64) Concatenation [B, 448]",
+      "parameters": 79874,
+      "best_epoch": 1,
+      "val_loss": 0.4951493982915525,
+      "val_acc": 0.7962962962962963,
+      "val_sens": 0.863013698630137,
+      "val_spec": 0.6571428571428571,
+      "val_f1": 0.8513513513513513,
+      "test_acc": 0.7706422018348624,
+      "test_sens": 0.7733333333333333,
+      "test_sens_ci": [
+        0.6666446443625779,
+        0.8533863213470972
+      ],
+      "test_spec": 0.7647058823529411,
+      "test_spec_ci": [
+        0.6000386193800363,
+        0.8756301453064358
+      ],
+      "test_prec": 0.8787878787878788,
+      "test_f1": 0.8226950354609929,
+      "test_macro_f1": 0.7490098553928342,
+      "test_weighted_f1": 0.7767262992716828,
+      "test_roc_auc": 0.8450980392156863,
+      "test_roc_auc_ci": [
+        0.7679904127946295,
+        0.9172892016440404
+      ],
+      "test_pr_auc": 0.9261347138212762,
+      "confusion_matrix": {
+        "tn": 26,
+        "fp": 8,
+        "fn": 17,
+        "tp": 58
+      },
+      "training_strategy": "Frozen feature extractors + scratch fusion head",
+      "training_time_sec": 9.27
+    },
+    {
+      "experiment_id": "11_trimodal_vit_gat_hc_gated",
+      "model_category": "Tri-Modal Fusion",
+      "description": "ViT CLS (192) + GATv2 Graph (192) + Handcrafted (143) Modality-Gated [B, 128]",
+      "parameters": 101957,
+      "best_epoch": 2,
+      "val_loss": 0.4658928491451122,
+      "val_acc": 0.7962962962962963,
+      "val_sens": 0.863013698630137,
+      "val_spec": 0.6571428571428571,
+      "val_f1": 0.8513513513513513,
+      "test_acc": 0.7431192660550459,
+      "test_sens": 0.7333333333333333,
+      "test_sens_ci": [
+        0.6236920089048877,
+        0.820236864261908
+      ],
+      "test_spec": 0.7647058823529411,
+      "test_spec_ci": [
+        0.6000386193800363,
+        0.8756301453064358
+      ],
+      "test_prec": 0.873015873015873,
+      "test_f1": 0.7971014492753623,
+      "test_macro_f1": 0.7235507246376811,
+      "test_weighted_f1": 0.7512165935380934,
+      "test_roc_auc": 0.8482352941176471,
+      "test_roc_auc_ci": [
+        0.7633578492237597,
+        0.9196481971975392
+      ],
+      "test_pr_auc": 0.9228279350038481,
+      "confusion_matrix": {
+        "tn": 26,
+        "fp": 8,
+        "fn": 20,
+        "tp": 55
+      },
+      "training_strategy": "Frozen feature extractors + scratch fusion head",
+      "training_time_sec": 12.11
+    },
+    {
+      "experiment_id": "12_multiscale_vit_only",
+      "model_category": "Multi-Scale Representation",
+      "description": "Multi-Scale ViT (Global CLS + 7x7 Regional + Fine Patch Pool, 576 dims)",
+      "parameters": 82626,
+      "best_epoch": 3,
+      "val_loss": 0.5168124503559537,
+      "val_acc": 0.7592592592592593,
+      "val_sens": 0.8356164383561644,
+      "val_spec": 0.6,
+      "val_f1": 0.8243243243243243,
+      "test_acc": 0.7614678899082569,
+      "test_sens": 0.7866666666666666,
+      "test_sens_ci": [
+        0.681200341194856,
+        0.8641979886957789
+      ],
+      "test_spec": 0.7058823529411765,
+      "test_spec_ci": [
+        0.5383109006960253,
+        0.8316536940601199
+      ],
+      "test_prec": 0.855072463768116,
+      "test_f1": 0.8194444444444444,
+      "test_macro_f1": 0.7340465465465466,
+      "test_weighted_f1": 0.7661686916274071,
+      "test_roc_auc": 0.7999999999999999,
+      "test_roc_auc_ci": [
+        0.6949723642963207,
+        0.893717399539587
+      ],
+      "test_pr_auc": 0.8846776554890828,
+      "confusion_matrix": {
+        "tn": 24,
+        "fp": 10,
+        "fn": 16,
+        "tp": 59
+      },
+      "training_strategy": "Frozen feature extractors + scratch fusion head",
+      "training_time_sec": 10.84
+    },
+    {
+      "experiment_id": "13_multiscale_hybrid",
+      "model_category": "Multi-Scale Representation",
+      "description": "Multi-Scale ViT (576 dims) + GATv2 Graph (192 dims) = 768 dims",
+      "parameters": 107202,
+      "best_epoch": 8,
+      "val_loss": 0.5151957008573744,
+      "val_acc": 0.7870370370370371,
+      "val_sens": 0.8493150684931506,
+      "val_spec": 0.6571428571428571,
+      "val_f1": 0.8435374149659863,
+      "test_acc": 0.7614678899082569,
+      "test_sens": 0.8,
+      "test_sens_ci": [
+        0.6958871707434741,
+        0.8748785233281208
+      ],
+      "test_spec": 0.6764705882352942,
+      "test_spec_ci": [
+        0.5084289446060362,
+        0.8086835651849453
+      ],
+      "test_prec": 0.8450704225352113,
+      "test_f1": 0.821917808219178,
+      "test_macro_f1": 0.7304033485540334,
+      "test_weighted_f1": 0.7648262187033079,
+      "test_roc_auc": 0.8141176470588235,
+      "test_roc_auc_ci": [
+        0.7230649399399399,
+        0.9034595575818979
+      ],
+      "test_pr_auc": 0.9015532602101127,
+      "confusion_matrix": {
+        "tn": 23,
+        "fp": 11,
+        "fn": 15,
+        "tp": 60
+      },
+      "training_strategy": "Frozen feature extractors + scratch fusion head",
+      "training_time_sec": 14.12
+    },
+    {
+      "experiment_id": "14_hybrid_e2e_finetuned",
+      "model_category": "Strategy B End-to-End",
+      "description": "ViT + GATv2 + Concat Fusion fine-tuned end-to-end with low LR",
+      "parameters": 2238406,
+      "best_epoch": 2,
+      "val_loss": 0.5381292016417892,
+      "val_acc": 0.7962962962962963,
+      "val_sens": 0.821917808219178,
+      "val_spec": 0.7428571428571429,
+      "val_f1": 0.8450704225352113,
+      "test_acc": 0.7614678899082569,
+      "test_sens": 0.76,
+      "test_sens_ci": [
+        0.6522123375924644,
+        0.842451263936251
+      ],
+      "test_spec": 0.7647058823529411,
+      "test_spec_ci": [
+        0.6000386193800363,
+        0.8756301453064358
+      ],
+      "test_prec": 0.8769230769230769,
+      "test_f1": 0.8142857142857143,
+      "test_macro_f1": 0.7404761904761905,
+      "test_weighted_f1": 0.7682394058540848,
+      "test_roc_auc": 0.8250980392156863,
+      "test_roc_auc_ci": [
+        0.7381999454040102,
+        0.9066693302891933
+      ],
+      "test_pr_auc": 0.9069580673003695,
+      "confusion_matrix": {
+        "tn": 26,
+        "fp": 8,
+        "fn": 18,
+        "tp": 57
+      },
+      "training_strategy": "Strategy B: Controlled End-to-End Fine-Tuning (Differential LR)",
+      "training_time_sec": 585.42
+    }
+  ]
+}

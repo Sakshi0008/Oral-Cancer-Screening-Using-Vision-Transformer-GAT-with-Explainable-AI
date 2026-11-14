@@ -1,0 +1,43 @@
+{
+  "model": "EfficientNet-B0 (Scratch)",
+  "weights": "None (No Pretrained Weights)",
+  "test_manifest": "data/splits_primary/test.csv",
+  "sample_counts": {
+    "total": 109,
+    "cancer": 75,
+    "non_cancer": 34
+  },
+  "overall_metrics": {
+    "accuracy": 0.80734,
+    "sensitivity_recall": 0.8,
+    "specificity": 0.82353,
+    "precision_cancer": 0.90909,
+    "f1_cancer": 0.85106,
+    "macro_f1": 0.78917,
+    "weighted_f1": 0.81245,
+    "roc_auc": 0.89118,
+    "pr_auc": 0.9176
+  },
+  "class_wise_metrics": {
+    "cancer": {
+      "precision": 0.90909,
+      "recall": 0.8,
+      "f1_score": 0.85106,
+      "support": 75
+    },
+    "non_cancer": {
+      "precision": 0.65116,
+      "recall": 0.82353,
+      "f1_score": 0.72727,
+      "support": 34
+    }
+  },
+  "confusion_matrix": {
+    "true_negative": 28,
+    "false_positive": 6,
+    "false_negative": 15,
+    "true_positive": 60
+  },
+  "best_epoch": 13,
+  "best_val_loss": 0.92289
+}

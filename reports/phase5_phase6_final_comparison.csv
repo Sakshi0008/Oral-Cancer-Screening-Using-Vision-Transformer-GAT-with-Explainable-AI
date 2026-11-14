@@ -1,0 +1,20 @@
+Model,Type,Test Accuracy,Cancer Sensitivity,Specificity,Cancer Precision,Cancer F1,ROC-AUC,PR-AUC,Parameters,Key Distinction
+Phase 2: EfficientNet-B0 Scratch Baseline,CNN Baseline,0.8073,0.8,0.8235,0.9091,0.8511,0.8912,0.9176,4010110,Standard CNN baseline (trained from scratch)
+01_vit_scratch_only,Deep Learning Baseline,0.7523,0.76,0.7353,0.8636,0.8085,0.8141,0.8957,1965890,Scratch ViT (Epoch 34) CLS representation only
+02_selected_gatv2_hybrid_only,Graph Baseline,0.7706,0.8133,0.6765,0.8472,0.8299,0.8298,0.9151,222722,Selected Hybrid GATv2 (Epoch 21) pooled graph representation only
+03_comparative_gat_hybrid_only,Graph Baseline,0.7156,0.76,0.6176,0.8143,0.7862,0.8145,0.9047,75650,Comparative Hybrid GAT (Epoch 26) pooled graph representation only
+04_hybrid_vit_gat_concat,Hybrid Fusion,0.7431,0.7333,0.7647,0.873,0.7971,0.8204,0.9057,49794,"ViT CLS (192) + GATv2 Graph (192) Concatenation Fusion [B, 384]"
+05_hybrid_vit_gat_gated,Hybrid Fusion,0.7615,0.7733,0.7353,0.8657,0.8169,0.8063,0.8866,86530,"ViT CLS (192) + GATv2 Graph (192) Gated Fusion [B, 192]"
+06_hybrid_vit_gat_residual,Hybrid Fusion,0.7615,0.8,0.6765,0.8451,0.8219,0.8094,0.9002,87490,"ViT CLS (192) + GATv2 Graph (192) Residual Fusion [B, 192]"
+07_handcrafted_all_143,Handcrafted Baseline,0.8716,0.8667,0.8824,0.942,0.9028,0.9322,0.9654,11554,All Handcrafted Features Only (LBP 59 + GLCM 24 + Color 46 + Edge 14 = 143 dims)
+07a_handcrafted_lbp_only,Handcrafted Sub-family,0.8349,0.8133,0.8824,0.9385,0.8714,0.9161,0.9608,6178,LBP Texture Only (59 dims)
+07b_handcrafted_glcm_only,Handcrafted Sub-family,0.7156,0.68,0.7941,0.8793,0.7669,0.8106,0.9038,3938,GLCM Texture Only (24 dims)
+07c_handcrafted_color_only,Handcrafted Sub-family,0.7615,0.76,0.7647,0.8769,0.8143,0.8678,0.9296,5346,Color Moments & Histograms Only (46 dims)
+07d_handcrafted_edge_only,Handcrafted Sub-family,0.7156,0.7333,0.6765,0.8333,0.7801,0.7886,0.8749,3298,Edge & Gradient Statistics Only (14 dims)
+08_vit_plus_handcrafted,Bi-Modal Fusion,0.8073,0.8,0.8235,0.9091,0.8511,0.8761,0.9399,30338,"ViT CLS (192) + Handcrafted Projection (64) [B, 256]"
+09_gat_plus_handcrafted,Bi-Modal Fusion,0.8073,0.8,0.8235,0.9091,0.8511,0.869,0.9213,30338,"GATv2 Graph (192) + Handcrafted Projection (64) [B, 256]"
+10_trimodal_vit_gat_hc_concat,Tri-Modal Fusion,0.7706,0.7733,0.7647,0.8788,0.8227,0.8451,0.9261,79874,"ViT CLS (192) + GATv2 Graph (192) + Handcrafted (64) Concatenation [B, 448]"
+11_trimodal_vit_gat_hc_gated,Tri-Modal Fusion,0.7431,0.7333,0.7647,0.873,0.7971,0.8482,0.9228,101957,"ViT CLS (192) + GATv2 Graph (192) + Handcrafted (143) Modality-Gated [B, 128]"
+12_multiscale_vit_only,Multi-Scale Representation,0.7615,0.7867,0.7059,0.8551,0.8194,0.8,0.8847,82626,"Multi-Scale ViT (Global CLS + 7x7 Regional + Fine Patch Pool, 576 dims)"
+13_multiscale_hybrid,Multi-Scale Representation,0.7615,0.8,0.6765,0.8451,0.8219,0.8141,0.9016,107202,Multi-Scale ViT (576 dims) + GATv2 Graph (192 dims) = 768 dims
+14_hybrid_e2e_finetuned,Strategy B End-to-End,0.7615,0.76,0.7647,0.8769,0.8143,0.8251,0.907,2238406,ViT + GATv2 + Concat Fusion fine-tuned end-to-end with low LR

@@ -1,0 +1,66 @@
+# ==============================================================================
+# Git Ignore Configuration
+# Project: Oral Cancer Screening Using Vision Transformer and Graph Attention Network with Explainable AI
+# ==============================================================================
+
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE and Editor configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating System temporary files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# Temporary scratch and execution logs
+scratch/
+tmp/
+*.log
+
+# Sensitive credentials and environment variables
+.env
+*.env.*
+*.pem
+*.key
+*.token
+
+# ------------------------------------------------------------------------------
+# Data Exclusions (Preserved locally; not uploaded to GitHub)
+# ------------------------------------------------------------------------------
+# Raw clinical image collections (Preserved locally on disk)
+Oral Cancer/
+data/Oral_Cancer/
+
+# Intermediate feature caches (>100 MB binary tensors; regenerable via extraction scripts)
+data/features_vit_scratch/
+data/features_graph/
+data/features_handcrafted/
+
+# ------------------------------------------------------------------------------
+# Checkpoints & Weights (Option A: Exclude binary weights, preserve locally)
+# ------------------------------------------------------------------------------
+# Heavy model weight checkpoints (.pth files)
+models/*.pth
+
+# Explicitly ensure handcrafted feature scaler parameters remain tracked
+!models/handcrafted_scaler.pt
+
+# Explicitly ensure dataset manifests and split configurations are tracked
+!data/splits/
+!data/splits_primary/
+!data/splits_initial_backup/

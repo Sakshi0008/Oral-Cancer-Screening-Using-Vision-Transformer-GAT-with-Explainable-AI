@@ -1,0 +1,43 @@
+{
+  "model": "VisionTransformer (Scratch)",
+  "weights": "None (Random Initialization)",
+  "test_manifest": "data/splits_primary/test.csv",
+  "sample_counts": {
+    "total": 109,
+    "cancer": 75,
+    "non_cancer": 34
+  },
+  "overall_metrics": {
+    "accuracy": 0.75229,
+    "sensitivity_recall": 0.76,
+    "specificity": 0.73529,
+    "precision_cancer": 0.86364,
+    "f1_cancer": 0.80851,
+    "macro_f1": 0.72893,
+    "weighted_f1": 0.75886,
+    "roc_auc": 0.81412,
+    "pr_auc": 0.89571
+  },
+  "class_wise_metrics": {
+    "cancer": {
+      "precision": 0.86364,
+      "recall": 0.76,
+      "f1_score": 0.80851,
+      "support": 75
+    },
+    "non_cancer": {
+      "precision": 0.5814,
+      "recall": 0.73529,
+      "f1_score": 0.64935,
+      "support": 34
+    }
+  },
+  "confusion_matrix": {
+    "true_negative": 25,
+    "false_positive": 9,
+    "false_negative": 18,
+    "true_positive": 57
+  },
+  "best_epoch": 34,
+  "best_val_loss": 0.48804
+}
