@@ -1,0 +1,165 @@
+{
+  "case_id": "val_case_03_cancer",
+  "image_path": "Oral Cancer/Oral Cancer Dataset/CANCER/024.jpeg",
+  "true_label": 1,
+  "true_name": "CANCER",
+  "prediction": {
+    "pred_label": 1,
+    "pred_name": "CANCER",
+    "cancer_prob": 0.781728208065033,
+    "confidence": 78.1728208065033,
+    "logits": [
+      -0.059380680322647095,
+      1.2163853645324707
+    ],
+    "probs": [
+      0.21827180683612823,
+      0.781728208065033
+    ]
+  },
+  "fusion_attribution": {
+    "vit_share_pct": 64.3556648538817,
+    "gat_share_pct": 35.6443351414514,
+    "vit_signed_sum": -0.6613929867744446,
+    "gat_signed_sum": 1.641880750656128,
+    "convergence_error_pct": 50.600889033820216,
+    "clean_logit": 1.2163853645324707
+  },
+  "vit_top_patches": [
+    {
+      "patch_index": 106,
+      "grid_row": 7,
+      "grid_col": 8,
+      "score": 0.9999998807907104
+    },
+    {
+      "patch_index": 81,
+      "grid_row": 5,
+      "grid_col": 11,
+      "score": 0.42074939608573914
+    },
+    {
+      "patch_index": 105,
+      "grid_row": 7,
+      "grid_col": 7,
+      "score": 0.36020028591156006
+    },
+    {
+      "patch_index": 119,
+      "grid_row": 8,
+      "grid_col": 7,
+      "score": 0.3477044701576233
+    },
+    {
+      "patch_index": 100,
+      "grid_row": 7,
+      "grid_col": 2,
+      "score": 0.334917277097702
+    },
+    {
+      "patch_index": 114,
+      "grid_row": 8,
+      "grid_col": 2,
+      "score": 0.33433109521865845
+    },
+    {
+      "patch_index": 132,
+      "grid_row": 9,
+      "grid_col": 6,
+      "score": 0.33319777250289917
+    },
+    {
+      "patch_index": 129,
+      "grid_row": 9,
+      "grid_col": 3,
+      "score": 0.3292408287525177
+    },
+    {
+      "patch_index": 115,
+      "grid_row": 8,
+      "grid_col": 3,
+      "score": 0.3274984061717987
+    },
+    {
+      "patch_index": 19,
+      "grid_row": 1,
+      "grid_col": 5,
+      "score": 0.3175349235534668
+    }
+  ],
+  "gat_top_edges_count": 30,
+  "gat_edge_distribution": {
+    "spatial_grid": 29,
+    "feature_similarity": 1,
+    "shared_hybrid": 0,
+    "other": 0
+  },
+  "perturbation_audc": {
+    "high_attribution": 0.9217953964763759,
+    "random_baseline": 0.8536595103083825,
+    "low_attribution": 0.8384164784635817
+  },
+  "is_faithful": false,
+  "narrative_explanation": {
+    "prediction_summary": "The hybrid screening model categorized this image as CANCER with an estimated model confidence of 78.2% (model cancer probability: 78.2%).",
+    "branch_description": "The model's decision was guided predominantly by the Vision Transformer visual branch (64.4% attribution share), indicating that localized visual patch textures exerted stronger influence than spatial-semantic graph relationships.",
+    "regional_focus": "The model's output was influenced more strongly by highlighted image regions in the Inferior-Right (Bottom Right) and Inferior-Central (Bottom Center). These visual patches exhibited elevated self-attention in the transformer encoder blocks, while the graph branch assigned greater contribution to topological pathways connecting these areas with surrounding oral tissue.",
+    "stability_description": "Explanation stability was verified deterministically; repeated evaluations on identical inputs yielded zero numerical deviation.",
+    "boundary_notice": "NOTICE ON EXPLAINABILITY SCOPE: This explanation visualizes internal neural network activations, self-attention rollout, and graph message passing. It indicates which image regions influenced the model's automated output. It does NOT constitute a medical diagnosis, histopathological confirmation, or assessment of clinical etiology. All clinical determinations must be made by qualified healthcare professionals.",
+    "full_narrative": "The hybrid screening model categorized this image as CANCER with an estimated model confidence of 78.2% (model cancer probability: 78.2%).\n\nThe model's decision was guided predominantly by the Vision Transformer visual branch (64.4% attribution share), indicating that localized visual patch textures exerted stronger influence than spatial-semantic graph relationships.\n\nThe model's output was influenced more strongly by highlighted image regions in the Inferior-Right (Bottom Right) and Inferior-Central (Bottom Center). These visual patches exhibited elevated self-attention in the transformer encoder blocks, while the graph branch assigned greater contribution to topological pathways connecting these areas with surrounding oral tissue.\n\nExplanation stability was verified deterministically; repeated evaluations on identical inputs yielded zero numerical deviation.\n\nNOTICE ON EXPLAINABILITY SCOPE: This explanation visualizes internal neural network activations, self-attention rollout, and graph message passing. It indicates which image regions influenced the model's automated output. It does NOT constitute a medical diagnosis, histopathological confirmation, or assessment of clinical etiology. All clinical determinations must be made by qualified healthcare professionals.",
+    "top_influential_quadrants": [
+      "Inferior-Right (Bottom Right)",
+      "Inferior-Central (Bottom Center)"
+    ],
+    "quadrant_attribution_ranking": [
+      [
+        "Inferior-Right (Bottom Right)",
+        0.2459767758846283
+      ],
+      [
+        "Inferior-Central (Bottom Center)",
+        0.23859328031539917
+      ],
+      [
+        "Superior-Right (Top Right)",
+        0.22165480256080627
+      ],
+      [
+        "Central-Lateral Left",
+        0.22149699926376343
+      ],
+      [
+        "Superior-Left (Top Left)",
+        0.21886858344078064
+      ],
+      [
+        "Central-Lateral Right",
+        0.2186293601989746
+      ],
+      [
+        "Inferior-Left (Bottom Left)",
+        0.21855035424232483
+      ],
+      [
+        "Central-Medial (Image Center)",
+        0.21832412481307983
+      ],
+      [
+        "Superior-Central (Top Center)",
+        0.20488691329956055
+      ]
+    ]
+  },
+  "timings_ms": {
+    "io_and_transform_ms": 31.279400049243122,
+    "forward_inference_ms": 108.6494000046514,
+    "vit_rollout_ms": 11.708299978636205,
+    "gat_attribution_ms": 512.4854000168853,
+    "fusion_ig_ms": 6.297899992205203,
+    "narrative_gen_ms": 0.3182999789714813,
+    "perturbation_test_ms": 3450.4835999687202,
+    "viz_render_ms": 1637.2608999954537,
+    "total_xai_pipeline_ms": 5758.4831999847665
+  },
+  "peak_vram_mb": 114.4736328125
+}

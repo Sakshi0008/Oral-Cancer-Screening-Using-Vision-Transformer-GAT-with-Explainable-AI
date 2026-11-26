@@ -40,6 +40,23 @@ tmp/
 *.token
 
 # ------------------------------------------------------------------------------
+# Application Runtime State & Generated Assets (Preserved locally; ignored in git)
+# ------------------------------------------------------------------------------
+# SQLite databases
+*.db
+data/*.db
+
+# Uploaded screening images
+uploads/*
+!uploads/.gitkeep
+
+# Generated visual overlays and PDF reports
+outputs/reports/*
+!outputs/reports/.gitkeep
+outputs/visualizations/*
+!outputs/visualizations/.gitkeep
+
+# ------------------------------------------------------------------------------
 # Data Exclusions (Preserved locally; not uploaded to GitHub)
 # ------------------------------------------------------------------------------
 # Raw clinical image collections (Preserved locally on disk)
@@ -52,7 +69,7 @@ data/features_graph/
 data/features_handcrafted/
 
 # ------------------------------------------------------------------------------
-# Checkpoints & Weights (Option A: Exclude binary weights, preserve locally)
+# Checkpoints & Weights (Preserved locally on disk)
 # ------------------------------------------------------------------------------
 # Heavy model weight checkpoints (.pth files)
 models/*.pth
@@ -63,4 +80,4 @@ models/*.pth
 # Explicitly ensure dataset manifests and split configurations are tracked
 !data/splits/
 !data/splits_primary/
-!data/splits_initial_backup/
+!data/splits_archive/

@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ORALSCAN AI - Multimodal Oral Cancer Screening & Explainable AI</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Top Research Disclaimer Banner -->
+    <aside class="disclaimer-banner" role="complementary" aria-label="Research Prototype Notice">
+        <div class="container banner-inner">
+            <span class="badge badge-warning">ACADEMIC RESEARCH PROTOTYPE</span>
+            <p>This software is an experimental research system evaluating Vision Transformers & Graph Attention Networks. It is <strong>NOT a clinical diagnostic medical device</strong>.</p>
+        </div>
+    </aside>
+
+    <!-- Navigation Bar -->
+    <header class="navbar">
+        <div class="container nav-inner">
+            <div class="brand" onclick="navigateTo('landing')">
+                <div class="brand-icon">
+                    <span class="pulse-dot"></span>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                    </svg>
+                </div>
+                <div class="brand-text">
+                    <span class="brand-title">ORALSCAN AI</span>
+                    <span class="brand-sub">ViT-GATv2 Screening & XAI</span>
+                </div>
+            </div>
+
+            <nav class="nav-links">
+                <a href="#landing" onclick="navigateTo('landing')" class="nav-item active" id="nav-landing">Overview</a>
+                <a href="#screen" onclick="navigateTo('screen')" class="nav-item" id="nav-screen">Screening Portal</a>
+                <a href="#dashboard" onclick="navigateTo('dashboard')" class="nav-item auth-required" id="nav-dashboard">Dashboard</a>
+                <a href="#history" onclick="navigateTo('history')" class="nav-item auth-required" id="nav-history">History</a>
+                <a href="#education" onclick="navigateTo('education')" class="nav-item" id="nav-education">Oral Health Guide</a>
+                <a href="#architecture" onclick="navigateTo('architecture')" class="nav-item" id="nav-architecture">Architecture</a>
+            </nav>
+
+            <div class="nav-actions">
+                <div id="auth-logged-out">
+                    <button class="btn btn-outline btn-sm" onclick="openAuthModal('login')">Sign In</button>
+                    <button class="btn btn-primary btn-sm" onclick="openAuthModal('register')">Register</button>
+                </div>
+                <div id="auth-logged-in" class="hidden">
+                    <span class="user-greeting" id="nav-username">User</span>
+                    <button class="btn btn-outline btn-sm" onclick="handleLogout()">Sign Out</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content Container (Dynamic Views) -->
+    <main class="main-content container">
+
+        <!-- ================================================================= -->
+        <!-- VIEW: Landing Page -->
+        <!-- ================================================================= -->
+        <section id="view-landing" class="view-section active">
+            <div class="hero">
+                <div class="hero-badge">
+                    <span class="badge badge-accent">Deep Multimodal Architecture</span>
+                    <span>2,238,406 Trained Parameters</span>
+                </div>
+                <h1 class="hero-title">Early Oral Cancer Screening Using <span class="gradient-text">Vision Transformer</span> & <span class="gradient-text-alt">Graph Attention</span> Networks</h1>
+                <p class="hero-desc">
+                    An explainable academic research framework combining local visual patch representations with relational graph message passing to screen oral cavity photographs for suspicious lesions.
+                </p>
+                <div class="hero-cta">
+                    <button class="btn btn-primary btn-lg" onclick="navigateTo('screen')">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+                        Launch Lesion Screening
+                    </button>
+                    <button class="btn btn-secondary btn-lg" onclick="navigateTo('architecture')">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+                        Explore Architecture
+                    </button>
+                </div>
+            </div>
+
+            <!-- Architecture Pillars Grid -->
+            <div class="pillars-grid">
+                <div class="card pillar-card">
+                    <div class="pillar-icon bg-blue">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+                    </div>
+                    <h3>Vision Transformer (ViT)</h3>
+                    <p>Deconstructs 224x224 oral images into 196 non-overlapping 16x16 patches. Multi-head self-attention captures subtle micro-textural anomalies across epithelial tissue.</p>
+                    <span class="pillar-meta">1,965,890 Parameters</span>
+                </div>
+
+                <div class="card pillar-card">
+                    <div class="pillar-icon bg-emerald">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="6" cy="6" r="3"/><circle cx="18" cy="18" r="3"/><circle cx="6" cy="18" r="3"/><line x1="8.5" y1="7.5" x2="15.5" y2="16.5"/><line x1="6" y1="9" x2="6" y2="15"/></svg>
+                    </div>
+                    <h3>Graph Attention (GATv2)</h3>
+                    <p>Constructs dynamic hybrid graphs connecting spatial neighbors and long-range feature-similar patches. GATv2 layers dynamically weight relational information flow.</p>
+                    <span class="pillar-meta">222,722 Parameters</span>
+                </div>
+
+                <div class="card pillar-card">
+                    <div class="pillar-icon bg-purple">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+                    </div>
+                    <h3>Explainable AI (XAI)</h3>
+                    <p>Full multimodal transparency via Attention Rollout heatmaps, 3-color topological graph overlays, and Integrated Gradients branch sensitivity with completeness reporting.</p>
+                    <span class="pillar-meta">Adebayo Sanity Verified</span>
+                </div>
+            </div>
+
+            <!-- Model Notice Card -->
+            <div class="card notice-card">
+                <div class="notice-icon">⚠️</div>
+                <div class="notice-body">
+                    <h4>Clinical Research Scope & Disclaimer</h4>
+                    <p>ORALSCAN AI is trained on primary photographic oral screening data. The model computes algorithmic pattern sensitivity. It does not diagnose cancer, assess tumor staging, evaluate cellular dysplasia, or replace physical histopathological biopsy by an oral surgeon.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================================================================= -->
+        <!-- VIEW: Screening Portal -->
+        <!-- ================================================================= -->
+        <section id="view-screen" class="view-section">
+            <div class="section-header">
+                <h2>Clinical Lesion Screening Portal</h2>
+                <p>Upload a clear, focused photograph of an oral mucosal region for automated ViT-GATv2 analysis.</p>
+            </div>
+
+            <div class="screen-grid">
+                <!-- Upload Dropzone Card -->
+                <div class="card upload-card">
+                    <div class="dropzone" id="dropzone" onclick="document.getElementById('file-input').click()">
+                        <input type="file" id="file-input" accept="image/jpeg,image/png,image/jpg" class="hidden" onchange="handleFileSelected(event)">
+                        <div id="dropzone-empty">
+                            <div class="upload-icon">
+                                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+                            </div>
+                            <h3>Drag & Drop Oral Photo Here</h3>
+                            <p>or click to browse from device</p>
+                            <span class="badge badge-outline">JPEG or PNG &bull; Max 10 MB</span>
+                        </div>
+                        <div id="dropzone-preview" class="hidden">
+                            <img id="preview-img" src="" alt="Selected Lesion Preview">
+                            <div class="preview-overlay">
+                                <button class="btn btn-sm btn-secondary" onclick="event.stopPropagation(); resetUpload();">Change Photo</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Upload Controls -->
+                    <div class="upload-controls">
+                        <div class="checkbox-wrapper">
+                            <label class="switch">
+                                <input type="checkbox" id="perturbation-toggle">
+                                <span class="slider round"></span>
+                            </label>
+                            <div class="switch-label">
+                                <span class="switch-title">Run Deep Perturbation Test</span>
+                                <span class="switch-desc">Validates patch deletion faithfulness (adds ~5 sec)</span>
+                            </div>
+                        </div>
+
+                        <button id="btn-screen" class="btn btn-primary btn-block btn-lg" onclick="executeScreening()" disabled>
+                            <span>Analyze Lesion with Hybrid Model</span>
+                        </button>
+                    </div>
+
+                    <!-- Loading Progress Indicator -->
+                    <div id="screening-loader" class="screening-loader hidden">
+                        <div class="spinner"></div>
+                        <h4 id="loader-status">Initializing Neural Networks...</h4>
+                        <div class="progress-bar-container">
+                            <div class="progress-bar" id="progress-bar"></div>
+                        </div>
+                        <p class="loader-sub">Extracting ViT self-attention and constructing dynamic graph topology...</p>
+                    </div>
+                </div>
+
+                <!-- Guidelines & Sample Images Card -->
+                <div class="card guidelines-card">
+                    <h3>Screening Instructions & Best Practices</h3>
+                    <ul class="guidelines-list">
+                        <li>
+                            <strong>Focus & Lighting:</strong> Ensure direct, shadow-free illumination centered on the oral mucosal lesion.
+                        </li>
+                        <li>
+                            <strong>Framing:</strong> Keep the area of interest in the central 70% of the photograph for optimal 224x224 patch alignment.
+                        </li>
+                        <li>
+                            <strong>Privacy:</strong> Images are processed locally on the secure server for the duration of the analysis session.
+                        </li>
+                    </ul>
+
+                    <div class="sample-images-section">
+                        <h4>Try with Primary Validation Cases:</h4>
+                        <div class="sample-chips">
+                            <button class="btn btn-chip" onclick="loadSampleImage('Oral Cancer/Oral Cancer Dataset/CANCER/005.jpeg')">Sample 1: Cancer Case (val_01)</button>
+                            <button class="btn btn-chip" onclick="loadSampleImage('Oral Cancer/Oral Cancer Dataset/NON CANCER/007.jpeg')">Sample 2: Benign Case (val_04)</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================================================================= -->
+        <!-- VIEW: Screening Results & XAI Diagnostic View -->
+        <!-- ================================================================= -->
+        <section id="view-result" class="view-section">
+            <div class="result-header">
+                <div>
+                    <button class="btn btn-outline btn-sm" onclick="navigateTo('screen')">&larr; Back to Screening</button>
+                    <h2>Screening Diagnostic & Interpretability Report</h2>
+                </div>
+                <div class="result-actions">
+                    <button id="btn-download-pdf" class="btn btn-primary" onclick="downloadCurrentPDF()">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+                        Download PDF Report
+                    </button>
+                </div>
+            </div>
+
+            <!-- Finding Banner Card -->
+            <div id="finding-banner" class="card finding-banner">
+                <div class="finding-badge-wrapper">
+                    <span id="finding-badge" class="badge">FINDING</span>
+                    <h3 id="finding-title">Suspicious pattern detected by the model.</h3>
+                    <p id="finding-desc">The hybrid model identified visual and topological cues statistically aligned with suspicious oral lesions.</p>
+                </div>
+                <div class="finding-score-wrapper">
+                    <span class="score-label">MODEL SOFTMAX SCORE</span>
+                    <div class="score-value" id="finding-score">0.0%</div>
+                    <span class="score-sub">Uncalibrated Model Confidence</span>
+                </div>
+            </div>
+
+            <!-- Multimodal Visualizations 4-Panel Grid -->
+            <div class="section-title">
+                <h3>Multimodal Explainable AI (XAI) Visualizations</h3>
+                <span class="badge badge-outline">Adebayo Sanity Tested</span>
+            </div>
+
+            <div class="viz-grid">
+                <!-- Panel 1: Original Lesion -->
+                <div class="card viz-card">
+                    <div class="viz-card-header">
+                        <h4>1. Uploaded Lesion</h4>
+                        <span class="viz-tag">Input (224x224 RGB)</span>
+                    </div>
+                    <div class="viz-img-container">
+                        <img id="viz-original" src="" alt="Uploaded Lesion">
+                    </div>
+                    <p class="viz-desc">Preprocessed image normalized with primary dataset statistics (Mean: [0.64, 0.45, 0.43]).</p>
+                </div>
+
+                <!-- Panel 2: ViT Attention Rollout -->
+                <div class="card viz-card">
+                    <div class="viz-card-header">
+                        <h4>2. ViT Attention Rollout</h4>
+                        <span class="viz-tag tag-blue">Visual Saliency</span>
+                    </div>
+                    <div class="viz-img-container">
+                        <img id="viz-rollout" src="" alt="ViT Attention Rollout Overlay">
+                    </div>
+                    <p class="viz-desc">Multi-layer residual attention flow from 196 image patches into the global class token [CLS].</p>
+                </div>
+
+                <!-- Panel 3: GATv2 Graph Overlay -->
+                <div class="card viz-card">
+                    <div class="viz-card-header">
+                        <h4>3. GATv2 Graph Topology</h4>
+                        <span class="viz-tag tag-emerald">Relational Attention</span>
+                    </div>
+                    <div class="viz-img-container">
+                        <img id="viz-graph" src="" alt="GATv2 Graph Overlay">
+                    </div>
+                    <p class="viz-desc">Cyan: 4-neighbor spatial grid. Gold: Top-8 feature similarity edges. Node size reflects incoming centrality.</p>
+                </div>
+
+                <!-- Panel 4: Fusion Integrated Gradients Breakdown -->
+                <div class="card viz-card">
+                    <div class="viz-card-header">
+                        <h4>4. Fusion Branch Sensitivity</h4>
+                        <span class="viz-tag tag-purple">Integrated Gradients</span>
+                    </div>
+                    <div class="viz-branch-container">
+                        <div class="branch-bar-wrapper">
+                            <div class="branch-segment bg-blue" id="branch-vit" style="width: 63%;">
+                                <span id="branch-vit-text">ViT: 63.4%</span>
+                            </div>
+                            <div class="branch-segment bg-emerald" id="branch-gat" style="width: 37%;">
+                                <span id="branch-gat-text">GAT: 36.6%</span>
+                            </div>
+                        </div>
+                        <div class="branch-stats">
+                            <div><strong>ViT Branch:</strong> <span id="branch-vit-val">63.4%</span> (Patch Textures)</div>
+                            <div><strong>GATv2 Branch:</strong> <span id="branch-gat-val">36.6%</span> (Tissue Topology)</div>
+                        </div>
+                        <div class="convergence-note" id="convergence-note">
+                            Completeness Delta: |sum(IG) - Delta_f| = 0.05 logit units
+                        </div>
+                    </div>
+                    <p class="viz-desc">Measures path-integrated gradient sensitivity through the 384-dimensional fusion bottleneck.</p>
+                </div>
+            </div>
+
+            <!-- Narrative AI Explanation Card -->
+            <div class="card narrative-card">
+                <div class="narrative-header">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                    <h4>Plain-Language Clinical XAI Narrative</h4>
+                </div>
+                <div class="narrative-body" id="narrative-body">
+                    Loading clinical explanation...
+                </div>
+            </div>
+
+            <!-- Clinical Recommendations Card -->
+            <div class="card clinical-card">
+                <div class="clinical-header">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+                    <h4>Recommended Clinical Workflow</h4>
+                </div>
+                <div class="clinical-body">
+                    <ol>
+                        <li><strong>In-Person Clinical Inspection:</strong> Mucosal erythroplakia, leukoplakia, or ulcerations persisting beyond two weeks mandate comprehensive clinical dental evaluation.</li>
+                        <li><strong>Adjunctive Aids:</strong> Toluidine blue vital staining or optical fluorescence may assist visualization.</li>
+                        <li><strong>Definitive Biopsy:</strong> Histopathological examination of an incisional tissue biopsy remains the sole medical standard for confirming or ruling out oral squamous cell carcinoma (OSCC).</li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================================================================= -->
+        <!-- VIEW: User Dashboard -->
+        <!-- ================================================================= -->
+        <section id="view-dashboard" class="view-section">
+            <div class="section-header">
+                <h2>Clinical Screening Dashboard</h2>
+                <p>Overview of authenticated screening activity and session records.</p>
+            </div>
+
+            <!-- Stats Grid -->
+            <div class="stats-grid">
+                <div class="card stat-card">
+                    <span class="stat-label">TOTAL SCREENINGS</span>
+                    <span class="stat-value" id="dash-total">0</span>
+                    <span class="stat-sub">Logged in database</span>
+                </div>
+                <div class="card stat-card">
+                    <span class="stat-label">SUSPICIOUS FINDINGS</span>
+                    <span class="stat-value text-danger" id="dash-suspicious">0</span>
+                    <span class="stat-sub">Require clinical review</span>
+                </div>
+                <div class="card stat-card">
+                    <span class="stat-label">BENIGN / NEGATIVE FINDINGS</span>
+                    <span class="stat-value text-success" id="dash-benign">0</span>
+                    <span class="stat-sub">No suspicious pattern</span>
+                </div>
+            </div>
+
+            <div class="dashboard-actions">
+                <button class="btn btn-primary" onclick="navigateTo('screen')">Start New Lesion Screening</button>
+                <button class="btn btn-outline" onclick="navigateTo('history')">View Full History</button>
+                <button class="btn btn-secondary" onclick="navigateTo('education')">Oral Health Awareness Guide</button>
+            </div>
+        </section>
+
+        <!-- ================================================================= -->
+        <!-- VIEW: Screening History -->
+        <!-- ================================================================= -->
+        <section id="view-history" class="view-section">
+            <div class="section-header">
+                <h2>Screening Record History</h2>
+                <p>Secure history of all past screening evaluations linked to your account.</p>
+            </div>
+
+            <div class="card table-card">
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>Date / Time</th>
+                            <th>Original File</th>
+                            <th>Model Score</th>
+                            <th>Result Status</th>
+                            <th>ViT / GAT Share</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="history-table-body">
+                        <tr>
+                            <td colspan="6" class="text-center py-4">No previous screenings found. Upload an image to start.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- ================================================================= -->
+        <!-- VIEW: Educational Oral Health Guide -->
+        <!-- ================================================================= -->
+        <section id="view-education" class="view-section">
+            <div class="section-header">
+                <h2>Oral Health & Lesion Awareness Guide</h2>
+                <p>Educational resource on common mucosal lesions, risk factors, and clinical referral protocols.</p>
+            </div>
+
+            <div class="edu-grid">
+                <div class="card edu-card">
+                    <div class="edu-icon">🩺</div>
+                    <h3>Warning Signs of Oral Lesions</h3>
+                    <p>Be vigilant for persistent red patches (erythroplakia), white plaques (leukoplakia), unhealed ulcers lasting >14 days, indurated mucosal swelling, or unexplained oral numbness.</p>
+                </div>
+                <div class="card edu-card">
+                    <div class="edu-icon">🚬</div>
+                    <h3>Primary Etiological Risk Factors</h3>
+                    <p>Chronic tobacco consumption (smoked and smokeless/areca nut), frequent heavy alcohol intake, Human Papillomavirus (HPV-16/18), and persistent mechanical trauma to the mucosa.</p>
+                </div>
+                <div class="card edu-card">
+                    <div class="edu-icon">🔬</div>
+                    <h3>Role of AI vs Clinical Biopsy</h3>
+                    <p>Artificial Intelligence models are triaging screening aids designed to flag suspicious patterns. They can never prove malignancy or cellular dysplasia. Tissue biopsy remains the sole definitive gold standard.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================================================================= -->
+        <!-- VIEW: System Architecture & Provenance -->
+        <!-- ================================================================= -->
+        <section id="view-architecture" class="view-section">
+            <div class="section-header">
+                <h2>Hybrid Architecture Specifications</h2>
+                <p>Exact architectural configuration of the 2,238,406 parameter ViT-GATv2 model.</p>
+            </div>
+
+            <div class="arch-grid">
+                <div class="card arch-card">
+                    <h3>Vision Transformer Backbone</h3>
+                    <ul class="arch-specs">
+                        <li><strong>Input:</strong> 224x224 RGB image</li>
+                        <li><strong>Patch Size:</strong> 16x16 (196 spatial patches)</li>
+                        <li><strong>Embedding Dim:</strong> 192 (Depth: 4 layers, 3 heads)</li>
+                        <li><strong>Parameters:</strong> 1,965,890 (Trained from scratch)</li>
+                        <li><strong>Checkpoint:</strong> <code>models/vit_scratch_best.pth</code></li>
+                    </ul>
+                </div>
+
+                <div class="card arch-card">
+                    <h3>Graph Attention (GATv2) Backbone</h3>
+                    <ul class="arch-specs">
+                        <li><strong>Nodes:</strong> 196 patch tokens (Dim: 192)</li>
+                        <li><strong>Adjacency:</strong> 4-neighbor spatial + Top-8 cosine similarity</li>
+                        <li><strong>Layers:</strong> 2 GATv2 layers (4 heads, hidden dim: 48)</li>
+                        <li><strong>Parameters:</strong> 222,722</li>
+                        <li><strong>Checkpoint:</strong> <code>models/graph_hybrid_gatv2_best.pth</code></li>
+                    </ul>
+                </div>
+
+                <div class="card arch-card">
+                    <h3>Multimodal Concatenation Fusion</h3>
+                    <ul class="arch-specs">
+                        <li><strong>Input:</strong> Concatenated ViT + GAT [192 + 192 = 384]</li>
+                        <li><strong>Classifier:</strong> Linear(384, 128) &rarr; LayerNorm &rarr; ReLU &rarr; Linear(128, 2)</li>
+                        <li><strong>Parameters:</strong> 49,794</li>
+                        <li><strong>Checkpoint:</strong> <code>models/hybrid_vit_gat_concat_best.pth</code></li>
+                        <li><strong>Total Parameters:</strong> <strong>2,238,406</strong></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Authentication Modal -->
+    <div id="auth-modal" class="modal hidden">
+        <div class="modal-backdrop" onclick="closeAuthModal()"></div>
+        <div class="modal-dialog">
+            <div class="modal-header">
+                <h3 id="auth-modal-title">Sign In to ORALSCAN AI</h3>
+                <button class="modal-close" onclick="closeAuthModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="auth-tabs">
+                    <button class="tab-btn active" id="tab-login" onclick="switchAuthTab('login')">Sign In</button>
+                    <button class="tab-btn" id="tab-register" onclick="switchAuthTab('register')">Register</button>
+                </div>
+
+                <form id="auth-form" onsubmit="handleAuthSubmit(event)">
+                    <div class="form-group">
+                        <label for="auth-username">Username</label>
+                        <input type="text" id="auth-username" required placeholder="Enter username">
+                    </div>
+                    <div class="form-group hidden" id="group-email">
+                        <label for="auth-email">Email Address</label>
+                        <input type="email" id="auth-email" placeholder="doctor@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="auth-password">Password</label>
+                        <input type="password" id="auth-password" required placeholder="Minimum 6 characters">
+                    </div>
+                    <div id="auth-error" class="form-error hidden"></div>
+                    <button type="submit" class="btn btn-primary btn-block" id="auth-submit-btn">Sign In</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-inner">
+            <p>&copy; 2026 ORALSCAN AI Academic Research Project &bull; Oral Cancer Screening Using Vision Transformer & Graph Attention Network with Explainable AI</p>
+            <p class="footer-sub">Experimental academic prototype. Strictly non-diagnostic.</p>
+        </div>
+    </footer>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>
